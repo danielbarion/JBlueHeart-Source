@@ -21,21 +21,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemContainer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/model/itemcontainer/ItemContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="363" column="0" lean-forward="true" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+            <state relative-caret-position="-34">
+              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductItemData.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductItemData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/xml/impl/ProductItemData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="370" column="35" lean-forward="false" selection-start-line="370" selection-start-column="35" selection-end-line="370" selection-end-column="35" />
+            <state relative-caret-position="1114">
+              <caret line="295" column="27" lean-forward="true" selection-start-line="295" selection-start-column="27" selection-end-line="295" selection-end-column="27" />
               <folding>
                 <element signature="e#11501#11502#0" expanded="true" />
                 <element signature="e#11534#11535#0" expanded="true" />
@@ -62,11 +62,17 @@
       <find>for</find>
       <find>getCount</find>
       <find>System.out.println</find>
+      <find>1080185</find>
+      <find>productId</find>
+      <find>points</find>
     </findStrings>
     <dirStrings>
-      <dir>C:\Users\Daniel\Desktop\L2jSUNRISE_SOURCE_2017-10</dir>
       <dir>C:\Users\Daniel\Desktop\L2jSUNRISE_SOURCE_2017-10\L2J_SunriseProject_Core</dir>
+      <dir>C:\Users\Daniel\Desktop\L2jSUNRISE_SOURCE_2017-10</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -94,6 +100,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -359,12 +366,12 @@
       <workItem from="1518633758899" duration="1385000" />
       <workItem from="1518637404204" duration="950000" />
       <workItem from="1519320829761" duration="3554000" />
-      <workItem from="1519863864505" duration="19599000" />
+      <workItem from="1519863864505" duration="22544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34755000" />
+    <option name="totallyTimeSpent" value="37700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -378,7 +385,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19017433" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -503,6 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -613,10 +621,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/model/itemcontainer/ItemContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/xml/impl/ProductItemData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="370" column="35" lean-forward="false" selection-start-line="370" selection-start-column="35" selection-end-line="370" selection-end-column="35" />
+        <state relative-caret-position="1114">
+          <caret line="295" column="27" lean-forward="true" selection-start-line="295" selection-start-column="27" selection-end-line="295" selection-end-column="27" />
           <folding>
             <element signature="e#11501#11502#0" expanded="true" />
             <element signature="e#11534#11535#0" expanded="true" />
@@ -625,14 +641,6 @@
             <element signature="e#11942#11943#0" expanded="true" />
             <element signature="e#11981#11982#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/model/itemcontainer/ItemContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="363" column="0" lean-forward="true" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
