@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="dist/game/data/scripts"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/L2J_SunriseProject_Core"/>
+	<classpathentry kind="lib" path="/L2J_SunriseProject_Core/dist/libs/mmocore.jar"/>
+	<classpathentry kind="lib" path="/L2J_SunriseProject_Core/dist/libs/engine.jar"/>
+	<classpathentry kind="lib" path="/L2J_SunriseProject_Core/dist/libs/protection.jar"/>
+	<classpathentry kind="lib" path="/L2J_SunriseProject_Core/dist/libs/commons.jar"/>
+	<classpathentry kind="lib" path="/L2J_SunriseProject_Core/dist/libs/geoengine.jar"/>
+	<classpathentry kind="lib" path="/L2J_SunriseProject_Core/dist/libs/event-engine.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
