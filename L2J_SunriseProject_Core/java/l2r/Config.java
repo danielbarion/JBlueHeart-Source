@@ -2129,7 +2129,7 @@ public final class Config
 			
 			// Load Rates L2Properties file (if exists)
 			final PropertiesParser RatesSettings = new PropertiesParser(RATES_CONFIG_FILE);
-			
+
 			RATE_XP = RatesSettings.getFloat("RateXp", 1);
 			RATE_SP = RatesSettings.getFloat("RateSp", 1);
 			RATE_PARTY_XP = RatesSettings.getFloat("RatePartyXp", 1);
