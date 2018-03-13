@@ -359,8 +359,10 @@ public class PcStat extends PlayableStat
 		getActiveChar().broadcastUserInfo();
 		getActiveChar().sendPacket(new ExVoteSystemInfo(getActiveChar()));
 		// Nevit Points For Level
-		getActiveChar().getNevitSystem().addPoints(1950);
-		
+		// getActiveChar().getNevitSystem().addPoints(1950); // Default barion
+		// getActiveChar().getNevitSystem().addPoints(720); // Active after 10 levels
+		getActiveChar().getNevitSystem().addPoints(360); // Active after 20 levels
+
 		return levelIncreased;
 	}
 	
