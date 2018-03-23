@@ -581,7 +581,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="capsuled_items" val="20415,1,1,100;21091,1,1,100;21092,1,1,100" />
+		<set name="capsuled_items" val="21091,1,1,100;21092,1,1,100;20034,150,150,100;21632,10,10,100;21633,10,10,100;6354,1,1,100;6355,1,1,100;1835,3000,3000,100;2509,3000,3000,100;3947,3000,3000,100;1061,300,300,100;1463,5000,5000,100;2510,5000,5000,100;3948,5000,5000,100;1464,10000,10000,100;2511,10000,10000,100;3949,10000,10000,100" />
 	</item>
 	<item id="20639" type="Weapon" name="Common Item - Elven Long Sword">
 		<set name="icon" val="icon.weapon_elven_long_sword_i00" />

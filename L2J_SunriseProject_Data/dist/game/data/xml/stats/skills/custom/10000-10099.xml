@@ -9,6 +9,7 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="targetType" val="SELF" />
+		<set name="icon" val="icon.etc_potion_blue_i00" />
 		<for>
 			<effect count="3" name="ManaHealOverTime" abnormalTime="5" val="1.5" abnormalLvl="1" abnormalType="mp_recover" />
 		</for>
@@ -23,7 +24,7 @@
 		<set name="reuseDelay" val="500" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<effect name="ManaHeal" noicon="1" val="100" />
+			<effect name="ManaHeal" noicon="1" val="400" />
 		</for>
 	</skill>
 	<skill id="10002" levels="1" name="Custom Trap skill">

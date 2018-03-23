@@ -92,7 +92,9 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
-		<set name="reuseDelay" val="600000" />
+		<!-- Backup Reuse Delay -->
+		<!-- <set name="reuseDelay" val="600000" /> -->
+		<set name="reuseDelay" val="100" />
 		<set name="itemConsumeId" val="20034" />
 		<set name="itemConsumeCount" val="1" />
 		<for>

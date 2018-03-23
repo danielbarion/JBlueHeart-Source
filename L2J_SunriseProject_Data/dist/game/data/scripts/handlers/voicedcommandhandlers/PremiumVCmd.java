@@ -84,13 +84,10 @@ public class PremiumVCmd implements IVoicedCommandHandler
 				html3.append("<tr><td>Rate Adena: <font color=\"00A5FF\">x" + Math.round(normalAdenaMultiplier) + "<br1></font></td></tr><br>");
 				html3.append("<tr><td>Expires: <font color=\"00A5FF\">Never (Normal Account)<br1></font></td></tr>");
 				html3.append("<tr><td>Current Date: <font color=\"70FFCA\">" + String.valueOf(format.format(System.currentTimeMillis())) + " <br><br></font></td></tr><br><br1><br1>");
-				html3.append("<tr><td>Upgrade to Premium Account: <font color=\"70FFCA\"> http://www.l2sunrise.eu</font></td></tr>");
 				html3.append("<tr><td>Rate EXP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP - Config.RATE_XP) + ")<br1></font></td></tr>");
 				html3.append("<tr><td>Rate SP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP - Config.RATE_SP) + ")<br1></font></td></tr>");
 				html3.append("<tr><td>Rate Drop: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS - Config.RATE_DROP_ITEMS) + ")<br1></font></td></tr>");
 				html3.append("<tr><td>Rate Adena: <font color=\"LEVEL\">x" + PrAdenaDrop + " (+" + PrAdenaDropDiff + "%)<br1></font></td></tr><br>");
-				html3.append("<tr><td>Buffer: <font color=\"LEVEL\">Unique .buffer command<br1></font></td></tr>");
-				html3.append("<tr><td>Premium Buffs: <font color=\"LEVEL\">Enchanted buffs from npc buffers and " + Math.round(prBuffScheme - normalBuffScheme) + " extra buff schemes<br1><br></font></td></tr>");
 				html3.append("<tr><td><font color=\"LEVEL\"><center>Premium Info & Rules<br1></font></center></td></tr>");
 				html3.append("<tr><td> <font color=\"70FFCA\">1. Premium  benefits CAN NOT BE TRANSFERED.<br1></font></td></tr><br>");
 				html3.append("<tr><td> <font color=\"70FFCA\">2. Premium benefits effect ALL characters in same account.<br1></font></td></tr><br>");
@@ -109,14 +106,12 @@ public class PremiumVCmd implements IVoicedCommandHandler
 				
 				StringBuilder html3 = new StringBuilder("<html><body><title>Premium Account Details</title><center>");
 				html3.append("<table>");
-				html3.append("<tr><td><center>Thank you for supporting <font color=\"00FF00\">L][ Sunrise</font>.<br></td></tr>");
+				html3.append("<tr><td><center>Thank you for supporting our <font color=\"00FF00\">Lineage 2</font> world.<br></td></tr>");
 				html3.append("<tr><td><center>Account Type:<font color=\"LEVEL\"> Premium<br></font></td></tr>");
 				html3.append("<tr><td>Rate EXP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP - Config.RATE_XP) + ")<br1></font></td></tr>");
 				html3.append("<tr><td>Rate SP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP - Config.RATE_SP) + ")<br1></font></td></tr>");
 				html3.append("<tr><td>Rate Drop: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS - Config.RATE_DROP_ITEMS) + ")<br1></font></td></tr>");
 				html3.append("<tr><td>Rate Adena: <font color=\"LEVEL\">x" + PrAdenaDrop + " (+" + PrAdenaDropDiff + "%)<br1></font></td></tr><br>");
-				html3.append("<tr><td>Buffer: <font color=\"LEVEL\">Unique .buffer command<br1></font></td></tr>");
-				html3.append("<tr><td>Premium Buffs: <font color=\"LEVEL\">Enchanted buffs from npc buffers and " + Math.round(prBuffScheme - normalBuffScheme) + " extra buff schemes<br1></font></td></tr>");
 				html3.append("<tr><td>Expires: <font color=\"00A5FF\">" + String.valueOf(format.format(_end_prem_date)) + "</font></td></tr>");
 				html3.append("<tr><td>Current Date: <font color=\"70FFCA\">" + String.valueOf(format.format(System.currentTimeMillis())) + "<br><br></font></td></tr>");
 				html3.append("<tr><td><font color=\"LEVEL\"><center>Premium Info & Rules<br1></font></center></td></tr>");
