@@ -14,8 +14,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>debug</find>
-      <find>Config</find>
       <find>// get</find>
       <find>XP</find>
       <find>MaxExpBonus</find>
@@ -44,6 +42,8 @@
       <find>LineageMonster4</find>
       <find>22860</find>
       <find>nevit</find>
+      <find>22829</find>
+      <find>www.l2jsunrise.com</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Daniel\Desktop\L2jSUNRISE_SOURCE_2017-10\L2J_SunriseProject_Core</dir>
@@ -70,9 +70,10 @@
         <option value="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Rates.ini" />
         <option value="$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/Config.java" />
         <option value="$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/model/L2Party.java" />
-        <option value="$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/minions.sql" />
         <option value="$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/model/actor/stat/PcStat.java" />
         <option value="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game/config/main/Character.ini" />
+        <option value="$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/minions.sql" />
+        <option value="$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/fake_pcs.sql" />
       </list>
     </option>
   </component>
@@ -117,6 +118,27 @@
               <item name="L2jSUNRISE_SOURCE_2017-10" type="b2602c69:ProjectViewProjectNode" />
               <item name="L2jSUNRISE_SOURCE_2017-10" type="462c0819:PsiDirectoryNode" />
               <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="L2jSUNRISE_SOURCE_2017-10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2jSUNRISE_SOURCE_2017-10" type="462c0819:PsiDirectoryNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="L2jSUNRISE_SOURCE_2017-10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2jSUNRISE_SOURCE_2017-10" type="462c0819:PsiDirectoryNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="L2jSUNRISE_SOURCE_2017-10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2jSUNRISE_SOURCE_2017-10" type="462c0819:PsiDirectoryNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,12 +281,12 @@
       <workItem from="1520172596940" duration="22561000" />
       <workItem from="1520693024827" duration="3934000" />
       <workItem from="1520775257900" duration="4944000" />
-      <workItem from="1521766539152" duration="1321000" />
+      <workItem from="1521766539152" duration="3438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72796000" />
+    <option name="totallyTimeSpent" value="74913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -334,118 +356,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game/config/network/Server.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/network/SystemMessageId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/xml/other/item-mall.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/xml/impl/InitialEquipmentData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/xml/impl/BuyListData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1610">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/xml/impl/NpcPersonalAIData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1641">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/xml/impl/ItemData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/xml/impl/MerchantPriceConfigData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="135" column="39" lean-forward="true" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/engines/items/DocumentItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/network/clientpackets/RequestBuySeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="185" column="74" lean-forward="true" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/model/primeshop/L2ProductItemComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/model/primeshop/L2ProductItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/html/sunrise/AioNpc/service/commands.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/CcpVCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="187" column="87" lean-forward="false" selection-start-line="187" selection-start-column="87" selection-end-line="187" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/quests/Q00727_HopeWithinTheDarkness/Q00727_HopeWithinTheDarkness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="391" column="30" lean-forward="false" selection-start-line="391" selection-start-column="30" selection-end-line="391" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/util/version/Locator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1683">
@@ -576,13 +486,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="10392" column="32" lean-forward="false" selection-start-line="10392" selection-start-column="27" selection-end-line="10392" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/minions.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="604" column="19" lean-forward="true" selection-start-line="604" selection-start-column="19" selection-end-line="604" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -590,6 +494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="417" column="16" lean-forward="false" selection-start-line="417" selection-start-column="16" selection-end-line="417" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -708,6 +613,145 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/updates/Update_spawns_(06_11_2016).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/updates/Update_spawns_(25_01_2017).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/updates/Update_q00384_(26_03_2017.sql).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/minions.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="604" column="22" lean-forward="true" selection-start-line="604" selection-start-column="22" selection-end-line="604" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/custom/custom_spawnlist.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/custom/read before add.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/aio_scheme_profiles_buffs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/character_item_mall_points.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/character_item_mall_transactions.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/fake_pcs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/sunrise_patch.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/sunrise_variables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/sunrise_sql_files/npcs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game/config/hexid/hexid.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/login/gameservers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/system/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

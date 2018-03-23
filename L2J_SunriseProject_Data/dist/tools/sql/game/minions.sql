@@ -602,7 +602,7 @@ INSERT INTO `minions` VALUES
 -- Dragon Valley
 INSERT INTO `minions` VALUES
 -- Emerald Drake
-(22829,22860,1,12),
+-- (22829,22860,1,12),
 -- Batwing Drake
 (22827,22828,1,8),
 -- Hard Noxious Scorpion
