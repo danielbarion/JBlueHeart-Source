@@ -9,3 +9,4 @@
 [25.06.18 14:16:43] WARN:Port 2106 is already binded. Please free it and restart server.
 [25.06.18 14:16:44] WARN:Port 2106 is already binded. Please free it and restart server.
 [25.06.18 14:16:45] WARN:Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:20:11] WARN:GameServerTable: Could not parse servername.xml is not a file or it doesn't exist!

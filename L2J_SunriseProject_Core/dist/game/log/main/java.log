@@ -1,0 +1,32 @@
+[25.06.18 14:38:01] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 14:38:01] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 14:38:01] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 14:38:01] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 14:38:01] WARN: Could not load HexID file (./config/hexid/hexid.txt). Hopefully login will give us one.
+[25.06.18 14:38:01] INFO: Loaded 6 Filter Words.
+[25.06.18 14:38:01] INFO: Sunrise Configs Loaded...
+[25.06.18 14:38:01] INFO: Updated characters online status.
+[25.06.18 14:38:01] INFO: Cleaned up invalid Weddings.
+[25.06.18 14:38:02] INFO: Cleaned 0 elements from database in 0 s
+[25.06.18 14:38:02] INFO: Cleaned 0 expired timestamps from database.
+[25.06.18 14:38:02] INFO: BitSetIDFactory: 102912 id's available.
+[25.06.18 14:38:02] INFO: -------------------------------------------------=[ Engines ]
+[25.06.18 14:38:02] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[25.06.18 14:38:02] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[25.06.18 14:38:02] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8
+[25.06.18 14:38:02] INFO: -------------------------------------------------=[ Geodata ]
+[25.06.18 14:38:02] INFO: ---------------------------------------------------=[ World ]
+[25.06.18 14:38:02] INFO: GameTimeController: Started.
+[25.06.18 14:38:02] INFO: InstanceManager: Multiverse Instance created.
+[25.06.18 14:38:02] INFO: InstanceManager: Universe Instance created.
+[25.06.18 14:38:02] WARN: InstanceManager: Could not parse instancenames.xml is not a file or it doesn't exist!
+[25.06.18 14:38:02] INFO: InstanceManager: Loaded 0 instance names.
+[25.06.18 14:38:02] INFO: L2World: (128 by 136) World Region Grid set up.
+[25.06.18 14:38:02] WARN: MapRegionManager: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\dist\game\data\xml\mapregion doesn't exist!
+[25.06.18 14:38:02] INFO: MapRegionManager: Loaded 0 map regions.
+[25.06.18 14:38:02] INFO: GlobalVariablesManager: Loaded 5 variables.
+[25.06.18 14:38:02] INFO: ----------------------------------------------------=[ Data ]
+[25.06.18 14:38:02] WARN: CategoryData: Could not parse categoryData.xml is not a file or it doesn't exist!
+[25.06.18 14:38:02] INFO: CategoryData: Loaded 0 Categories.
+[25.06.18 14:38:02] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[25.06.18 14:38:02] INFO: -------------------------------------------------=[ Effects ]

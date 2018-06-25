@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/L2J_SunriseProject_Core/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/L2J_SunriseProject_Core/dist/login/config/xml" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/L2J_SunriseProject_Core/dist/game/config/xml" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/L2J_SunriseProject_Data/dist" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/L2J_SunriseProject_Data/dist/tools" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
