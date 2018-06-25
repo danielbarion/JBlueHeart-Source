@@ -1266,7 +1266,7 @@ public final class Config
 			ACCEPT_ALTERNATE_ID = serverSettings.getBoolean("AcceptAlternateID", true);
 			
 			DATABASE_DRIVER = serverSettings.getString("Driver", "com.mysql.jdbc.Driver");
-			DATABASE_URL = serverSettings.getString("URL", "jdbc:mysql://localhost/l2jgs");
+			DATABASE_URL = serverSettings.getString("URL", "jdbc:mysql://localhost/l2jsunrise");
 			DATABASE_LOGIN = serverSettings.getString("Login", "root");
 			DATABASE_PASSWORD = serverSettings.getString("Password", "");
 			DATABASE_MAX_CONNECTIONS = serverSettings.getInt("MaximumDbConnections", 10);
