@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-engine-1.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/java-engine-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

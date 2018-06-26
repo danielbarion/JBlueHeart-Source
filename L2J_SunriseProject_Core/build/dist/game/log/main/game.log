@@ -1,0 +1,529 @@
+[25.06.18 14:20:28] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 14:20:29] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 14:20:29] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 14:20:29] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 14:20:29] WARN: Could not load HexID file (./config/hexid/hexid.txt). Hopefully login will give us one.
+[25.06.18 14:20:29] INFO: Loaded 6 Filter Words.
+[25.06.18 14:20:29] INFO: Sunrise Configs Loaded...
+[25.06.18 14:20:29] INFO: Updated characters online status.
+[25.06.18 14:20:29] INFO: Cleaned up invalid Weddings.
+[25.06.18 14:20:29] INFO: Cleaned 0 elements from database in 0 s
+[25.06.18 14:20:29] INFO: Cleaned 0 expired timestamps from database.
+[25.06.18 14:20:30] INFO: BitSetIDFactory: 102912 id's available.
+[25.06.18 14:20:30] INFO: -------------------------------------------------=[ Engines ]
+[25.06.18 14:20:30] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[25.06.18 14:20:30] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[25.06.18 14:20:30] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8
+[25.06.18 14:20:30] INFO: -------------------------------------------------=[ Geodata ]
+[25.06.18 14:20:30] INFO: ---------------------------------------------------=[ World ]
+[25.06.18 14:20:30] INFO: GameTimeController: Started.
+[25.06.18 14:20:30] INFO: InstanceManager: Multiverse Instance created.
+[25.06.18 14:20:30] INFO: InstanceManager: Universe Instance created.
+[25.06.18 14:20:30] WARN: InstanceManager: Could not parse instancenames.xml is not a file or it doesn't exist!
+[25.06.18 14:20:30] INFO: InstanceManager: Loaded 0 instance names.
+[25.06.18 14:20:31] INFO: L2World: (128 by 136) World Region Grid set up.
+[25.06.18 14:20:31] WARN: MapRegionManager: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\dist\game\data\xml\mapregion doesn't exist!
+[25.06.18 14:20:31] INFO: MapRegionManager: Loaded 0 map regions.
+[25.06.18 14:20:31] INFO: GlobalVariablesManager: Loaded 5 variables.
+[25.06.18 14:20:31] INFO: ----------------------------------------------------=[ Data ]
+[25.06.18 14:20:31] WARN: CategoryData: Could not parse categoryData.xml is not a file or it doesn't exist!
+[25.06.18 14:20:31] INFO: CategoryData: Loaded 0 Categories.
+[25.06.18 14:20:31] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[25.06.18 14:20:31] INFO: -------------------------------------------------=[ Effects ]
+[25.06.18 14:29:04] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 14:29:04] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 14:29:04] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 14:29:04] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 14:29:05] WARN: Could not load HexID file (./config/hexid/hexid.txt). Hopefully login will give us one.
+[25.06.18 14:29:05] INFO: Loaded 6 Filter Words.
+[25.06.18 14:29:05] INFO: Sunrise Configs Loaded...
+[25.06.18 14:29:05] INFO: Updated characters online status.
+[25.06.18 14:29:05] INFO: Cleaned up invalid Weddings.
+[25.06.18 14:29:05] INFO: Cleaned 0 elements from database in 0 s
+[25.06.18 14:29:05] INFO: Cleaned 0 expired timestamps from database.
+[25.06.18 14:29:05] INFO: BitSetIDFactory: 102912 id's available.
+[25.06.18 14:29:05] INFO: -------------------------------------------------=[ Engines ]
+[25.06.18 14:29:06] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[25.06.18 14:29:06] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[25.06.18 14:29:06] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8
+[25.06.18 14:29:06] INFO: -------------------------------------------------=[ Geodata ]
+[25.06.18 14:29:07] INFO: ---------------------------------------------------=[ World ]
+[25.06.18 14:29:07] INFO: GameTimeController: Started.
+[25.06.18 14:29:07] INFO: InstanceManager: Multiverse Instance created.
+[25.06.18 14:29:07] INFO: InstanceManager: Universe Instance created.
+[25.06.18 14:29:07] WARN: InstanceManager: Could not parse instancenames.xml is not a file or it doesn't exist!
+[25.06.18 14:29:07] INFO: InstanceManager: Loaded 0 instance names.
+[25.06.18 14:29:07] INFO: L2World: (128 by 136) World Region Grid set up.
+[25.06.18 14:29:07] WARN: MapRegionManager: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\dist\game\data\xml\mapregion doesn't exist!
+[25.06.18 14:29:07] INFO: MapRegionManager: Loaded 0 map regions.
+[25.06.18 14:29:07] INFO: GlobalVariablesManager: Loaded 5 variables.
+[25.06.18 14:29:07] INFO: ----------------------------------------------------=[ Data ]
+[25.06.18 14:29:07] WARN: CategoryData: Could not parse categoryData.xml is not a file or it doesn't exist!
+[25.06.18 14:29:07] INFO: CategoryData: Loaded 0 Categories.
+[25.06.18 14:29:07] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[25.06.18 14:29:07] INFO: -------------------------------------------------=[ Effects ]
+[25.06.18 14:38:01] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 14:38:01] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 14:38:01] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 14:38:01] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 14:38:01] WARN: Could not load HexID file (./config/hexid/hexid.txt). Hopefully login will give us one.
+[25.06.18 14:38:01] INFO: Loaded 6 Filter Words.
+[25.06.18 14:38:01] INFO: Sunrise Configs Loaded...
+[25.06.18 14:38:01] INFO: Updated characters online status.
+[25.06.18 14:38:01] INFO: Cleaned up invalid Weddings.
+[25.06.18 14:38:02] INFO: Cleaned 0 elements from database in 0 s
+[25.06.18 14:38:02] INFO: Cleaned 0 expired timestamps from database.
+[25.06.18 14:38:02] INFO: BitSetIDFactory: 102912 id's available.
+[25.06.18 14:38:02] INFO: -------------------------------------------------=[ Engines ]
+[25.06.18 14:38:02] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[25.06.18 14:38:02] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[25.06.18 14:38:02] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8
+[25.06.18 14:38:02] INFO: -------------------------------------------------=[ Geodata ]
+[25.06.18 14:38:02] INFO: ---------------------------------------------------=[ World ]
+[25.06.18 14:38:02] INFO: GameTimeController: Started.
+[25.06.18 14:38:02] INFO: InstanceManager: Multiverse Instance created.
+[25.06.18 14:38:02] INFO: InstanceManager: Universe Instance created.
+[25.06.18 14:38:02] WARN: InstanceManager: Could not parse instancenames.xml is not a file or it doesn't exist!
+[25.06.18 14:38:02] INFO: InstanceManager: Loaded 0 instance names.
+[25.06.18 14:38:02] INFO: L2World: (128 by 136) World Region Grid set up.
+[25.06.18 14:38:02] WARN: MapRegionManager: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\dist\game\data\xml\mapregion doesn't exist!
+[25.06.18 14:38:02] INFO: MapRegionManager: Loaded 0 map regions.
+[25.06.18 14:38:02] INFO: GlobalVariablesManager: Loaded 5 variables.
+[25.06.18 14:38:02] INFO: ----------------------------------------------------=[ Data ]
+[25.06.18 14:38:02] WARN: CategoryData: Could not parse categoryData.xml is not a file or it doesn't exist!
+[25.06.18 14:38:02] INFO: CategoryData: Loaded 0 Categories.
+[25.06.18 14:38:02] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[25.06.18 14:38:02] INFO: -------------------------------------------------=[ Effects ]
+[25.06.18 18:09:42] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 18:09:42] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 18:09:42] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 18:09:42] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 18:09:43] WARN: Could not load HexID file (./config/hexid/hexid.txt). Hopefully login will give us one.
+[25.06.18 18:09:43] INFO: Loaded 6 Filter Words.
+[25.06.18 18:09:43] INFO: Sunrise Configs Loaded...
+[25.06.18 18:18:50] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 18:18:51] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 18:18:51] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 18:18:51] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 18:18:51] INFO: Loaded 6 Filter Words.
+[25.06.18 18:18:51] INFO: Sunrise Configs Loaded...
+[25.06.18 18:21:33] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 18:21:34] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 18:21:34] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 18:21:34] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 18:21:34] INFO: Loaded 6 Filter Words.
+[25.06.18 18:21:34] INFO: Sunrise Configs Loaded...
+[25.06.18 18:21:34] INFO: Updated characters online status.
+[25.06.18 18:21:34] INFO: Cleaned up invalid Weddings.
+[25.06.18 18:21:34] INFO: Cleaned 0 elements from database in 0 s
+[25.06.18 18:21:34] INFO: Cleaned 0 expired timestamps from database.
+[25.06.18 18:21:34] INFO: BitSetIDFactory: 102912 id's available.
+[25.06.18 18:21:34] INFO: -------------------------------------------------=[ Engines ]
+[25.06.18 18:21:34] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[25.06.18 18:21:35] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[25.06.18 18:21:35] INFO: -------------------------------------------------=[ Geodata ]
+[25.06.18 18:21:35] INFO: ---------------------------------------------------=[ World ]
+[25.06.18 18:21:35] INFO: GameTimeController: Started.
+[25.06.18 18:21:35] INFO: InstanceManager: Multiverse Instance created.
+[25.06.18 18:21:35] INFO: InstanceManager: Universe Instance created.
+[25.06.18 18:21:35] INFO: InstanceManager: Loaded 160 instance names.
+[25.06.18 18:21:35] INFO: L2World: (128 by 136) World Region Grid set up.
+[25.06.18 18:21:36] INFO: MapRegionManager: Loaded 57 map regions.
+[25.06.18 18:21:36] INFO: GlobalVariablesManager: Loaded 5 variables.
+[25.06.18 18:21:36] INFO: ----------------------------------------------------=[ Data ]
+[25.06.18 18:21:36] INFO: CategoryData: Loaded 124 Categories.
+[25.06.18 18:21:36] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[25.06.18 18:21:36] INFO: -------------------------------------------------=[ Effects ]
+[25.06.18 18:22:25] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 18:22:26] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 18:22:26] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 18:22:26] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 18:22:26] INFO: Loaded 6 Filter Words.
+[25.06.18 18:22:26] INFO: Sunrise Configs Loaded...
+[25.06.18 18:22:26] INFO: Updated characters online status.
+[25.06.18 18:22:26] INFO: Cleaned up invalid Weddings.
+[25.06.18 18:22:26] INFO: Cleaned 0 elements from database in 0 s
+[25.06.18 18:22:26] INFO: Cleaned 0 expired timestamps from database.
+[25.06.18 18:22:26] INFO: BitSetIDFactory: 102912 id's available.
+[25.06.18 18:22:29] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[25.06.18 18:22:30] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[25.06.18 18:22:30] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[25.06.18 18:22:30] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[25.06.18 18:22:30] INFO: Loaded 6 Filter Words.
+[25.06.18 18:22:30] INFO: Sunrise Configs Loaded...
+[25.06.18 18:22:30] INFO: Updated characters online status.
+[25.06.18 18:22:30] INFO: Cleaned up invalid Weddings.
+[25.06.18 18:22:30] INFO: Cleaned 0 elements from database in 0 s
+[25.06.18 18:22:30] INFO: Cleaned 0 expired timestamps from database.
+[25.06.18 18:22:30] INFO: BitSetIDFactory: 102912 id's available.
+[25.06.18 18:22:30] INFO: -------------------------------------------------=[ Engines ]
+[25.06.18 18:22:31] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[25.06.18 18:22:31] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[25.06.18 18:22:31] INFO: -------------------------------------------------=[ Geodata ]
+[25.06.18 18:22:31] INFO: ---------------------------------------------------=[ World ]
+[25.06.18 18:22:31] INFO: GameTimeController: Started.
+[25.06.18 18:22:31] INFO: InstanceManager: Multiverse Instance created.
+[25.06.18 18:22:31] INFO: InstanceManager: Universe Instance created.
+[25.06.18 18:22:31] INFO: InstanceManager: Loaded 160 instance names.
+[25.06.18 18:22:31] INFO: L2World: (128 by 136) World Region Grid set up.
+[25.06.18 18:22:31] INFO: MapRegionManager: Loaded 57 map regions.
+[25.06.18 18:22:31] INFO: GlobalVariablesManager: Loaded 5 variables.
+[25.06.18 18:22:31] INFO: ----------------------------------------------------=[ Data ]
+[25.06.18 18:22:31] INFO: CategoryData: Loaded 124 Categories.
+[25.06.18 18:22:31] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[25.06.18 18:22:31] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 07:53:36] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 07:53:36] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 07:53:36] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 07:53:36] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 07:53:37] INFO: Loaded 6 Filter Words.
+[26.06.18 07:53:37] INFO: Sunrise Configs Loaded...
+[26.06.18 07:53:37] INFO: Updated characters online status.
+[26.06.18 07:53:37] INFO: Cleaned up invalid Weddings.
+[26.06.18 07:53:37] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 07:53:37] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 07:53:37] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 07:53:37] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 07:53:38] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 07:53:38] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 07:53:38] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 07:53:38] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 07:53:38] INFO: GameTimeController: Started.
+[26.06.18 07:53:38] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 07:53:38] INFO: InstanceManager: Universe Instance created.
+[26.06.18 07:53:39] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 07:53:39] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 07:53:39] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 07:53:39] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 07:53:39] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 07:53:39] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 07:53:39] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 07:53:39] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 07:56:07] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 07:56:07] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 07:56:07] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 07:56:07] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 07:56:08] INFO: Loaded 6 Filter Words.
+[26.06.18 07:56:08] INFO: Sunrise Configs Loaded...
+[26.06.18 07:56:08] INFO: Updated characters online status.
+[26.06.18 07:56:08] INFO: Cleaned up invalid Weddings.
+[26.06.18 07:56:08] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 07:56:08] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 07:56:08] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 07:56:08] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 07:56:08] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 07:56:09] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 07:56:09] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 07:56:09] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 07:56:09] INFO: GameTimeController: Started.
+[26.06.18 07:56:09] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 07:56:09] INFO: InstanceManager: Universe Instance created.
+[26.06.18 07:56:09] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 07:56:09] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 07:56:09] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 07:56:09] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 07:56:09] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 07:56:09] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 07:56:09] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 07:56:09] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:01:55] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:01:56] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:01:56] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:01:56] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:01:56] INFO: Loaded 6 Filter Words.
+[26.06.18 08:01:56] INFO: Sunrise Configs Loaded...
+[26.06.18 08:01:56] INFO: Updated characters online status.
+[26.06.18 08:01:56] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:01:56] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:01:56] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:01:56] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:01:56] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:01:56] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:01:57] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:01:57] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:01:57] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:01:57] INFO: GameTimeController: Started.
+[26.06.18 08:01:57] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:01:57] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:01:57] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:01:57] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:01:57] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:01:57] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:01:57] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:01:57] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:01:57] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:01:57] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:05:40] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:05:40] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:05:40] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:05:41] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:05:41] INFO: Loaded 6 Filter Words.
+[26.06.18 08:05:41] INFO: Sunrise Configs Loaded...
+[26.06.18 08:05:41] INFO: Updated characters online status.
+[26.06.18 08:05:41] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:05:41] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:05:41] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:05:41] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:05:41] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:05:42] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:05:42] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:05:42] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:05:42] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:05:42] INFO: GameTimeController: Started.
+[26.06.18 08:05:42] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:05:42] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:05:42] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:05:42] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:05:42] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:05:42] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:05:42] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:05:42] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:05:42] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:05:42] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:06:02] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:06:03] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:06:03] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:06:03] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:06:03] INFO: Loaded 6 Filter Words.
+[26.06.18 08:06:03] INFO: Sunrise Configs Loaded...
+[26.06.18 08:06:03] INFO: Updated characters online status.
+[26.06.18 08:06:03] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:06:03] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:06:03] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:06:03] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:06:03] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:06:04] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:06:04] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:06:04] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:06:04] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:06:04] INFO: GameTimeController: Started.
+[26.06.18 08:06:04] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:06:04] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:06:04] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:06:04] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:06:05] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:06:05] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:06:05] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:06:05] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:06:05] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:06:05] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:06:13] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:06:13] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:06:13] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:06:13] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:06:13] INFO: Loaded 6 Filter Words.
+[26.06.18 08:06:13] INFO: Sunrise Configs Loaded...
+[26.06.18 08:06:13] INFO: Updated characters online status.
+[26.06.18 08:06:13] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:06:13] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:06:13] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:06:13] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:06:13] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:06:14] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:06:14] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:06:14] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:06:14] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:06:14] INFO: GameTimeController: Started.
+[26.06.18 08:06:14] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:06:14] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:06:14] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:06:14] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:06:15] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:06:15] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:06:15] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:06:15] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:06:15] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:06:15] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:10:23] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:10:23] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:10:23] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:10:23] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:10:23] INFO: Loaded 6 Filter Words.
+[26.06.18 08:10:23] INFO: Sunrise Configs Loaded...
+[26.06.18 08:10:24] INFO: Updated characters online status.
+[26.06.18 08:10:24] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:10:24] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:10:24] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:10:24] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:10:24] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:10:26] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:10:26] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:10:26] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8
+[26.06.18 08:10:26] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:10:26] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:10:26] INFO: GameTimeController: Started.
+[26.06.18 08:10:26] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:10:26] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:10:27] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:10:27] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:10:27] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:10:27] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:10:27] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:10:27] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:10:27] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:10:27] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:10:28] INFO: EffectHandler: Loaded 148 Handlers
+[26.06.18 08:10:28] INFO: ------------------------------------=[ Enchant Skill Groups ]
+[26.06.18 08:10:28] INFO: EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+[26.06.18 08:10:28] INFO: ---------------------------------------------=[ Skill Trees ]
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 17176 Class Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 76 Sub-Class Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 77 Transfer Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 117 Fishing Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 3 Collect Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 74 Pledge Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 18 Sub-Pledge Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 32 Transform Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 8 Noble Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 5 Hero Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 46 Game Master Skills.
+[26.06.18 08:10:29] INFO: SkillTreesData: Loaded 46 Game Master Aura Skills.
+[26.06.18 08:10:29] INFO: --------------------------------------------------=[ Skills ]
+[26.06.18 08:10:32] INFO: DocumentEngine: Loaded 66008 Skill templates from XML files.
+[26.06.18 08:10:35] INFO: SummonSkillsTable: Loaded 1891 skills.
+[26.06.18 08:10:35] INFO: ---------------------------------------------------=[ Items ]
+[26.06.18 08:15:52] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:15:52] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:15:52] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:15:52] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:15:53] INFO: Loaded 6 Filter Words.
+[26.06.18 08:15:53] INFO: Sunrise Configs Loaded...
+[26.06.18 08:15:53] INFO: Updated characters online status.
+[26.06.18 08:15:53] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:15:53] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:15:53] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:15:53] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:15:53] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:15:53] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:15:54] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:15:54] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:15:54] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:15:54] INFO: GameTimeController: Started.
+[26.06.18 08:15:54] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:15:54] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:15:54] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:15:54] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:15:54] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:15:54] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:15:54] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:15:54] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:15:54] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:15:54] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:18:39] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:18:40] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:18:40] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:18:40] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:18:40] INFO: Loaded 6 Filter Words.
+[26.06.18 08:18:40] INFO: Sunrise Configs Loaded...
+[26.06.18 08:18:40] INFO: Updated characters online status.
+[26.06.18 08:18:40] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:18:40] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:18:40] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:18:40] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:18:40] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:18:41] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:18:41] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:19:08] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:19:08] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:19:08] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:19:08] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:19:08] INFO: Loaded 6 Filter Words.
+[26.06.18 08:19:09] INFO: Sunrise Configs Loaded...
+[26.06.18 08:19:09] INFO: Updated characters online status.
+[26.06.18 08:19:09] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:19:09] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:19:09] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:19:09] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:19:09] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:19:09] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:19:10] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:19:21] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:19:21] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:19:21] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:19:22] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:19:22] INFO: Loaded 6 Filter Words.
+[26.06.18 08:19:22] INFO: Sunrise Configs Loaded...
+[26.06.18 08:19:22] INFO: Updated characters online status.
+[26.06.18 08:19:22] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:19:22] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:19:22] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:19:22] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:19:22] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:19:22] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:19:23] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:20:41] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:20:42] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:20:42] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:20:42] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:20:42] INFO: Loaded 6 Filter Words.
+[26.06.18 08:20:42] INFO: Sunrise Configs Loaded...
+[26.06.18 08:20:42] INFO: Updated characters online status.
+[26.06.18 08:20:42] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:20:42] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:20:42] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:20:42] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:20:42] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:20:43] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:20:43] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:21:32] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:21:33] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:21:33] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:21:33] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:21:33] INFO: Loaded 6 Filter Words.
+[26.06.18 08:21:33] INFO: Sunrise Configs Loaded...
+[26.06.18 08:21:33] INFO: Updated characters online status.
+[26.06.18 08:21:33] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:21:33] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:21:33] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:21:33] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:21:33] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:21:34] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:21:34] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:24:17] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:24:17] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:24:17] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:24:17] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:24:17] INFO: Loaded 6 Filter Words.
+[26.06.18 08:24:17] INFO: Sunrise Configs Loaded...
+[26.06.18 08:24:18] INFO: Updated characters online status.
+[26.06.18 08:24:18] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:24:18] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:24:18] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:24:18] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:24:18] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:24:18] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:24:18] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:24:18] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8
+[26.06.18 08:24:19] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:24:19] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:24:19] INFO: GameTimeController: Started.
+[26.06.18 08:24:19] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:24:19] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:24:19] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:24:19] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:24:19] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:24:19] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:24:19] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:24:19] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:24:19] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:24:19] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:24:20] INFO: EffectHandler: Loaded 148 Handlers
+[26.06.18 08:24:20] INFO: ------------------------------------=[ Enchant Skill Groups ]
+[26.06.18 08:24:20] INFO: EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+[26.06.18 08:24:20] INFO: ---------------------------------------------=[ Skill Trees ]
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 17176 Class Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 76 Sub-Class Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 77 Transfer Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 117 Fishing Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 3 Collect Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 74 Pledge Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 18 Sub-Pledge Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 32 Transform Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 8 Noble Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 5 Hero Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 46 Game Master Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 46 Game Master Aura Skills.
+[26.06.18 08:24:21] INFO: --------------------------------------------------=[ Skills ]
+[26.06.18 08:24:23] INFO: DocumentEngine: Loaded 66008 Skill templates from XML files.
+[26.06.18 08:24:23] INFO: SummonSkillsTable: Loaded 1891 skills.
+[26.06.18 08:24:23] INFO: ---------------------------------------------------=[ Items ]

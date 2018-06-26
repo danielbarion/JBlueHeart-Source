@@ -1,0 +1,92 @@
+[25.06.18 14:16:35] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:36] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:37] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:38] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:39] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:40] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:41] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:42] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:43] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:44] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:16:45] WARN: Port 2106 is already binded. Please free it and restart server.
+[25.06.18 14:20:09] INFO: Loading LoginController...
+[25.06.18 14:20:11] INFO: Cached 10 KeyPairs for RSA communication
+[25.06.18 14:20:11] INFO: Stored 20 keys for Blowfish communication
+[25.06.18 14:20:11] WARN: GameServerTable: Could not parse servername.xml is not a file or it doesn't exist!
+[25.06.18 14:20:11] INFO: GameServerTable: Loaded 0 server names
+[25.06.18 14:20:11] INFO: GameServerTable: Loaded 1 registered Game Servers
+[25.06.18 14:20:11] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[25.06.18 14:20:11] INFO: Loaded 2 IP Bans.
+[25.06.18 14:20:11] INFO: Scheduled LS restart after 48 hours
+[25.06.18 14:20:11] INFO: Listening for GameServers on 127.0.0.1:9014
+[25.06.18 14:20:11] INFO: Telnet server is currently disabled.
+[25.06.18 14:20:11] INFO: L2LoginServer: is now listening on: *:2106
+[25.06.18 14:20:11] INFO: Looking for UPnP Gateway Devices...
+[25.06.18 14:20:21] INFO: No UPnP gateways found
+[25.06.18 17:28:16] INFO: Loading LoginController...
+[25.06.18 17:28:18] INFO: Cached 10 KeyPairs for RSA communication
+[25.06.18 17:28:19] INFO: Stored 20 keys for Blowfish communication
+[25.06.18 17:28:19] WARN: GameServerTable: Could not parse servername.xml is not a file or it doesn't exist!
+[25.06.18 17:28:19] INFO: GameServerTable: Loaded 0 server names
+[25.06.18 17:28:19] INFO: GameServerTable: Loaded 1 registered Game Servers
+[25.06.18 17:28:19] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[25.06.18 17:28:19] INFO: Loaded 2 IP Bans.
+[25.06.18 17:28:19] INFO: Scheduled LS restart after 48 hours
+[25.06.18 17:28:19] INFO: Listening for GameServers on 127.0.0.1:9014
+[25.06.18 17:28:19] INFO: Telnet server is currently disabled.
+[25.06.18 17:28:19] INFO: L2LoginServer: is now listening on: *:2106
+[25.06.18 17:28:19] INFO: Looking for UPnP Gateway Devices...
+[25.06.18 17:28:29] INFO: No UPnP gateways found
+[25.06.18 17:53:03] INFO: Loading LoginController...
+[25.06.18 17:53:05] INFO: Cached 10 KeyPairs for RSA communication
+[25.06.18 17:53:05] INFO: Stored 20 keys for Blowfish communication
+[25.06.18 17:53:05] WARN: GameServerTable: Could not parse servername.xml is not a file or it doesn't exist!
+[25.06.18 17:53:05] INFO: GameServerTable: Loaded 0 server names
+[25.06.18 17:53:05] ERROR: GameServerTable: Error loading registered game servers!
+[25.06.18 17:53:05] INFO: GameServerTable: Loaded 0 registered Game Servers
+[25.06.18 17:53:06] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[25.06.18 17:53:06] INFO: Loaded 2 IP Bans.
+[25.06.18 17:53:06] INFO: Scheduled LS restart after 48 hours
+[25.06.18 17:53:12] INFO: Loading LoginController...
+[25.06.18 17:53:15] INFO: Cached 10 KeyPairs for RSA communication
+[25.06.18 17:53:15] INFO: Stored 20 keys for Blowfish communication
+[25.06.18 17:53:15] WARN: GameServerTable: Could not parse servername.xml is not a file or it doesn't exist!
+[25.06.18 17:53:15] INFO: GameServerTable: Loaded 0 server names
+[25.06.18 17:53:15] ERROR: GameServerTable: Error loading registered game servers!
+[25.06.18 17:53:15] INFO: GameServerTable: Loaded 0 registered Game Servers
+[25.06.18 17:53:15] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[25.06.18 17:53:15] INFO: Loaded 2 IP Bans.
+[25.06.18 17:53:15] INFO: Scheduled LS restart after 48 hours
+[25.06.18 17:53:15] INFO: Listening for GameServers on 127.0.0.1:9014
+[25.06.18 17:53:15] INFO: Telnet server is currently disabled.
+[25.06.18 17:53:15] INFO: L2LoginServer: is now listening on: *:2106
+[25.06.18 17:53:15] INFO: Looking for UPnP Gateway Devices...
+[25.06.18 17:53:24] INFO: No UPnP gateways found
+[25.06.18 17:59:09] INFO: Loading LoginController...
+[25.06.18 17:59:11] INFO: Cached 10 KeyPairs for RSA communication
+[25.06.18 17:59:11] INFO: Stored 20 keys for Blowfish communication
+[25.06.18 17:59:11] WARN: GameServerTable: Could not parse servername.xml is not a file or it doesn't exist!
+[25.06.18 17:59:11] INFO: GameServerTable: Loaded 0 server names
+[25.06.18 17:59:11] ERROR: GameServerTable: Error loading registered game servers!
+[25.06.18 17:59:11] INFO: GameServerTable: Loaded 0 registered Game Servers
+[25.06.18 17:59:11] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[25.06.18 17:59:11] INFO: Loaded 2 IP Bans.
+[25.06.18 17:59:11] INFO: Scheduled LS restart after 48 hours
+[25.06.18 17:59:12] INFO: Listening for GameServers on 127.0.0.1:9014
+[25.06.18 17:59:12] INFO: Telnet server is currently disabled.
+[25.06.18 17:59:12] INFO: L2LoginServer: is now listening on: *:2106
+[25.06.18 17:59:12] INFO: Looking for UPnP Gateway Devices...
+[25.06.18 18:03:06] INFO: Loading LoginController...
+[25.06.18 18:03:07] INFO: Cached 10 KeyPairs for RSA communication
+[25.06.18 18:03:08] INFO: Stored 20 keys for Blowfish communication
+[25.06.18 18:03:08] INFO: GameServerTable: Loaded 127 server names
+[25.06.18 18:03:08] ERROR: GameServerTable: Error loading registered game servers!
+[25.06.18 18:03:08] INFO: GameServerTable: Loaded 0 registered Game Servers
+[25.06.18 18:03:08] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[25.06.18 18:03:08] INFO: Loaded 2 IP Bans.
+[25.06.18 18:03:08] INFO: Scheduled LS restart after 48 hours
+[25.06.18 18:03:08] INFO: Listening for GameServers on 127.0.0.1:9014
+[25.06.18 18:03:08] INFO: Telnet server is currently disabled.
+[25.06.18 18:03:08] INFO: L2LoginServer: is now listening on: *:2106
+[25.06.18 18:03:08] INFO: Looking for UPnP Gateway Devices...
+[25.06.18 18:03:17] INFO: No UPnP gateways found

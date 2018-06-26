@@ -1,7 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822c77d0-9f96-4e9c-bead-f0a9ed971c08" name="Default" comment="" />
+    <list default="true" id="822c77d0-9f96-4e9c-bead-f0a9ed971c08" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/L2jSUNRISE_SOURCE_2017-10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/L2jSUNRISE_SOURCE_2017-10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/GameServer_loop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Antharas.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Baium.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Beleth.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Core.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/DestructionBosses.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Ekimus.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/FreyaEasy.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/FreyaHardCore.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Frintezza.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Orfen.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/QueenAnt.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Sailren.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Tiat.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Valakas.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/VanHalter.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/bosses/Zaken.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/hexid/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Character.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/ConquerableHallSiege.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Debug.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Drops.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Feature.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/FloodProtector.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/FortSiege.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/General.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Geodata.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/GraciaSeeds.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/HuntingBonus.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/IdFactory.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Instances.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/ItemMall.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Knownlist.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/L2JMods.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/NPC.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Olympiad.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/PVP.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Rates.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/SecondaryAuth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/SecondaryAuth.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/Siege.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/SiegeSchedule.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/SiegeSchedule.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/TerritoryWar.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/botreport_punishments.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/botreport_punishments.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/main/chatfilter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/ClientPackets.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/MMO.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/Server - localhost.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/Server - production.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/Server.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/ServerPackets.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/Telnet.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/default-ipconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/network/ipconfig.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/AioItems.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/AntiBot.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/AutoRestart.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/BackupManager.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/Buffer.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/ChampionMobs.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/ColorSystem.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/CommunityDonate.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/CommunityServices.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/Custom.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/Donate.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/Formulas.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/Leaderboard.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/Npcs.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/PcCafe.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/PremiumService.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/PvpSystem.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/SecuritySystem.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/SmartCB.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/language/event_lang_en.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/language/event_lang_en.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/raidEngine/RaidsAndDrops.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/raidEngine/RaidsLocations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/raidEngine/configs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/raidEngine/xsd/RaidsAndDrops.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/raidEngine/xsd/RaidsLocations.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/event/raidEngine/xsd/configs.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/rGuard.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/votesystems/GetRewardVoteSystem.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/votesystems/IndividualVoteSystem.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/votesystems/Information.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/zones/ChaoticZone.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/sunrise/zones/FlagZone.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/xml/accessLevels.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/xml/accessLevels.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/xml/adminCommands.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/xml/adminCommands.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/xml/log4j.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/xml/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/console.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/startGameServer.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/startGameServer.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/languages/gsregister/GSRegister.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/commons.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/ecj-4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/engine.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/event-engine.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/geoengine.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/java-engine-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/jython-engine-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/jython.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/mail-1.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/mmocore.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/mysql-connector-java-5.1.34-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/protection.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/weupnp-0.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/LoginServer_loop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/RegisterGameServer.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/RegisterGameServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/RegisterGameServer.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/banned_ip.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/main/Email.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/network/LoginServer - localhost.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/network/LoginServer - production.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/network/LoginServer.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/network/MMO.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/network/Telnet.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/xml/log4j.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/config/xml/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/startLoginServer.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/startLoginServer.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/startSQLAccountManager.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/startSQLAccountManager.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/log/main/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/log/main/game.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/log/main/java.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/log/main/java.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/log/main/warnings.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/log/main/warnings.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,14 +147,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="PremiumVCmd.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/PremiumVCmd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rate</find>
-      <find>setParameterValue</find>
-      <find>RATES_CONFIG_FILE</find>
-      <find>PropertiesParser</find>
       <find>System.out.println(&quot;!---@@@@@@ ------ file: &quot; + file);</find>
       <find>containskey</find>
       <find>RATE_QUEST_REWARD_USE_MULTIPLIERS</find>
@@ -44,6 +190,10 @@
       <find>l2jgs</find>
       <find>dan</find>
       <find>log4j</find>
+      <find>servename</find>
+      <find>servername</find>
+      <find>build.dist</find>
+      <find>_nameEngines</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Daniel\Desktop\L2jSUNRISE_SOURCE_2017-10\L2J_SunriseProject_Core</dir>
@@ -102,7 +252,9 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -113,36 +265,56 @@
           <expand>
             <path>
               <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSunrise-Source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSunrise-Source" type="462c0819:PsiDirectoryNode" />
               <item name="L2J_SunriseProject_Core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSunrise-Source" type="462c0819:PsiDirectoryNode" />
-              <item name="L2J_SunriseProject_Core" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSunrise-Source" type="462c0819:PsiDirectoryNode" />
-              <item name="L2J_SunriseProject_Core" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSunrise-Source" type="462c0819:PsiDirectoryNode" />
               <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSunrise-Source" type="462c0819:PsiDirectoryNode" />
               <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSunrise-Source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="L2J_SunriseProject_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+              <item name="voicedcommandhandlers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,13 +330,13 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="l2jsunrise_source_2017-10" />
-    <property name="SearchEverywhereHistoryKey" value="log&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Core/dist/game/config/xml/log4j.dtd&#10;log4j&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Core/dist/game/config/xml/log4j.dtd&#10;l2r.loginserver.L2LoginServer&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="PremiumVCmd&#9;PSI&#9;JAVA://handlers.voicedcommandhandlers.PremiumVCmd&#10;servername.xml&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Data/dist/login/data/servername.xml&#10;log&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Core/dist/game/config/xml/log4j.dtd&#10;log4j&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Core/dist/game/config/xml/log4j.dtd&#10;l2r.loginserver.L2LoginServer&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/libs" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.30229884" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -184,21 +356,20 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="GameServer" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files (x86)\Java\jdk1.8.0_172\jre" />
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="l2r.gameserver.GameServer" />
-      <module name="L2jSUNRISE_SOURCE_2017-10" />
-      <option name="VM_PARAMETERS" value="-Xmx1024m" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game" />
+      <module name="L2J_SunriseProject_Data" />
+      <option name="VM_PARAMETERS" value="-Xmx1G" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game" />
     </configuration>
     <configuration name="LoginServer" type="Application" factoryName="Application" show_console_on_std_err="true" show_console_on_std_out="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <log_file alias="Log" path="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/config/xml" show_all="true" skipped="false" />
       <option name="MAIN_CLASS_NAME" value="l2r.loginserver.L2LoginServer" />
-      <module name="L2jSUNRISE_SOURCE_2017-10" />
+      <module name="L2J_SunriseProject_Core" />
       <option name="VM_PARAMETERS" value="-Xmx512m" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
@@ -220,6 +391,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="L2jSUNRISE_SOURCE_2017-10" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -279,33 +460,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87381000" />
+    <option name="totallyTimeSpent" value="95614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32412326" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49947917" weight="0.32412326" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32943678" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" side_tool="true" weight="0.33900106" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5015625" side_tool="true" weight="0.3995749" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24270834" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28050712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.14739583" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.17604166" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.3995749" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,12 +523,41 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -371,61 +583,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/taskmanager/tasks/TaskNevit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game/config/main/Rates.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/languages/gsregister/GSRegister.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/gr/sr/aioItem/dymanicHtmls/GenerateHtmls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1683">
-          <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/util/file/filter/SQLFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/status/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/communitybbs/BoardsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/data/sql/SummonSkillsTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/engines/items/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/tools/sql/game/updates/Update_spawns_(06_11_2016).sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -573,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/GameServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="456" column="5" selection-start-line="456" selection-start-column="5" selection-end-line="456" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/loginserver/L2LoginServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -648,6 +798,78 @@
         <state relative-caret-position="-2031" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/login/data/servername.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/L2J_SunriseProject_Data.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/backup/PremiumVCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/PingVCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_172/src.zip!/javax/script/ScriptEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3696">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/handler/EffectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/scripting/L2ScriptEngineManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="320" column="9" lean-forward="true" selection-start-line="320" selection-start-column="9" selection-end-line="320" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4640#4641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/java/l2r/gameserver/GameServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="529" selection-start-line="529" selection-end-line="529" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/PremiumVCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -700,11 +922,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>L2jSUNRISE_SOURCE_2017-10</last-edited>
+          <last-edited>L2J_SunriseProject_Data</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30229884" />
               </list>
             </option>
           </splitter-proportions>
@@ -723,6 +945,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mysql-connector-java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,48 @@
+[26.06.18 08:24:17] INFO: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[26.06.18 08:24:17] INFO: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[26.06.18 08:24:17] INFO: Network Config: Adding new subnet: 192.168.8.0/22 address: 192.168.10.46
+[26.06.18 08:24:17] INFO: Network Config: Adding new subnet: 0.0.0.0/0 address: 187.62.8.92
+[26.06.18 08:24:17] INFO: Loaded 6 Filter Words.
+[26.06.18 08:24:17] INFO: Sunrise Configs Loaded...
+[26.06.18 08:24:18] INFO: Updated characters online status.
+[26.06.18 08:24:18] INFO: Cleaned up invalid Weddings.
+[26.06.18 08:24:18] INFO: Cleaned 0 elements from database in 0 s
+[26.06.18 08:24:18] INFO: Cleaned 0 expired timestamps from database.
+[26.06.18 08:24:18] INFO: BitSetIDFactory: 102912 id's available.
+[26.06.18 08:24:18] INFO: -------------------------------------------------=[ Engines ]
+[26.06.18 08:24:18] INFO: Script Engine: Oracle Nashorn 1.8.0_172 - Language: ECMAScript - Language Version: ECMA - 262 Edition 5.1
+[26.06.18 08:24:18] INFO: Script Engine: jython 2.2.1 - Language: python - Language Version: 2.2.1
+[26.06.18 08:24:18] INFO: Script Engine: java 1.8 - Language: java - Language Version: 1.8
+[26.06.18 08:24:19] INFO: -------------------------------------------------=[ Geodata ]
+[26.06.18 08:24:19] INFO: ---------------------------------------------------=[ World ]
+[26.06.18 08:24:19] INFO: GameTimeController: Started.
+[26.06.18 08:24:19] INFO: InstanceManager: Multiverse Instance created.
+[26.06.18 08:24:19] INFO: InstanceManager: Universe Instance created.
+[26.06.18 08:24:19] INFO: InstanceManager: Loaded 160 instance names.
+[26.06.18 08:24:19] INFO: L2World: (128 by 136) World Region Grid set up.
+[26.06.18 08:24:19] INFO: MapRegionManager: Loaded 57 map regions.
+[26.06.18 08:24:19] INFO: GlobalVariablesManager: Loaded 5 variables.
+[26.06.18 08:24:19] INFO: ----------------------------------------------------=[ Data ]
+[26.06.18 08:24:19] INFO: CategoryData: Loaded 124 Categories.
+[26.06.18 08:24:19] INFO: SecondaryAuthData: Loaded 328 forbidden passwords.
+[26.06.18 08:24:19] INFO: -------------------------------------------------=[ Effects ]
+[26.06.18 08:24:20] INFO: EffectHandler: Loaded 148 Handlers
+[26.06.18 08:24:20] INFO: ------------------------------------=[ Enchant Skill Groups ]
+[26.06.18 08:24:20] INFO: EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+[26.06.18 08:24:20] INFO: ---------------------------------------------=[ Skill Trees ]
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 17176 Class Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 76 Sub-Class Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 77 Transfer Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 117 Fishing Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 3 Collect Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 74 Pledge Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 18 Sub-Pledge Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 32 Transform Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 8 Noble Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 5 Hero Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 46 Game Master Skills.
+[26.06.18 08:24:21] INFO: SkillTreesData: Loaded 46 Game Master Aura Skills.
+[26.06.18 08:24:21] INFO: --------------------------------------------------=[ Skills ]
+[26.06.18 08:24:23] INFO: DocumentEngine: Loaded 66008 Skill templates from XML files.
+[26.06.18 08:24:23] INFO: SummonSkillsTable: Loaded 1891 skills.
+[26.06.18 08:24:23] INFO: ---------------------------------------------------=[ Items ]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs/mmocore.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs/engine.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs/protection.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs/commons.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs/geoengine.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs/event-engine.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/dist/game/data/scripts" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dist/game/data/scripts" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="L2J_SunriseProject_Core" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../L2J_SunriseProject_Core/dist/libs" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

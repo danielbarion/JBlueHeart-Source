@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jython-engine">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/jython-engine-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs/jython.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
