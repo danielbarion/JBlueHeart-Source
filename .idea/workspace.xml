@@ -148,14 +148,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PremiumVCmd.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/PremiumVCmd.java">
+      <file leaf-file-name="Server.ini" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game/config/network/Server.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="202">
+              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -164,7 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>System.out.println(&quot;!---@@@@@@ ------ file: &quot; + file);</find>
       <find>containskey</find>
       <find>RATE_QUEST_REWARD_USE_MULTIPLIERS</find>
       <find>RATE_XP</find>
@@ -194,6 +190,7 @@
       <find>servername</find>
       <find>build.dist</find>
       <find>_nameEngines</find>
+      <find>jdbc:mysql://localhost/l2jsunrise</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Daniel\Desktop\L2jSUNRISE_SOURCE_2017-10\L2J_SunriseProject_Core</dir>
@@ -333,7 +330,7 @@
     <property name="SearchEverywhereHistoryKey" value="PremiumVCmd&#9;PSI&#9;JAVA://handlers.voicedcommandhandlers.PremiumVCmd&#10;servername.xml&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Data/dist/login/data/servername.xml&#10;log&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Core/dist/game/config/xml/log4j.dtd&#10;log4j&#9;FILE&#9;file://C:/Users/daniel.barion/Documents/DanielSan/JSunrise-Source/L2J_SunriseProject_Core/dist/game/config/xml/log4j.dtd&#10;l2r.loginserver.L2LoginServer&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/L2J_SunriseProject_Core/dist/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/libs" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30229884" />
@@ -460,11 +457,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95614000" />
+    <option name="totallyTimeSpent" value="97598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -476,7 +472,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5015625" side_tool="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.3995749" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -488,7 +484,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" visible="true" weight="0.3995749" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -751,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game/config/network/Server.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/login/config/network/LoginServer - production.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -867,6 +856,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Core/dist/game/config/network/Server.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
         </state>
       </provider>
     </entry>

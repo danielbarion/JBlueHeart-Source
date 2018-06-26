@@ -90,3 +90,38 @@
 [25.06.18 18:03:08] INFO: L2LoginServer: is now listening on: *:2106
 [25.06.18 18:03:08] INFO: Looking for UPnP Gateway Devices...
 [25.06.18 18:03:17] INFO: No UPnP gateways found
+[26.06.18 09:51:28] INFO: Loading LoginController...
+[26.06.18 09:51:31] INFO: Cached 10 KeyPairs for RSA communication
+[26.06.18 09:51:31] INFO: Stored 20 keys for Blowfish communication
+[26.06.18 09:51:32] INFO: GameServerTable: Loaded 127 server names
+[26.06.18 09:51:32] ERROR: GameServerTable: Error loading registered game servers!
+[26.06.18 09:51:32] INFO: GameServerTable: Loaded 0 registered Game Servers
+[26.06.18 09:51:32] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[26.06.18 09:51:32] INFO: Loaded 2 IP Bans.
+[26.06.18 09:51:32] INFO: Scheduled LS restart after 48 hours
+[26.06.18 09:51:32] INFO: Listening for GameServers on 127.0.0.1:9014
+[26.06.18 09:51:32] INFO: Telnet server is currently disabled.
+[26.06.18 09:51:32] INFO: L2LoginServer: is now listening on: *:2106
+[26.06.18 09:51:32] INFO: Looking for UPnP Gateway Devices...
+[26.06.18 09:51:41] INFO: No UPnP gateways found
+[26.06.18 09:53:27] INFO: Updated Gameserver [1] Bartz IP's:
+[26.06.18 09:53:27] INFO: 127.0.0.1/127.0.0.0/8
+[26.06.18 09:53:27] INFO: 192.168.10.46/192.168.8.0/22
+[26.06.18 09:53:27] INFO: 187.62.8.92/0.0.0.0/0
+[26.06.18 09:53:27] ERROR: GameServerTable: Error while saving gameserver!
+[26.06.18 10:05:07] WARN: Exception while retriving account info for 'admin'!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/l2jsunrise
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:78)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1181)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at l2r.util.dbutils.BasicDataSource.getConnection(BasicDataSource.java:78)
+	at l2r.L2DatabaseFactory.getConnection(L2DatabaseFactory.java:59)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:222)
+	at l2r.loginserver.LoginController.retriveAccountInfo(LoginController.java:173)
+	at l2r.loginserver.network.clientpackets.RequestAuthLogin.run(RequestAuthLogin.java:132)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
