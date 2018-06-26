@@ -125,3 +125,20 @@ java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/l2jsu
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
+[26.06.18 10:09:55] INFO: Loading LoginController...
+[26.06.18 10:09:57] INFO: Cached 10 KeyPairs for RSA communication
+[26.06.18 10:09:57] INFO: Stored 20 keys for Blowfish communication
+[26.06.18 10:09:57] INFO: GameServerTable: Loaded 127 server names
+[26.06.18 10:09:58] INFO: GameServerTable: Loaded 1 registered Game Servers
+[26.06.18 10:09:58] INFO: GameServerTable: Cached 10 RSA keys for Game Server communication.
+[26.06.18 10:09:58] INFO: Loaded 2 IP Bans.
+[26.06.18 10:09:58] INFO: Scheduled LS restart after 48 hours
+[26.06.18 10:09:58] INFO: Listening for GameServers on 127.0.0.1:9014
+[26.06.18 10:09:58] INFO: Telnet server is currently disabled.
+[26.06.18 10:09:58] INFO: L2LoginServer: is now listening on: *:2106
+[26.06.18 10:09:58] INFO: Looking for UPnP Gateway Devices...
+[26.06.18 10:10:01] INFO: Updated Gameserver [1] Bartz IP's:
+[26.06.18 10:10:01] INFO: 127.0.0.1/127.0.0.0/8
+[26.06.18 10:10:01] INFO: 192.168.10.46/192.168.8.0/22
+[26.06.18 10:10:01] INFO: 187.62.8.92/0.0.0.0/0
+[26.06.18 10:10:07] INFO: No UPnP gateways found
