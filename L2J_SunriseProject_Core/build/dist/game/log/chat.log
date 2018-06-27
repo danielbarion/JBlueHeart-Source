@@ -17,3 +17,14 @@
 [26 jun 14:13:44] ALL [Test] .ping
 [26 jun 14:14:03] ALL [Test] .pinged
 [26 jun 14:14:38] ALL [Test] .barion
+[27 jun 7:26:04] ALL [Test] .barion
+[27 jun 7:35:59] ALL [Test] .barion
+[27 jun 7:39:09] ALL [Test] .expoff
+[27 jun 7:41:34] ALL [Test] .expoff
+[27 jun 7:42:15] ALL [Test] .expoff
+[27 jun 7:48:51] ALL [Test] .expon
+[27 jun 7:49:29] ALL [Test] .expoff
+[27 jun 7:49:39] ALL [Test] .expon
+[27 jun 7:50:12] ALL [Test] .expon
+[27 jun 7:51:26] ALL [Test] .expon
+[27 jun 7:51:48] ALL [Test] .expon

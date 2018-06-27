@@ -169,3 +169,7 @@ java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/l2jsu
 [26.06.18 13:16:37] INFO: 187.62.8.92/0.0.0.0/0
 [26.06.18 15:14:59] INFO: GameServer [1] Bartz: Connection lost: Connection reset
 [26.06.18 15:14:59] INFO: Server [1] Bartz is now set as disconnected
+[27.06.18 07:25:34] INFO: Updated Gameserver [1] Bartz IP's:
+[27.06.18 07:25:34] INFO: 127.0.0.1/127.0.0.0/8
+[27.06.18 07:25:34] INFO: 192.168.10.46/192.168.8.0/22
+[27.06.18 07:25:34] INFO: 187.62.8.92/0.0.0.0/0
