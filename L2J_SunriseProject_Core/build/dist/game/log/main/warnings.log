@@ -27,3 +27,20 @@
 [26.06.18 10:09:44] WARN:LoginServer not available, trying to reconnect...
 [26.06.18 10:09:50] WARN:LoginServer not available, trying to reconnect...
 [26.06.18 10:09:56] WARN:LoginServer not available, trying to reconnect...
+[26.06.18 10:24:34] WARN:BuyListData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\buylists\custom doesn't exist!
+[26.06.18 10:24:47] WARN:TransformData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\stats\transformations\custom doesn't exist!
+[26.06.18 10:25:13] WARN:SpawnTable: Data missing in NPC table for ID: 557.
+[26.06.18 10:25:13] WARN:SpawnTable: Data missing in NPC table for ID: 540.
+[26.06.18 10:25:13] ERROR:ImagesCache: Path data/sunrise/images/id_by_name doesn't exist!
+[26.06.18 13:15:49] WARN:BuyListData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\buylists\custom doesn't exist!
+[26.06.18 13:16:05] WARN:TransformData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\stats\transformations\custom doesn't exist!
+[26.06.18 13:16:33] WARN:SpawnTable: Data missing in NPC table for ID: 557.
+[26.06.18 13:16:33] WARN:SpawnTable: Data missing in NPC table for ID: 540.
+[26.06.18 13:16:35] ERROR:ImagesCache: Path data/sunrise/images/id_by_name doesn't exist!
+[26.06.18 13:18:45] WARN:Master access level set for character Admin
+[26.06.18 15:15:35] WARN:BuyListData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\buylists\custom doesn't exist!
+[26.06.18 15:15:52] WARN:TransformData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\stats\transformations\custom doesn't exist!
+[26.06.18 15:16:17] WARN:BuyListData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\buylists\custom doesn't exist!
+[26.06.18 15:16:29] WARN:TransformData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\stats\transformations\custom doesn't exist!
+[26.06.18 15:16:44] WARN:BuyListData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\buylists\custom doesn't exist!
+[26.06.18 15:16:55] WARN:TransformData: Folder C:\Users\daniel.barion\Documents\DanielSan\JSunrise-Source\L2J_SunriseProject_Core\build\dist\game\data\xml\stats\transformations\custom doesn't exist!

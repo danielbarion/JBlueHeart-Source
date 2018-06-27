@@ -5,14 +5,13 @@ import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.Pinger;
 
 /**
- * @author vGodFather
+ * @author Barion
  */
-public class PingVCmd implements IVoicedCommandHandler
+public class ExpVCmd implements IVoicedCommandHandler
 {
 	private static final String[] VOICED_COMMANDS =
 	{
-		"ping",
-		"pinged",
+		"barion",
 	};
 	
 	@Override

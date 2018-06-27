@@ -305,6 +305,7 @@ import handlers.voicedcommandhandlers.ItemBufferVCmd;
 import handlers.voicedcommandhandlers.Lang;
 import handlers.voicedcommandhandlers.OnlineVCmd;
 import handlers.voicedcommandhandlers.PingVCmd;
+import handlers.voicedcommandhandlers.ExpVCmd;
 import handlers.voicedcommandhandlers.PremiumVCmd;
 import handlers.voicedcommandhandlers.PvpZoneVCmd;
 import handlers.voicedcommandhandlers.RepairVCmd;
@@ -583,6 +584,7 @@ public class MasterHandler
 			(ChaoticZoneConfigs.ENABLE_CHAOTIC_ZONE ? PvpZoneVCmd.class : null),
 			(CustomServerConfigs.ALLOW_REPAIR_COMMAND ? RepairVCmd.class : null),
 			(CustomServerConfigs.ALLOW_TELEPORTS_COMMAND ? TeleportsVCmd.class : null),
+			ExpVCmd.class,
 			PingVCmd.class,
 			(Config.L2JMOD_ALLOW_WEDDING ? Wedding.class : null),
 			(GetRewardVoteSystemConfigs.ENABLE_VOTE_SYSTEM ? RewardVote.class : null),
