@@ -3,7 +3,7 @@ package handlers.voicedcommandhandlers;
 import l2r.gameserver.handler.IVoicedCommandHandler;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 
-import gr.sr.configsEngine.configs.impl.CustomServerConfigs;
+import l2r.Config;
 
 /**
  * @author Barion
@@ -14,6 +14,7 @@ public class ExpVCmd implements IVoicedCommandHandler
 	{
 		"expon",
 		"expoff",
+		"exp",
 	};
 	
 	@Override
@@ -21,28 +22,48 @@ public class ExpVCmd implements IVoicedCommandHandler
 	{
 		switch (command)
 		{
+			case "exp":
+				if (Config.EXP_SYSTEM_ENABLED)
+				{
+					if (!activeChar.getVarB("noExp"))
+					{
+						activeChar.setVar("noExp", "true");
+						activeChar.sendMessage("Experience gain enabled.");
+					}
+					else
+					{
+						activeChar.setVar("noExp", "false");
+						activeChar.sendMessage("Experience gain disabled.");
+					}
+				}
+				else
+				{
+					activeChar.sendMessage("Experience command disabled by a gm.");
+				}
+				break;
+
 			case "expon":
-//				if (CustomServerConfigs.ALLOW_EXP_GAIN_COMMAND)
-//				{
+				if (Config.EXP_SYSTEM_ENABLED)
+				{
 					activeChar.setVar("noExp", "false");
 					activeChar.sendMessage("Experience gain enabled.");
-//				}
-//				else
-//				{
-//					activeChar.sendMessage("Experience command disabled by a gm.");
-//				}
+				}
+				else
+				{
+					activeChar.sendMessage("Experience command disabled by a gm.");
+				}
 				break;
 
 			case "expoff":
-//				if (CustomServerConfigs.ALLOW_EXP_GAIN_COMMAND)
-//				{
+				if (Config.EXP_SYSTEM_ENABLED)
+				{
 					activeChar.setVar("noExp", "true");
 					activeChar.sendMessage("Experience gain disabled.");
-//				}
-//				else
-//				{
-//					activeChar.sendMessage("Experience command disabled by a gm.");
-//				}
+				}
+				else
+				{
+					activeChar.sendMessage("Experience command disabled by a gm.");
+				}
 				break;
 		}
 

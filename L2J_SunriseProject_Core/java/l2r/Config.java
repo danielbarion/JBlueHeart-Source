@@ -722,6 +722,7 @@ public final class Config
 	public static boolean L2JMOD_WEDDING_FORMALWEAR;
 	public static int L2JMOD_WEDDING_DIVORCE_COSTS;
 	public static boolean L2JMOD_HELLBOUND_STATUS;
+	public static boolean EXP_SYSTEM_ENABLED;
 	public static boolean BANKING_SYSTEM_ENABLED;
 	public static int BANKING_SYSTEM_GOLDBARS;
 	public static int BANKING_SYSTEM_ADENA;
@@ -2262,7 +2263,10 @@ public final class Config
 			
 			L2JMOD_ENABLE_WAREHOUSESORTING_CLAN = L2JModSettings.getBoolean("EnableWarehouseSortingClan", false);
 			L2JMOD_ENABLE_WAREHOUSESORTING_PRIVATE = L2JModSettings.getBoolean("EnableWarehouseSortingPrivate", false);
-			
+
+			// TODO: Change the default value to true
+			EXP_SYSTEM_ENABLED = L2JModSettings.getBoolean("ExpSystemEnabled", true);
+
 			BANKING_SYSTEM_ENABLED = L2JModSettings.getBoolean("BankingEnabled", false);
 			BANKING_SYSTEM_GOLDBARS = L2JModSettings.getInt("BankingGoldbarCount", 1);
 			BANKING_SYSTEM_ADENA = L2JModSettings.getInt("BankingAdenaCount", 500000000);
