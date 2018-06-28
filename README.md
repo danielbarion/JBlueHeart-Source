@@ -11,6 +11,7 @@ Need check all commands available.
 #### Without Config
 ```
 .ping
+.exp
 .expon
 .expoff
 ...
