@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="822c77d0-9f96-4e9c-bead-f0a9ed971c08" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/hexid/hexid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/config/hexid/hexid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/accounting.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/accounting.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/chat.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/chat.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/item.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/item.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/java0.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/java0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/java1.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/java1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/game.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/java.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/java.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/warnings.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/game/log/main/warnings.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/log/main/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/log/main/game.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/log/main/java.log" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Core/build/dist/login/log/main/java.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/ExpVCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/ExpVCmd.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +24,7 @@
       <file leaf-file-name="ExpVCmd.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/ExpVCmd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="253">
               <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,8 +136,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-116" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -351,12 +346,12 @@
       <workItem from="1529932550999" duration="332000" />
       <workItem from="1529932923855" duration="5623000" />
       <workItem from="1529945268864" duration="4250000" />
-      <workItem from="1530029656897" duration="8496000" />
+      <workItem from="1530029656897" duration="11212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107767000" />
+    <option name="totallyTimeSpent" value="110483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -894,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L2J_SunriseProject_Data/dist/game/data/scripts/handlers/voicedcommandhandlers/ExpVCmd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="253">
           <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
