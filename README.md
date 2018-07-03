@@ -25,5 +25,11 @@ Need check all commands available.
 ...
 ```
 
+# Bugs
+```
+- Tempo dos buffs contando (mostrando) os segundos ao invés de contar os minutos no game
+- Ao encerrar o game server incorretamente, o char nasce sem buffs
+```
+
 # Developer
 `vert - [Daniel Barion]`
