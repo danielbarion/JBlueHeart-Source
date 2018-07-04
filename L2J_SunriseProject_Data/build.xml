@@ -25,7 +25,7 @@
 		<mkdir dir="${build}" />
 	</target>
 
-	<target name="zip" depends="init">
+	<target name="zip" depends="init" description="Compress the data pack to .zip extension.">
 		<zip destfile="${build}/L2SR_DataPack.zip" basedir="dist" level="9" />
 	</target>
 </project>
