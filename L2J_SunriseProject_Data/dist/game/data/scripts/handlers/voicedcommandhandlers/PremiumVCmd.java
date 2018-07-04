@@ -40,11 +40,14 @@ public class PremiumVCmd implements IVoicedCommandHandler
 		if (command.startsWith("premium"))
 		{
 			SimpleDateFormat format = new SimpleDateFormat("MM-dd-yyyy hh:mm a");
+
+			// TODO: check why this variable is not in use
 			// get default buff scheme amount
-			int normalBuffScheme = BufferConfigs.MAX_SCHEME_PROFILES;
+			// int normalBuffScheme = BufferConfigs.MAX_SCHEME_PROFILES;
 			
 			// get pr buff scheme amount
-			int prBuffScheme = PremiumServiceConfigs.PREMIUM_MAX_SCHEME;
+			// TODO: check why this variable is not in use
+			// int prBuffScheme = PremiumServiceConfigs.PREMIUM_MAX_SCHEME;
 			
 			// get pr drop map
 			Map<Integer, Float> prSpecialDropMap = PremiumServiceConfigs.PR_RATE_DROP_ITEMS_ID;
