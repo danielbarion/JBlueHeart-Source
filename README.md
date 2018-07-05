@@ -33,7 +33,7 @@ Need check all commands available.
 .bank
 .withdraw
 .deposit
---------------------------------------| non checked
+----------------| non checked
 .aioitem
 .antibot
 .captcha
@@ -46,7 +46,33 @@ Need check all commands available.
 .changepassword
 .banchat
 .unbanchat
-...
+.debug
+.evenly
+.hellbound
+.buffer
+.lang
+.online
+.premium
+.return
+.enter
+.zone
+.repair
+.startrepair
+.set name
+.set home
+.set group
+.giran
+.dion
+.aden
+.goddard
+.gludio
+.rune
+.heine
+.schuttgart
+.oren
+.divorce
+.engage
+.gotolove
 ```
 #### Active Commands by Default (build)
 ```
@@ -56,6 +82,12 @@ Need check all commands available.
 .repair
 .ping
 ```
+
+# User Commands
+Need check all commands available.
+
+#### Heart
+💙
 
 # Bugs
 ```
