@@ -31,5 +31,8 @@ Need check all commands available.
 - Ao encerrar o game server incorretamente, o char nasce sem buffs
 ```
 
+# Dev Info
+Ao adicionar um novo item no item-mall, é necessário adicionar ele no `ProductName-e.dat` da system do jogo.
+
 # Developer
 `vert - [Daniel Barion]`
