@@ -11,18 +11,50 @@ Need check all commands available.
 #### Without Config
 ```
 .ping
-.exp
-.expon
-.expoff
 ...
 ```
-#### With Config
+#### With Config &  non-checked commands
 ```
 .ccp
 .bank
 .withdraw
 .deposit
+.exp
+.expon
+.expoff
+.ccp
+.nobuff
+.changeexp
+.enchantanime
+.hidestores
+.blockshotsanime
+.shotsonenter
+.tradeprot
+.bank
+.withdraw
+.deposit
+--------------------------------------| non checked
+.aioitem
+.antibot
+.captcha
+.farmcaptcha
+.enchantcaptcha
+.enchantbot
+.opendoors
+.closedoors
+.ridewyvern
+.changepassword
+.banchat
+.unbanchat
 ...
+```
+#### Active Commands by Default (build)
+```
+.exp
+.expon
+.expoff
+.repair
+.ping
 ```
 
 # Bugs
@@ -32,7 +64,7 @@ Need check all commands available.
 ```
 
 # Dev Info
-Ao adicionar um novo item no item-mall, é necessário adicionar ele no `ProductName-e.dat` da system do jogo.
+* Ao adicionar um novo item no item-mall, é necessário adicionar ele no `ProductName-e.dat` da system do jogo.
 
 # Developer
 `vert - [Daniel Barion]`
