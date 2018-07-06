@@ -84,8 +84,8 @@ Need check all commands available.
 .startrepair 'charName'
 ```
 
-#### Heart
-💙
+#### BlueHeart 💙
+Made with love.
 
 # Bugs
 ```
