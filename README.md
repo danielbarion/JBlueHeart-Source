@@ -33,6 +33,17 @@ Need check all commands available.
 .bank
 .withdraw
 .deposit
+.giran
+.dion
+.aden
+.goddard
+.gludio
+.rune
+.heine
+.schuttgart
+.oren
+.repair
+.startrepair
 ----------------| non checked
 .aioitem
 .antibot
@@ -56,20 +67,9 @@ Need check all commands available.
 .return
 .enter
 .zone
-.repair
-.startrepair
 .set name
 .set home
 .set group
-.giran
-.dion
-.aden
-.goddard
-.gludio
-.rune
-.heine
-.schuttgart
-.oren
 .divorce
 .engage
 .gotolove
@@ -79,12 +79,10 @@ Need check all commands available.
 .exp
 .expon
 .expoff
-.repair
 .ping
+.repair
+.startrepair 'charName'
 ```
-
-# User Commands
-Need check all commands available.
 
 #### Heart
 💙

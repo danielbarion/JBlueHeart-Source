@@ -380,18 +380,6 @@
     </product>
 
     <!-- Rune of Skill Points -->
-    <product id="1080040" name="Rune of SP - 24 hours" category="1" price="12" is_best="true">
-        <component item_id="22058" count="1" />
-    </product>
-    <product id="1080041" name="Rune of SP - 168 hours" category="1" price="90">
-        <component item_id="22059" count="1" />
-    </product>
-    <product id="1080042" name="Rune of SP - 336 hours" category="1" price="160">
-        <component item_id="22060" count="1" />
-    </product>
-    <product id="1080043" name="Rune of SP - 720 hours" category="1" price="400">
-        <component item_id="22061" count="1" />
-    </product>
     <product id="1080118" name="Rune of SP 30% - 5 hours" category="1" price="2">
         <component item_id="20341" count="1" />
     </product>
@@ -401,7 +389,7 @@
     <product id="1080120" name="Rune of SP 30% - 10 hours" category="1" price="3">
         <component item_id="20343" count="1" />
     </product>
-    <product id="1080121" name="Rune of SP 50% - 10 hours" category="1" price="5">
+    <product id="1080121" name="Rune of SP 50% - 10 hours" category="1" price="5" is_best="true">
         <component item_id="20344" count="1" />
     </product>
     <product id="1080122" name="Rune of SP 30% - 7 days" category="1" price="60">
@@ -412,18 +400,6 @@
     </product>
 
     <!-- Rune of Experience Points -->
-    <product id="1080036" name="Rune of Experience Points" category="1" price="12" is_best="true">
-        <component item_id="22054" count="1" />
-    </product>
-    <product id="1080037" name="Rune of Experience Points" category="1" price="90">
-        <component item_id="22055" count="1" />
-    </product>
-    <product id="1080038" name="Rune of Experience Points" category="1" price="160">
-        <component item_id="22056" count="1" />
-    </product>
-    <product id="1080039" name="Rune of Experience Points" category="1" price="400">
-        <component item_id="22057" count="1" />
-    </product>
     <product id="1080112" name="Rune of Exp. Points 30% - 5 hours" category="1" price="2">
         <component item_id="20335" count="1" />
     </product>
@@ -433,7 +409,7 @@
     <product id="1080114" name="Rune of Exp. Points 30% - 10 hours" category="1" price="3">
         <component item_id="20337" count="1" />
     </product>
-    <product id="1080115" name="Rune of Exp. Points 50% - 10 hours" category="1" price="5">
+    <product id="1080115" name="Rune of Exp. Points 50% - 10 hours" category="1" price="5" is_best="true">
         <component item_id="20338" count="1" />
     </product>
     <product id="1080116" name="Rune of Exp. Points 30% - 7 days" category="1" price="60">
