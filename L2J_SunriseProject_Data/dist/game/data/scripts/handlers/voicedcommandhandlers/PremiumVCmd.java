@@ -23,7 +23,8 @@ import l2r.gameserver.handler.IVoicedCommandHandler;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.serverpackets.NpcHtmlMessage;
 
-import gr.sr.configsEngine.configs.impl.BufferConfigs;
+// TODO: this import is commented because the next TODO's
+// import gr.sr.configsEngine.configs.impl.BufferConfigs;
 import gr.sr.configsEngine.configs.impl.PremiumServiceConfigs;
 import gr.sr.premiumEngine.PremiumHandler;
 

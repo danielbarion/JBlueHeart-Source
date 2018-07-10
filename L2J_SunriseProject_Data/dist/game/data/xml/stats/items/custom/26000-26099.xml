@@ -195,4 +195,58 @@
 		<set name="capsuled_items" val="21633,10,10,100;" />
 	</item>
 
+    <item id="26013" type="Weapon" name="Scarecrow Jack Transformation Stick {Buff} - 7-day limited period">
+        <set name="icon" val="icon.weapon_scarescow_stick_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="weapon_type" val="SWORD" />
+        <set name="bodypart" val="rhand" />
+        <set name="random_damage" val="10" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="STEEL" />
+        <set name="is_tradable" val="false" />
+        <set name="is_dropable" val="false" />
+        <set name="is_sellable" val="false" />
+        <set name="is_premium" val="true" />
+        <set name="unequip_skill" val="619-1" />
+        <set name="item_skill" val="36000-1" />
+        <set name="time" val="10080" />
+        <for>
+            <set stat="pAtk" val="1" />
+            <set stat="mAtk" val="1" />
+            <set stat="pAtkSpd" val="264" />
+            <set stat="mDef" val="1" />
+            <set stat="pDef" val="1" />
+            <set stat="maxMp" val="10000" />
+        </for>
+    </item>
+
+
+    <item id="26014" type="Weapon" name="Scarecrow Jack Transformation Stick {Buff} - 30-day limited period">
+        <set name="icon" val="icon.weapon_scarescow_stick_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="weapon_type" val="SWORD" />
+        <set name="bodypart" val="rhand" />
+        <set name="random_damage" val="10" />
+        <set name="attack_range" val="40" />
+        <set name="damage_range" val="0;0;40;120" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="STEEL" />
+        <set name="is_tradable" val="false" />
+        <set name="is_dropable" val="false" />
+        <set name="is_sellable" val="false" />
+        <set name="is_premium" val="true" />
+        <set name="unequip_skill" val="619-1" />
+        <set name="item_skill" val="8264-1" />
+        <set name="time" val="43200" />
+        <for>
+            <set stat="pAtk" val="1" />
+            <set stat="mAtk" val="1" />
+            <set stat="pAtkSpd" val="1500" />
+            <set stat="mDef" val="1" />
+            <set stat="pDef" val="1" />
+            <set stat="maxMp" val="10000" />
+        </for>
+    </item>
 </list>
