@@ -13,6 +13,48 @@
                 <skill id="5437" level="2" /> <!-- Dissonance -->
                 <skill id="940" level="1" /> <!-- Fake Attack -->
                 <skill id="942" level="1" /> <!-- Special Motion -->
+
+                <!-- Buffs Prophet -->
+                <skill id="1035" level="4" /> <!-- Mental Shield -->
+                <skill id="1542" level="1" /> <!-- Counter Critical -->
+                <skill id="1036" level="2" /> <!-- Magic Barrier -->
+                <skill id="1040" level="3" /> <!-- Shield -->
+                <skill id="1043" level="1" /> <!-- Holy Weapon -->
+                <skill id="1044" level="3" /> <!-- Regeneration -->
+                <skill id="1045" level="6" /> <!-- Bless the Body -->
+                <skill id="1048" level="6" /> <!-- Bless the Soul -->
+                <skill id="1062" level="2" /> <!-- Berserker Spirit-->
+                <skill id="1068" level="3" /> <!-- Might -->
+                <skill id="1073" level="2" /> <!-- Kiss of Eva -->
+                <skill id="1077" level="3" /> <!-- Focus -->
+                <skill id="1078" level="6" /> <!-- Concentration -->
+                <skill id="1085" level="3" /> <!-- Acumen -->
+                <skill id="1086" level="2" /> <!-- Haste -->
+                <skill id="1388" level="3" /> <!-- Greater Might -->
+                <skill id="1389" level="3" /> <!-- Greater Shield -->
+                <skill id="1204" level="2" /> <!-- Wind Walk -->
+                <skill id="1240" level="3" /> <!-- Guidance -->
+                <skill id="1242" level="3" /> <!-- Death Whisper -->
+                <skill id="1243" level="3" /> <!-- Bless Shield -->
+                <skill id="1499" level="1" /> <!-- Improved Combat -->
+                <skill id="1501" level="1" /> <!-- Improved Condition -->
+
+                <!-- Buffs Prophet  - Resistances -->
+                <skill id="1033" level="3" /> <!-- Resist Poison -->
+                <skill id="1548" level="3" /> <!-- Resist Earth -->
+                <skill id="1182" level="3" /> <!-- Resist Aqua -->
+                <skill id="1189" level="3" /> <!-- Resist Wind -->
+                <skill id="1191" level="3" /> <!-- Resist Fire -->
+                <skill id="1352" level="1" /> <!-- Elemental Protection -->
+                <skill id="1392" level="3" /> <!-- Holy Resistance -->
+                <skill id="1393" level="3" /> <!-- Unholy Resistance -->
+
+                <!-- Passive Skills -->
+                <skill id="229" level="7" /> <!-- Fast Mana Recovery -->
+                <skill id="228" level="3" /> <!-- Fast Spell Casting -->
+
+                <!-- Prophecies -->
+                <skill id="1356" level="1" /> <!-- Prophecy of Fire -->
             </skills>
         </Male>
         <Female>
@@ -27,6 +69,48 @@
                 <skill id="5437" level="2" /> <!-- Dissonance -->
                 <skill id="940" level="1" /> <!-- Fake Attack -->
                 <skill id="942" level="1" /> <!-- Special Motion -->
+
+                <!-- Buffs Prophet -->
+                <skill id="1035" level="4" /> <!-- Mental Shield -->
+                <skill id="1542" level="1" /> <!-- Counter Critical -->
+                <skill id="1036" level="2" /> <!-- Magic Barrier -->
+                <skill id="1040" level="3" /> <!-- Shield -->
+                <skill id="1043" level="1" /> <!-- Holy Weapon -->
+                <skill id="1044" level="3" /> <!-- Regeneration -->
+                <skill id="1045" level="6" /> <!-- Bless the Body -->
+                <skill id="1048" level="6" /> <!-- Bless the Soul -->
+                <skill id="1062" level="2" /> <!-- Berserker Spirit-->
+                <skill id="1068" level="3" /> <!-- Might -->
+                <skill id="1073" level="2" /> <!-- Kiss of Eva -->
+                <skill id="1077" level="3" /> <!-- Focus -->
+                <skill id="1078" level="6" /> <!-- Concentration -->
+                <skill id="1085" level="3" /> <!-- Acumen -->
+                <skill id="1086" level="2" /> <!-- Haste -->
+                <skill id="1388" level="3" /> <!-- Greater Might -->
+                <skill id="1389" level="3" /> <!-- Greater Shield -->
+                <skill id="1204" level="2" /> <!-- Wind Walk -->
+                <skill id="1240" level="3" /> <!-- Guidance -->
+                <skill id="1242" level="3" /> <!-- Death Whisper -->
+                <skill id="1243" level="3" /> <!-- Bless Shield -->
+                <skill id="1499" level="1" /> <!-- Improved Combat -->
+                <skill id="1501" level="1" /> <!-- Improved Condition -->
+
+                <!-- Buffs Prophet  - Resistances -->
+                <skill id="1033" level="3" /> <!-- Resist Poison -->
+                <skill id="1548" level="3" /> <!-- Resist Earth -->
+                <skill id="1182" level="3" /> <!-- Resist Aqua -->
+                <skill id="1189" level="3" /> <!-- Resist Wind -->
+                <skill id="1191" level="3" /> <!-- Resist Fire -->
+                <skill id="1352" level="1" /> <!-- Elemental Protection -->
+                <skill id="1392" level="3" /> <!-- Holy Resistance -->
+                <skill id="1393" level="3" /> <!-- Unholy Resistance -->
+
+                <!-- Passive Skills -->
+                <skill id="229" level="7" /> <!-- Fast Mana Recovery -->
+                <skill id="228" level="3" /> <!-- Fast Spell Casting -->
+
+                <!-- Prophecies -->
+                <skill id="1356" level="1" /> <!-- Prophecy of Fire -->
             </skills>
         </Female>
     </transform>
