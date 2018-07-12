@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AntConfiguration">
-    <buildFile url="file://$PROJECT_DIR$/L2J_SunriseProject_Core/build.xml" />
-    <buildFile url="file://$PROJECT_DIR$/L2J_SunriseProject_Data/build.xml" />
+    <buildFile url="file://$PROJECT_DIR$/L2J_SunriseProject_Core/build.xml">
+      <maximumHeapSize value="1024" />
+      <maximumStackSize value="6" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/L2J_SunriseProject_Data/build.xml">
+      <maximumHeapSize value="1024" />
+      <maximumStackSize value="6" />
+    </buildFile>
   </component>
 </project>
