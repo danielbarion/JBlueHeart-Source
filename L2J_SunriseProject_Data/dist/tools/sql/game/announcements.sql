@@ -10,9 +10,12 @@ CREATE TABLE IF NOT EXISTS `announcements` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO announcements (`type`, `author`, `content`) VALUES 
-(1, 'L2JSunrise', '------------------------------------'),
-(1, 'L2JSunrise', 'Welcome to L2JSunrise.'),
-(1, 'L2JSunrise', 'Report us bugs and problems to fix.'),
-(1, 'L2JSunrise', 'them (at forum).'),
-(1, 'L2JSunrise', 'Thanks for using L2JSunrise.'),
-(1, 'L2JSunrise', '------------------------------------');
+(1, 'Admin', '------------------------------------'),
+(1, 'Admin', 'Welcome to Lineage 2.'),
+(1, 'Admin', 'Report us bugs and problems to fix.'),
+(1, 'Admin', 'Premium services NPC only in Dion.'),
+(1, 'Admin', 'De Level NPC only in Dion.'),
+(1, 'Admin', 'Buy premium items in Prime Shop.'),
+(1, 'Admin', 'Buy jobs quest items in NPC only in Gludio.'),
+(1, 'Admin', 'Have a great game adventurer!.'),
+(1, 'Admin', '------------------------------------');

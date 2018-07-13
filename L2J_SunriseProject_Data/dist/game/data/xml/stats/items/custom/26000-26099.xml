@@ -218,7 +218,6 @@
             <set stat="pAtkSpd" val="264" />
             <set stat="mDef" val="1" />
             <set stat="pDef" val="1" />
-            <set stat="maxMp" val="10000" />
         </for>
     </item>
 
@@ -238,15 +237,14 @@
         <set name="is_sellable" val="false" />
         <set name="is_premium" val="true" />
         <set name="unequip_skill" val="619-1" />
-        <set name="item_skill" val="8264-1" />
+        <set name="item_skill" val="36000-1" />
         <set name="time" val="43200" />
         <for>
             <set stat="pAtk" val="1" />
             <set stat="mAtk" val="1" />
-            <set stat="pAtkSpd" val="1500" />
             <set stat="mDef" val="1" />
             <set stat="pDef" val="1" />
-            <set stat="maxMp" val="10000" />
+            <set stat="maxMp" val="30000" />
         </for>
     </item>
 </list>
