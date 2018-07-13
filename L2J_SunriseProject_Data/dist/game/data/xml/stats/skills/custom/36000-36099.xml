@@ -17,12 +17,13 @@
         </cond>
         <for>
             <effect name="Transformation" abnormalTime="21600" val="0" abnormalLvl="1" abnormalType="transform">
+                <mul stat="pAtkSpd" val="50" />
+                <mul stat="mAtkSpd" val="50" />
+                <mul stat="magicalMpConsumeRate" val="0.01" />
                 <set stat="pAtk" val="1" />
                 <set stat="mAtk" val="1" />
                 <set stat="mDef" val="1" />
                 <set stat="pDef" val="1" />
-                <mul stat="pAtkSpd" val="30" />
-                <mul stat="mAtkSpd" val="30" />
             </effect>
         </for>
     </skill>

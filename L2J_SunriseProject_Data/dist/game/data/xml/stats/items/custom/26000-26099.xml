@@ -213,11 +213,11 @@
         <set name="item_skill" val="36000-1" />
         <set name="time" val="10080" />
         <for>
-            <set stat="pAtk" val="1" />
-            <set stat="mAtk" val="1" />
-            <set stat="pAtkSpd" val="264" />
-            <set stat="mDef" val="1" />
-            <set stat="pDef" val="1" />
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="1" />
+			<set stat="mDef" val="1" />
+			<set stat="pDef" val="1" />
+			<set stat="maxMp" val="30000" />
         </for>
     </item>
 
