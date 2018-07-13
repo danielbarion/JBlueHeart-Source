@@ -89,8 +89,12 @@ Made with love.
 
 # Bugs
 ```
-- Tempo dos buffs contando (mostrando) os segundos ao invés de contar os minutos no game
-- Ao encerrar o game server incorretamente, o char nasce sem buffs
+
+```
+
+# Todo
+```
+buffs - anões no aio, warcryer, dominator, dark elf
 ```
 
 # Dev Info
