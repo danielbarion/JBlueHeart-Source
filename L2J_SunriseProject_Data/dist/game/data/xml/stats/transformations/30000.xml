@@ -11,8 +11,6 @@
             <skills>
                 <skill id="619" level="1" /> <!-- Transform Dispel -->
                 <skill id="5437" level="2" /> <!-- Dissonance -->
-                <skill id="940" level="1" /> <!-- Fake Attack -->
-                <skill id="942" level="1" /> <!-- Special Motion -->
 
                 <!-- Buffs Prophet -->
                 <skill id="1035" level="4" /> <!-- Mental Shield -->
@@ -53,13 +51,20 @@
                 <skill id="1303" level="2" /> <!-- Wild Magic -->
                 <skill id="1304" level="3" /> <!-- Advanced Block -->
                 <skill id="1087" level="3" /> <!-- Agility -->
-                <skill id="1353" level="1" /> <!-- Arcane Protection -->
+                <skill id="1353" level="1" /> <!-- Divine Protection -->
+                <skill id="1354" level="1" /> <!-- Arcane Protection -->
                 <skill id="1397" level="3" /> <!-- Clarity -->
                 <skill id="1460" level="1" /> <!-- Mana Gain -->
                 <skill id="1503" level="1" /> <!-- Improved Shield Defense -->
                 <skill id="1504" level="1" /> <!-- Improved Moviment -->
                 <skill id="1257" level="3" /> <!-- Decrease Weight -->
                 <skill id="1259" level="4" /> <!-- Resist Shock -->
+
+                <!-- Summon Buffs -->
+                <skill id="4699" level="13" /> <!-- Blessing of Queen -->
+                <skill id="4700" level="13" /> <!-- Gift of Queen -->
+                <skill id="4702" level="13" /> <!-- Blessing of Seraphim -->
+                <skill id="4703" level="13" /> <!-- Gift of Queen -->
 
                 <!-- Passive Skills -->
                 <skill id="229" level="7" /> <!-- Fast Mana Recovery -->
@@ -81,8 +86,6 @@
             <skills>
                 <skill id="619" level="1" /> <!-- Transform Dispel -->
                 <skill id="5437" level="2" /> <!-- Dissonance -->
-                <skill id="940" level="1" /> <!-- Fake Attack -->
-                <skill id="942" level="1" /> <!-- Special Motion -->
 
                 <!-- Buffs Prophet -->
                 <skill id="1035" level="4" /> <!-- Mental Shield -->
@@ -123,13 +126,20 @@
                 <skill id="1303" level="2" /> <!-- Wild Magic -->
                 <skill id="1304" level="3" /> <!-- Advanced Block -->
                 <skill id="1087" level="3" /> <!-- Agility -->
-                <skill id="1353" level="1" /> <!-- Arcane Protection -->
+                <skill id="1353" level="1" /> <!-- Divine Protection -->
+                <skill id="1354" level="1" /> <!-- Arcane Protection -->
                 <skill id="1397" level="3" /> <!-- Clarity -->
                 <skill id="1460" level="1" /> <!-- Mana Gain -->
                 <skill id="1503" level="1" /> <!-- Improved Shield Defense -->
                 <skill id="1504" level="1" /> <!-- Improved Moviment -->
                 <skill id="1257" level="3" /> <!-- Decrease Weight -->
                 <skill id="1259" level="4" /> <!-- Resist Shock -->
+
+                <!-- Summon Buffs -->
+                <skill id="4699" level="13" /> <!-- Blessing of Queen -->
+                <skill id="4700" level="13" /> <!-- Gift of Queen -->
+                <skill id="4702" level="13" /> <!-- Blessing of Seraphim -->
+                <skill id="4703" level="13" /> <!-- Gift of Queen -->
 
                 <!-- Passive Skills -->
                 <skill id="229" level="7" /> <!-- Fast Mana Recovery -->
