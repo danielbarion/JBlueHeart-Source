@@ -94,11 +94,19 @@ Made with love.
 
 # Todo
 ```
-buffs - anões no aio, warcryer, dominator, dark elf
+- Organizar as skills do aio ao serem carregadas
 ```
 
 # Dev Info
 * Ao adicionar um novo item no item-mall, é necessário adicionar ele no `ProductName-e.dat` da system do jogo.
+
+# Game Info
+```
+// Nevit Points For Level
+// getActiveChar().getNevitSystem().addPoints(1950); // Default barion
+// getActiveChar().getNevitSystem().addPoints(720); // Active after 10 levels
+getActiveChar().getNevitSystem().addPoints(360); // Active after 20 levels
+```
 
 # Developer
 `vert - [Daniel Barion]`
