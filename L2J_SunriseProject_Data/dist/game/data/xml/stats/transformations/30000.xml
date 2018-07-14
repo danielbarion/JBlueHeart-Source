@@ -103,6 +103,46 @@
                 <skill id="1006" level="2" /> <!-- The Rage of Pa'agrio -->
                 <skill id="1008" level="3" /> <!-- The Glory of Pa'agrio -->
 
+                <!-- Maestro Buffs -->
+                <skill id="825" level="1" /> <!-- Sharp Edge -->
+                <skill id="826" level="1" /> <!-- Spike -->
+                <skill id="827" level="1" /> <!-- Restring -->
+                <skill id="828" level="1" /> <!-- Case Harden -->
+                <skill id="829" level="1" /> <!-- Hard Tanning -->
+                <skill id="830" level="1" /> <!-- Embroider -->
+
+                <!-- Song Buffs -->
+                <skill id="264" level="1" /> <!-- Song of Earth -->
+                <skill id="265" level="1" /> <!-- Song of Life -->
+                <skill id="266" level="1" /> <!-- Song of Water -->
+                <skill id="267" level="1" /> <!-- Song of Warding -->
+                <skill id="268" level="1" /> <!-- Song of Wind -->
+                <skill id="269" level="1" /> <!-- Song of Hunter -->
+                <skill id="270" level="1" /> <!-- Song of Invocation -->
+                <skill id="529" level="1" /> <!-- Song of Elemental -->
+                <skill id="304" level="1" /> <!-- Song of Vitality -->
+                <skill id="305" level="1" /> <!-- Song of Vengeance -->
+                <skill id="306" level="1" /> <!-- Song of Flame Guard -->
+                <skill id="307" level="1" /> <!-- Song of Storm Guard -->
+                <skill id="349" level="1" /> <!-- Song of Renewal -->
+                <skill id="363" level="1" /> <!-- Song of Meditation -->
+                <skill id="364" level="1" /> <!-- Song of Champion -->
+
+                <!-- Dance Buffs -->
+                <skill id="271" level="1" /> <!-- Dance of the Warrior -->
+                <skill id="272" level="1" /> <!-- Dance of Inspiration -->
+                <skill id="273" level="1" /> <!-- Dance of the Mystic-->
+                <skill id="274" level="1" /> <!-- Dance of Fire -->
+                <skill id="275" level="1" /> <!-- Dance of Fury-->
+                <skill id="276" level="1" /> <!-- Dance of Concentration -->
+                <skill id="277" level="1" /> <!-- Dance of Light -->
+                <skill id="530" level="1" /> <!-- Dance of Alignment -->
+                <skill id="307" level="1" /> <!-- Dance of Aqua Guard -->
+                <skill id="309" level="1" /> <!-- Dance of Earth Guard -->
+                <skill id="310" level="1" /> <!-- Dance of the Vampire -->
+                <skill id="311" level="1" /> <!-- Dance of Protection -->
+                <skill id="915" level="1" /> <!-- Dance of Berserker -->
+
                 <!-- Summon Buffs -->
                 <skill id="4699" level="13" /> <!-- Blessing of Queen -->
                 <skill id="4700" level="13" /> <!-- Gift of Queen -->
@@ -223,6 +263,46 @@
                 <skill id="1005" level="3" /> <!-- Blessings of Pa'agrio -->
                 <skill id="1006" level="2" /> <!-- The Rage of Pa'agrio -->
                 <skill id="1008" level="3" /> <!-- The Glory of Pa'agrio -->
+
+                <!-- Maestro Buffs -->
+                <skill id="825" level="1" /> <!-- Sharp Edge -->
+                <skill id="826" level="1" /> <!-- Spike -->
+                <skill id="827" level="1" /> <!-- Restring -->
+                <skill id="828" level="1" /> <!-- Case Harden -->
+                <skill id="829" level="1" /> <!-- Hard Tanning -->
+                <skill id="830" level="1" /> <!-- Embroider -->
+
+                <!-- Song Buffs -->
+                <skill id="264" level="1" /> <!-- Song of Earth -->
+                <skill id="265" level="1" /> <!-- Song of Life -->
+                <skill id="266" level="1" /> <!-- Song of Water -->
+                <skill id="267" level="1" /> <!-- Song of Warding -->
+                <skill id="268" level="1" /> <!-- Song of Wind -->
+                <skill id="269" level="1" /> <!-- Song of Hunter -->
+                <skill id="270" level="1" /> <!-- Song of Invocation -->
+                <skill id="529" level="1" /> <!-- Song of Elemental -->
+                <skill id="304" level="1" /> <!-- Song of Vitality -->
+                <skill id="305" level="1" /> <!-- Song of Vengeance -->
+                <skill id="306" level="1" /> <!-- Song of Flame Guard -->
+                <skill id="307" level="1" /> <!-- Song of Storm Guard -->
+                <skill id="349" level="1" /> <!-- Song of Renewal -->
+                <skill id="363" level="1" /> <!-- Song of Meditation -->
+                <skill id="364" level="1" /> <!-- Song of Champion -->
+
+                <!-- Dance Buffs -->
+                <skill id="271" level="1" /> <!-- Dance of the Warrior -->
+                <skill id="272" level="1" /> <!-- Dance of Inspiration -->
+                <skill id="273" level="1" /> <!-- Dance of the Mystic-->
+                <skill id="274" level="1" /> <!-- Dance of Fire -->
+                <skill id="275" level="1" /> <!-- Dance of Fury-->
+                <skill id="276" level="1" /> <!-- Dance of Concentration -->
+                <skill id="277" level="1" /> <!-- Dance of Light -->
+                <skill id="530" level="1" /> <!-- Dance of Alignment -->
+                <skill id="307" level="1" /> <!-- Dance of Aqua Guard -->
+                <skill id="309" level="1" /> <!-- Dance of Earth Guard -->
+                <skill id="310" level="1" /> <!-- Dance of the Vampire -->
+                <skill id="311" level="1" /> <!-- Dance of Protection -->
+                <skill id="915" level="1" /> <!-- Dance of Berserker -->
 
                 <!-- Summon Buffs -->
                 <skill id="4699" level="13" /> <!-- Blessing of Queen -->
