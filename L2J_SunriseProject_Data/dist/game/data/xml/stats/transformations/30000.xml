@@ -60,6 +60,49 @@
                 <skill id="1257" level="3" /> <!-- Decrease Weight -->
                 <skill id="1259" level="4" /> <!-- Resist Shock -->
 
+                <!-- Buffs Shillen -->
+                <skill id="1500" level="1" /> <!-- Improved Magic -->
+                <skill id="1502" level="1" /> <!-- Improved Critical Attack -->
+                <skill id="1059" level="3" /> <!-- Empower -->
+
+                <!-- Buffs Doom Cryer -->
+                <skill id="1284" level="3" /> <!-- Chant of Revenge -->
+                <skill id="1549" level="1" /> <!-- Chant of Elements -->
+                <skill id="1562" level="2" /> <!-- Chant of Berserker -->
+                <skill id="1308" level="3" /> <!-- Chant of Predator -->
+                <skill id="1309" level="3" /> <!-- Chant of Eagle -->
+                <skill id="1310" level="4" /> <!-- Chant of Vampire -->
+                <skill id="1362" level="1" /> <!-- Chant of Spirit -->
+                <skill id="1390" level="3" /> <!-- War Chant -->
+                <skill id="1391" level="3" /> <!-- Earth Chant -->
+                <skill id="1461" level="1" /> <!-- Chant of Protection -->
+                <skill id="1251" level="2" /> <!-- Chant of Fury -->
+                <skill id="1252" level="3" /> <!-- Chant of Evasion -->
+                <skill id="1253" level="3" /> <!-- Chant of Rage -->
+                <skill id="1517" level="1" /> <!-- Chant of Combat -->
+                <skill id="1006" level="3" /> <!-- Chant of Fire -->
+                <skill id="1518" level="1" /> <!-- Chant of Critical Attack -->
+                <skill id="1007" level="3" /> <!-- Chant of Battle -->
+                <skill id="1519" level="1" /> <!-- Chant of Blood Awakening -->
+                <skill id="1009" level="3" /> <!-- Chant of Shielding -->
+                <skill id="1535" level="1" /> <!-- Chant of Movement -->
+
+                <!-- Buffs Overlord -->
+                <skill id="1282" level="2" /> <!-- Pa'agrian Haste -->
+                <skill id="1563" level="2" /> <!-- Fury of Pa'agrio -->
+                <skill id="1364" level="1" /> <!-- Eye of Pa'agrio -->
+                <skill id="1365" level="1" /> <!-- Soul of Pa'agrio -->
+                <skill id="1415" level="1" /> <!-- Pa'agrio's Emblem -->
+                <skill id="1416" level="1" /> <!-- Pa'agrio's Fist -->
+                <skill id="1250" level="3" /> <!-- Shield of Pa'agrio -->
+                <skill id="1249" level="3" /> <!-- The Vision of Pa'agrio -->
+                <skill id="1003" level="3" /> <!-- Pa'agrian Gift -->
+                <skill id="1004" level="3" /> <!-- The Wisdom of Pa'agrio -->
+                <skill id="1260" level="3" /> <!-- The Tact of Pa'agrio -->
+                <skill id="1005" level="3" /> <!-- Blessings of Pa'agrio -->
+                <skill id="1006" level="2" /> <!-- The Rage of Pa'agrio -->
+                <skill id="1008" level="3" /> <!-- The Glory of Pa'agrio -->
+
                 <!-- Summon Buffs -->
                 <skill id="4699" level="13" /> <!-- Blessing of Queen -->
                 <skill id="4700" level="13" /> <!-- Gift of Queen -->
@@ -73,7 +116,10 @@
                 <!-- Prophecies -->
                 <skill id="1356" level="1" /> <!-- Prophecy of Fire -->
                 <skill id="1355" level="1" /> <!-- Prophecy of Water -->
+                <skill id="1357" level="1" /> <!-- Prophecy of Wind -->
                 <skill id="1363" level="1" /> <!-- Chant of Victory -->
+                <skill id="1413" level="1" /> <!-- Magnus' Chant -->
+                <skill id="1414" level="1" /> <!-- Victory of Pa'agrio -->
             </skills>
         </Male>
         <Female>
@@ -135,6 +181,49 @@
                 <skill id="1257" level="3" /> <!-- Decrease Weight -->
                 <skill id="1259" level="4" /> <!-- Resist Shock -->
 
+                <!-- Buffs Shillen -->
+                <skill id="1500" level="1" /> <!-- Improved Magic -->
+                <skill id="1502" level="1" /> <!-- Improved Critical Attack -->
+                <skill id="1059" level="3" /> <!-- Empower -->
+
+                <!-- Buffs Doom Cryer -->
+                <skill id="1284" level="3" /> <!-- Chant of Revenge -->
+                <skill id="1549" level="1" /> <!-- Chant of Elements -->
+                <skill id="1562" level="2" /> <!-- Chant of Berserker -->
+                <skill id="1308" level="3" /> <!-- Chant of Predator -->
+                <skill id="1309" level="3" /> <!-- Chant of Eagle -->
+                <skill id="1310" level="4" /> <!-- Chant of Vampire -->
+                <skill id="1362" level="1" /> <!-- Chant of Spirit -->
+                <skill id="1390" level="3" /> <!-- War Chant -->
+                <skill id="1391" level="3" /> <!-- Earth Chant -->
+                <skill id="1461" level="1" /> <!-- Chant of Protection -->
+                <skill id="1251" level="2" /> <!-- Chant of Fury -->
+                <skill id="1252" level="3" /> <!-- Chant of Evasion -->
+                <skill id="1253" level="3" /> <!-- Chant of Rage -->
+                <skill id="1517" level="1" /> <!-- Chant of Combat -->
+                <skill id="1006" level="3" /> <!-- Chant of Fire -->
+                <skill id="1518" level="1" /> <!-- Chant of Critical Attack -->
+                <skill id="1007" level="3" /> <!-- Chant of Battle -->
+                <skill id="1519" level="1" /> <!-- Chant of Blood Awakening -->
+                <skill id="1009" level="3" /> <!-- Chant of Shielding -->
+                <skill id="1535" level="1" /> <!-- Chant of Movement -->
+
+                <!-- Buffs Overlord -->
+                <skill id="1282" level="2" /> <!-- Pa'agrian Haste -->
+                <skill id="1563" level="2" /> <!-- Fury of Pa'agrio -->
+                <skill id="1364" level="1" /> <!-- Eye of Pa'agrio -->
+                <skill id="1365" level="1" /> <!-- Soul of Pa'agrio -->
+                <skill id="1415" level="1" /> <!-- Pa'agrio's Emblem -->
+                <skill id="1416" level="1" /> <!-- Pa'agrio's Fist -->
+                <skill id="1250" level="3" /> <!-- Shield of Pa'agrio -->
+                <skill id="1249" level="3" /> <!-- The Vision of Pa'agrio -->
+                <skill id="1003" level="3" /> <!-- Pa'agrian Gift -->
+                <skill id="1004" level="3" /> <!-- The Wisdom of Pa'agrio -->
+                <skill id="1260" level="3" /> <!-- The Tact of Pa'agrio -->
+                <skill id="1005" level="3" /> <!-- Blessings of Pa'agrio -->
+                <skill id="1006" level="2" /> <!-- The Rage of Pa'agrio -->
+                <skill id="1008" level="3" /> <!-- The Glory of Pa'agrio -->
+
                 <!-- Summon Buffs -->
                 <skill id="4699" level="13" /> <!-- Blessing of Queen -->
                 <skill id="4700" level="13" /> <!-- Gift of Queen -->
@@ -148,7 +237,10 @@
                 <!-- Prophecies -->
                 <skill id="1356" level="1" /> <!-- Prophecy of Fire -->
                 <skill id="1355" level="1" /> <!-- Prophecy of Water -->
+                <skill id="1357" level="1" /> <!-- Prophecy of Wind -->
                 <skill id="1363" level="1" /> <!-- Chant of Victory -->
+                <skill id="1413" level="1" /> <!-- Magnus' Chant -->
+                <skill id="1414" level="1" /> <!-- Victory of Pa'agrio -->
             </skills>
         </Female>
     </transform>
