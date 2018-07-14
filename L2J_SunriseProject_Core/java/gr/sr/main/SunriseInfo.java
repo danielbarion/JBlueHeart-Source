@@ -37,8 +37,11 @@ public class SunriseInfo {
 		_log.info("Sunrise Revision: .......: Final Edition");
 		_log.info("Core Revision: ..........: 842 rev");
 		_log.info("Data Revision: ..........: 760 rev");
-		_log.info("BlueHeart Developer: ....: Barion");
-		_log.info("BlueHeart Version: ......: 0.0.1 rev");
+		_log.info("......................\uD83D\uDC99......................");
+		_log.info("Copyrights: .............: BlueHeart-Team 2018");
+		_log.info("BlueHeart Developer: ....: vert");
+		_log.info("BlueHeart Version: ......: 1.0 version");
+		_log.info("......................\uD83D\uDC99......................");
 		printMemUsage();
 		_log.info("=====================================================");
 	}
