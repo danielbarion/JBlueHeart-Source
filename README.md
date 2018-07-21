@@ -95,6 +95,7 @@ Made with love.
 # Todo
 ```
 - Organizar as skills do aio ao serem carregadas
+- Testar o sql da soure para checar a Lady e a Kiara (job shop)
 ```
 
 # Dev Info

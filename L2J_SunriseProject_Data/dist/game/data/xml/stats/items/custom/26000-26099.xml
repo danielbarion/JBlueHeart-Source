@@ -198,7 +198,7 @@
     <item id="26013" type="Weapon" name="Scarecrow Jack Transformation Stick {Buff} - 7-day limited period">
         <set name="icon" val="icon.weapon_scarescow_stick_i00" />
         <set name="default_action" val="EQUIP" />
-        <set name="weapon_type" val="SWORD" />
+        <set name="weapon_type" val="DUAL" />
         <set name="bodypart" val="rhand" />
         <set name="random_damage" val="10" />
         <set name="attack_range" val="40" />
@@ -225,7 +225,7 @@
     <item id="26014" type="Weapon" name="Scarecrow Jack Transformation Stick {Buff} - 30-day limited period">
         <set name="icon" val="icon.weapon_scarescow_stick_i00" />
         <set name="default_action" val="EQUIP" />
-        <set name="weapon_type" val="SWORD" />
+        <set name="weapon_type" val="DUAL" />
         <set name="bodypart" val="rhand" />
         <set name="random_damage" val="10" />
         <set name="attack_range" val="40" />
