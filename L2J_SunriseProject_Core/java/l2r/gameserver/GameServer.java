@@ -25,7 +25,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.InetAddress;
 import java.net.ServerSocket;
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.logging.LogManager;
 
 import l2r.Config;
@@ -448,9 +451,49 @@ public class GameServer
 		_log.info("Maximum Numbers of Connected players: " + Config.MAXIMUM_ONLINE_USERS);
 		_log.info("Server loaded in " + ((System.currentTimeMillis() - serverLoadStart) / 1000) + " seconds.");
 		
-		SunriseInfo.load();
+		// SunriseInfo.load();
+		BlueHeartInfo();
 		printSection("UPnP");
 		UPnPService.getInstance();
+	}
+
+	public static void BlueHeartInfo() {
+		_log.info("=====================================================");
+		_log.info("Base Revision: ..........: L2JSunrise");
+		_log.info("Core Revision: ..........: 842 rev");
+		_log.info("Data Revision: ..........: 760 rev");
+		_log.info("......................\uD83D\uDC99......................");
+		_log.info("Copyrights: .............: BlueHeart-Team 2018");
+		_log.info("BlueHeart Owner: ........: vert");
+		_log.info("BlueHeart Developer: ....: vert | TurtleLess");
+		_log.info("BlueHeart Version: ......: 1.0");
+		_log.info("......................\uD83D\uDC99......................");
+		printMemUsage();
+		_log.info("=====================================================");
+	}
+
+	public static void printMemUsage() {
+		String[] var0 = getMemoryUsageStatistics();
+		int var1 = var0.length;
+
+		for(int var2 = 0; var2 < var1; ++var2) {
+			String line = var0[var2];
+			_log.info(line);
+		}
+
+	}
+
+	private static String[] getMemoryUsageStatistics() {
+		double max = (double)(Runtime.getRuntime().maxMemory() / 1024L / 1024L);
+		double allocated = (double)(Runtime.getRuntime().totalMemory() / 1024L / 1024L);
+		double nonAllocated = max - allocated;
+		double cached = (double)(Runtime.getRuntime().freeMemory() / 1024L / 1024L);
+		double used = allocated - cached;
+		double useable = max - used;
+		SimpleDateFormat sdf = new SimpleDateFormat("H:mm:ss");
+		DecimalFormat df = new DecimalFormat(" (0.0000'%')");
+		DecimalFormat df2 = new DecimalFormat(" # 'MB'");
+		return new String[]{"+----", "| Global Memory Informations at " + sdf.format(new Date()) + ":", "|    |", "| Allowed Memory:" + df2.format(max), "|    |= Allocated Memory:" + df2.format(allocated) + df.format(allocated / max * 100.0D), "|    |= Non-Allocated Memory:" + df2.format(nonAllocated) + df.format(nonAllocated / max * 100.0D), "| Allocated Memory:" + df2.format(allocated), "|    |= Used Memory:" + df2.format(used) + df.format(used / max * 100.0D), "|    |= Unused (cached) Memory:" + df2.format(cached) + df.format(cached / max * 100.0D), "| Useable Memory:" + df2.format(useable) + df.format(useable / max * 100.0D), "+----"};
 	}
 	
 	public static void printSection(String s)
