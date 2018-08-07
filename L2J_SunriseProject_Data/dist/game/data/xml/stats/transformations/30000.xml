@@ -38,14 +38,14 @@
                 <skill id="1501" level="1" /> <!-- Improved Condition -->
 
                 <!-- Buffs Prophet  - Resistances -->
-                <skill id="1033" level="3" /> <!-- Resist Poison -->
-                <skill id="1548" level="3" /> <!-- Resist Earth -->
-                <skill id="1182" level="3" /> <!-- Resist Aqua -->
-                <skill id="1189" level="3" /> <!-- Resist Wind -->
-                <skill id="1191" level="3" /> <!-- Resist Fire -->
+                <skill id="1033" level="330" /> <!-- Resist Poison -->
+                <skill id="1548" level="330" /> <!-- Resist Earth -->
+                <skill id="1182" level="330" /> <!-- Resist Aqua -->
+                <skill id="1189" level="330" /> <!-- Resist Wind -->
+                <skill id="1191" level="330" /> <!-- Resist Fire -->
                 <skill id="1352" level="1" /> <!-- Elemental Protection -->
-                <skill id="1392" level="3" /> <!-- Holy Resistance -->
-                <skill id="1393" level="3" /> <!-- Unholy Resistance -->
+                <skill id="1392" level="130" /> <!-- Holy Resistance -->
+                <skill id="1393" level="130" /> <!-- Unholy Resistance -->
 
                 <!-- Buffs Eva's -->
                 <skill id="1303" level="2" /> <!-- Wild Magic -->
