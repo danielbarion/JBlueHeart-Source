@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS `items` (
   `custom_type2` INT DEFAULT 0,
   `mana_left` decimal(5,0) NOT NULL DEFAULT -1,
   `time` decimal(13) NOT NULL DEFAULT 0,
+  `visual_item_id` int(7) NOT NULL DEFAULT 0,
   PRIMARY KEY (`object_id`),
   KEY `owner_id` (`owner_id`),
   KEY `item_id` (`item_id`),

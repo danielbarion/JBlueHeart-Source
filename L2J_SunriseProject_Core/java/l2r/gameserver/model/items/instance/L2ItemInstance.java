@@ -1684,6 +1684,19 @@ public final class L2ItemInstance extends L2Object
 			_log.error("Could not update item " + this + " in DB: Reason: " + e.getMessage(), e);
 		}
 	}
+
+	// Used for dress me engine
+	private int visualItemId = 0;
+
+	public int getVisualItemId()
+	{
+		return visualItemId;
+	}
+
+	public void setVisualItemId(int visualItemId)
+	{
+		this.visualItemId = visualItemId;
+	}
 	
 	/**
 	 * Insert the item in database

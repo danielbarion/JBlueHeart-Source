@@ -232,7 +232,7 @@ public class CharInfo extends L2GameServerPacket
 			
 			for (int slot : getPaperdollOrder())
 			{
-				writeD(_activeChar.getInventory().getPaperdollItemDisplayId(slot));
+				writeD(_activeChar.isInOlympiadMode() || !_activeChar.getVarB("showVisualChange") ? _activeChar.getInventory().getPaperdollItemDisplayId(slot) : _activeChar.getInventory().getPaperdollItemVisualDisplayId(slot));
 			}
 			
 			for (int slot : getPaperdollOrder())

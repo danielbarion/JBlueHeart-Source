@@ -650,7 +650,7 @@ public final class Config
 	public static String[] BOTREPORT_RESETPOINT_HOUR;
 	public static long BOTREPORT_REPORT_DELAY;
 	public static boolean BOTREPORT_ALLOW_REPORTS_FROM_SAME_CLAN_MEMBERS;
-	
+
 	// --------------------------------------------------
 	// Knownlist Settings
 	// --------------------------------------------------
@@ -713,6 +713,7 @@ public final class Config
 	// L2JMods Settings
 	// --------------------------------------------------
 	public static boolean L2JMOD_ALLOW_WEDDING;
+	public static boolean L2JMOD_DRESS_ME_ENABLED;
 	public static int L2JMOD_WEDDING_PRICE;
 	public static boolean L2JMOD_WEDDING_PUNISH_INFIDELITY;
 	public static boolean L2JMOD_WEDDING_TELEPORT;
@@ -2250,7 +2251,8 @@ public final class Config
 			
 			// Load L2JMod L2Properties file (if exists)
 			final PropertiesParser L2JModSettings = new PropertiesParser(L2JMOD_CONFIG_FILE);
-			
+
+			L2JMOD_DRESS_ME_ENABLED = L2JModSettings.getBoolean("DressMe", false);
 			L2JMOD_ALLOW_WEDDING = L2JModSettings.getBoolean("AllowWedding", false);
 			L2JMOD_WEDDING_PRICE = L2JModSettings.getInt("WeddingPrice", 250000000);
 			L2JMOD_WEDDING_PUNISH_INFIDELITY = L2JModSettings.getBoolean("WeddingPunishInfidelity", true);
@@ -3503,6 +3505,9 @@ public final class Config
 				break;
 			case "commonrecipelimit":
 				COMMON_RECIPE_LIMIT = Integer.parseInt(pValue);
+				break;
+			case "dressme":
+				L2JMOD_DRESS_ME_ENABLED = Boolean.parseBoolean(pValue);
 				break;
 			case "allowwedding":
 				L2JMOD_ALLOW_WEDDING = Boolean.parseBoolean(pValue);

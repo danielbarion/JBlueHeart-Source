@@ -144,6 +144,7 @@ import l2r.util.DeadLockDetector;
 import l2r.util.IPv4Filter;
 
 import gr.sr.configsEngine.ConfigsController;
+import gr.sr.dressmeEngine.DressMeLoader;
 import gr.sr.interf.SunriseEvents;
 import gr.sr.main.PlayerValues;
 import gr.sr.main.SunriseInfo;
@@ -407,7 +408,10 @@ public class GameServer
 		{
 			MailManager.getInstance();
 		}
-		
+		if (Config.L2JMOD_DRESS_ME_ENABLED)
+		{
+			DressMeLoader.load();
+		}
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 		
 		_log.info("IdFactory: Free ObjectID's remaining: " + IdFactory.getInstance().size());
