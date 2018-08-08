@@ -461,19 +461,19 @@ public class GameServer
 		UPnPService.getInstance();
 	}
 
-	public static void BlueHeartInfo() {
-		_log.info("=====================================================");
-		_log.info("Base Revision: ..........: L2JSunrise");
-		_log.info("Core Revision: ..........: 842 rev");
-		_log.info("Data Revision: ..........: 760 rev");
-		_log.info("......................\uD83D\uDC99......................");
-		_log.info("Copyrights: .............: BlueHeart-Team 2018");
-		_log.info("BlueHeart Owner: ........: vert");
-		_log.info("BlueHeart Developer: ....: vert | TurtleLess");
-		_log.info("BlueHeart Version: ......: 1.1");
-		_log.info("......................\uD83D\uDC99......................");
-		printMemUsage();
-		_log.info("=====================================================");
+		public static void BlueHeartInfo() {
+			_log.info("=====================================================");
+			_log.info("Base Revision: ..........: L2JSunrise");
+			_log.info("Core Revision: ..........: 842 rev");
+			_log.info("Data Revision: ..........: 760 rev");
+			_log.info("......................\uD83D\uDC99......................");
+			_log.info("Copyrights: .............: BlueHeart-Team 2018");
+			_log.info("BlueHeart Owner: ........: vert");
+			_log.info("BlueHeart Developer: ....: vert | TurtleLess");
+			_log.info("BlueHeart Version: ......: 1.1");
+			_log.info("......................\uD83D\uDC99......................");
+			printMemUsage();
+			_log.info("=====================================================");
 	}
 
 	public static void printMemUsage() {
