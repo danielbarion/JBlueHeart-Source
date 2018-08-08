@@ -144,6 +144,7 @@ import l2r.util.DeadLockDetector;
 import l2r.util.IPv4Filter;
 
 import gr.sr.configsEngine.ConfigsController;
+import gr.sr.dressmeEngine.DressMeLoader;
 import gr.sr.interf.SunriseEvents;
 import gr.sr.main.PlayerValues;
 import gr.sr.main.SunriseInfo;
@@ -407,7 +408,10 @@ public class GameServer
 		{
 			MailManager.getInstance();
 		}
-		
+		if (Config.L2JMOD_DRESS_ME_ENABLED)
+		{
+			DressMeLoader.load();
+		}
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 		
 		_log.info("IdFactory: Free ObjectID's remaining: " + IdFactory.getInstance().size());
@@ -457,19 +461,19 @@ public class GameServer
 		UPnPService.getInstance();
 	}
 
-	public static void BlueHeartInfo() {
-		_log.info("=====================================================");
-		_log.info("Base Revision: ..........: L2JSunrise");
-		_log.info("Core Revision: ..........: 842 rev");
-		_log.info("Data Revision: ..........: 760 rev");
-		_log.info("......................\uD83D\uDC99......................");
-		_log.info("Copyrights: .............: BlueHeart-Team 2018");
-		_log.info("BlueHeart Owner: ........: vert");
-		_log.info("BlueHeart Developer: ....: vert | TurtleLess");
-		_log.info("BlueHeart Version: ......: 1.0");
-		_log.info("......................\uD83D\uDC99......................");
-		printMemUsage();
-		_log.info("=====================================================");
+		public static void BlueHeartInfo() {
+			_log.info("=====================================================");
+			_log.info("Base Revision: ..........: L2JSunrise");
+			_log.info("Core Revision: ..........: 842 rev");
+			_log.info("Data Revision: ..........: 760 rev");
+			_log.info("......................\uD83D\uDC99......................");
+			_log.info("Copyrights: .............: BlueHeart-Team 2018");
+			_log.info("BlueHeart Owner: ........: vert");
+			_log.info("BlueHeart Developer: ....: vert | TurtleLess");
+			_log.info("BlueHeart Version: ......: 1.1");
+			_log.info("......................\uD83D\uDC99......................");
+			printMemUsage();
+			_log.info("=====================================================");
 	}
 
 	public static void printMemUsage() {

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/dressme/hat.xsd">
+	<hat number="1" id="6843" name="Cat Ears" slot="2"> <!-- Hair 2 -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="2" id="6844" name="Lady's Hair Pin" slot="2"> <!-- Hair 2 -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="3" id="7680" name="Raccoon Ears" slot="2"> <!-- Hair 2 -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="4" id="8660" name="Demon Horns" slot="2"> <!-- Hair 2 -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="5" id="8661" name="Mask of Spirits" slot="1"> <!-- Hair 1 -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="7" id="8565" name="Romantic Chapeau" slot="3"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="8" id="8566" name="Iron Circlet" slot="3"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="6" id="8918" name="Leather Cap" slot="3"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>
+	<hat number="9" id="8919" name="First Mate's Hat" slot="3"> <!-- Full Hair -->
+		<price id="57" count="500000000" />
+	</hat>
+</list>

@@ -23,23 +23,26 @@ package l2r.gameserver.model.items.type;
  */
 public enum ArmorType implements ItemType
 {
-	NONE,
-	LIGHT,
-	HEAVY,
-	MAGIC,
-	SIGIL,
+	NONE("NONE"),
+	LIGHT("LIGHT"),
+	HEAVY("HEAVY"),
+	MAGIC("ROBE"),
+	SIGIL("SIGIL"),
 	
 	// L2J CUSTOM
-	SHIELD;
+	SHIELD("SHIELD");
 	
 	final int _mask;
+	private final String _descr;
 	
 	/**
 	 * Constructor of the ArmorType.
+	 * @param descr
 	 */
-	private ArmorType()
+	private ArmorType(String descr)
 	{
 		_mask = 1 << (ordinal() + WeaponType.values().length);
+		_descr = descr;
 	}
 	
 	/**
@@ -49,5 +52,10 @@ public enum ArmorType implements ItemType
 	public int mask()
 	{
 		return _mask;
+	}
+	
+	public String getDescription()
+	{
+		return _descr;
 	}
 }

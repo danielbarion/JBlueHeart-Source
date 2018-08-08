@@ -123,7 +123,7 @@ public final class UserInfo extends L2GameServerPacket
 		
 		for (int slot : getPaperdollOrder())
 		{
-			writeD(_activeChar.getInventory().getPaperdollItemDisplayId(slot));
+			writeD(_activeChar.getInventory().getPaperdollItemVisualDisplayId(slot));
 		}
 		
 		for (int slot : getPaperdollOrder())

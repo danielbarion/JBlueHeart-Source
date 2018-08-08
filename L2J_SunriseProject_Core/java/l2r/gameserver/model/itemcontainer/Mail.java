@@ -117,7 +117,7 @@ public class Mail extends ItemContainer
 	public void restore()
 	{
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
-			PreparedStatement statement = con.prepareStatement("SELECT object_id, item_id, count, enchant_level, loc, loc_data, custom_type1, custom_type2, mana_left, time FROM items WHERE owner_id=? AND loc=? AND loc_data=?"))
+			PreparedStatement statement = con.prepareStatement("SELECT object_id, item_id, count, enchant_level, loc, loc_data, custom_type1, custom_type2, mana_left, time, visual_item_id FROM items WHERE owner_id=? AND loc=? AND loc_data=?"))
 		{
 			statement.setInt(1, getOwnerId());
 			statement.setString(2, getBaseLocation().name());

@@ -70,6 +70,10 @@ public abstract class Inventory extends ItemContainer
 	public static final int SKULL_ID = 41006;
 	public static final int ANCIENT_ADENA_ID = 5575;
 	
+	public static final int ITEM_ID_PC_BANG_POINTS = -100;
+	public static final int ITEM_ID_CLAN_REPUTATION_SCORE = -200;
+	public static final int ITEM_ID_FAME = -300;
+	
 	public static final long MAX_ADENA = Config.MAX_ADENA;
 	
 	public static final int PAPERDOLL_UNDER = 0;
@@ -1025,6 +1029,25 @@ public abstract class Inventory extends ItemContainer
 	 * @param slot : int designating the slot
 	 * @return int designating the ID of the item
 	 */
+	public int getPaperdollItemVisualDisplayId(int slot)
+	{
+		final L2ItemInstance item = _paperdoll[slot];
+		if (item != null)
+		{
+			if (item.getVisualItemId() > 0)
+			{
+				return item.getVisualItemId();
+			}
+			return item.getDisplayId();
+		}
+		return 0;
+	}
+	
+	/**
+	 * Returns the ID of the item in the paperdoll slot
+	 * @param slot : int designating the slot
+	 * @return int designating the ID of the item
+	 */
 	public int getPaperdollItemDisplayId(int slot)
 	{
 		final L2ItemInstance item = _paperdoll[slot];
@@ -1672,7 +1695,7 @@ public abstract class Inventory extends ItemContainer
 	public void restore()
 	{
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
-			PreparedStatement statement = con.prepareStatement("SELECT object_id, item_id, count, enchant_level, loc, loc_data, custom_type1, custom_type2, mana_left, time FROM items WHERE owner_id=? AND (loc=? OR loc=?) ORDER BY loc_data"))
+			PreparedStatement statement = con.prepareStatement("SELECT object_id, item_id, count, enchant_level, loc, loc_data, custom_type1, custom_type2, mana_left, time, visual_item_id FROM items WHERE owner_id=? AND (loc=? OR loc=?) ORDER BY loc_data"))
 		{
 			statement.setInt(1, getOwnerId());
 			statement.setString(2, getBaseLocation().name());
