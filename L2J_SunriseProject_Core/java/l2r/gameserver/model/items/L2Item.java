@@ -313,7 +313,7 @@ public abstract class L2Item extends ListenersContainer implements IIdentifiable
 	{
 		return _equipReuseDelay;
 	}
-	
+
 	/**
 	 * Returns the duration of the item
 	 * @return int

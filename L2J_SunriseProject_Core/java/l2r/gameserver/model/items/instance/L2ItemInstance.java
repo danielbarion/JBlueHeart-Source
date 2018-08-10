@@ -140,7 +140,10 @@ public final class L2ItemInstance extends L2Object
 	/** Custom item types (used loto, race tickets) */
 	private int _type1;
 	private int _type2;
-	
+
+	/** Used for dress me engine **/
+	private int visualItemId = 0;
+
 	private long _dropTime;
 	
 	private boolean _published = false;
@@ -1517,7 +1520,7 @@ public final class L2ItemInstance extends L2Object
 	public static L2ItemInstance restoreFromDb(int ownerId, ResultSet rs)
 	{
 		L2ItemInstance inst = null;
-		int objectId, item_id, loc_data, enchant_level, custom_type1, custom_type2, manaLeft;
+		int objectId, item_id, loc_data, enchant_level, custom_type1, custom_type2, manaLeft, visualItemId;
 		long time, count;
 		ItemLocation loc;
 		try
@@ -1532,6 +1535,7 @@ public final class L2ItemInstance extends L2Object
 			custom_type2 = rs.getInt("custom_type2");
 			manaLeft = rs.getInt("mana_left");
 			time = rs.getLong("time");
+			visualItemId = rs.getInt("visual_item_id");
 		}
 		catch (Exception e)
 		{
@@ -1558,7 +1562,9 @@ public final class L2ItemInstance extends L2Object
 		// Setup life time for shadow weapons
 		inst._mana = manaLeft;
 		inst._time = time;
-		
+
+		// Set the custom texture (dressme engine)
+		inst.visualItemId = visualItemId;
 		// load augmentation and elemental enchant
 		if (inst.isEquipable())
 		{
@@ -1684,9 +1690,6 @@ public final class L2ItemInstance extends L2Object
 			_log.error("Could not update item " + this + " in DB: Reason: " + e.getMessage(), e);
 		}
 	}
-
-	// Used for dress me engine
-	private int visualItemId = 0;
 
 	public int getVisualItemId()
 	{
