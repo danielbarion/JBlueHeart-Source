@@ -13,26 +13,26 @@
                 <skill id="5437" level="2" /> <!-- Dissonance -->
 
                 <!-- Buffs Prophet -->
-                <skill id="1035" level="4" /> <!-- Mental Shield -->
+                <skill id="1035" level="230" /> <!-- Mental Shield -->
                 <skill id="1542" level="1" /> <!-- Counter Critical -->
-                <skill id="1036" level="2" /> <!-- Magic Barrier -->
-                <skill id="1040" level="3" /> <!-- Shield -->
-                <skill id="1043" level="1" /> <!-- Holy Weapon -->
-                <skill id="1044" level="3" /> <!-- Regeneration -->
-                <skill id="1045" level="6" /> <!-- Bless the Body -->
-                <skill id="1048" level="6" /> <!-- Bless the Soul -->
-                <skill id="1062" level="2" /> <!-- Berserker Spirit-->
-                <skill id="1068" level="3" /> <!-- Might -->
-                <skill id="1073" level="2" /> <!-- Kiss of Eva -->
-                <skill id="1077" level="3" /> <!-- Focus -->
-                <skill id="1078" level="6" /> <!-- Concentration -->
-                <skill id="1085" level="3" /> <!-- Acumen -->
-                <skill id="1086" level="2" /> <!-- Haste -->
-                <skill id="1388" level="3" /> <!-- Greater Might -->
-                <skill id="1389" level="3" /> <!-- Greater Shield -->
-                <skill id="1204" level="2" /> <!-- Wind Walk -->
-                <skill id="1240" level="3" /> <!-- Guidance -->
-                <skill id="1242" level="3" /> <!-- Death Whisper -->
+                <skill id="1036" level="230" /> <!-- Magic Barrier -->
+                <skill id="1040" level="230" /> <!-- Shield -->
+                <skill id="1043" level="230" /> <!-- Holy Weapon -->
+                <skill id="1044" level="230" /> <!-- Regeneration -->
+                <skill id="1045" level="230" /> <!-- Bless the Body -->
+                <skill id="1048" level="230" /> <!-- Bless the Soul -->
+                <skill id="1062" level="230" /> <!-- Berserker Spirit-->
+                <skill id="1068" level="230" /> <!-- Might -->
+                <skill id="1073" level="230" /> <!-- Kiss of Eva -->
+                <skill id="1077" level="230" /> <!-- Focus -->
+                <skill id="1078" level="230" /> <!-- Concentration -->
+                <skill id="1085" level="230" /> <!-- Acumen -->
+                <skill id="1086" level="230" /> <!-- Haste -->
+                <skill id="1388" level="130" /> <!-- Greater Might -->
+                <skill id="1389" level="130" /> <!-- Greater Shield -->
+                <skill id="1204" level="230" /> <!-- Wind Walk -->
+                <skill id="1240" level="230" /> <!-- Guidance -->
+                <skill id="1242" level="230" /> <!-- Death Whisper -->
                 <skill id="1243" level="3" /> <!-- Bless Shield -->
                 <skill id="1499" level="1" /> <!-- Improved Combat -->
                 <skill id="1501" level="1" /> <!-- Improved Condition -->
@@ -43,65 +43,65 @@
                 <skill id="1182" level="330" /> <!-- Resist Aqua -->
                 <skill id="1189" level="330" /> <!-- Resist Wind -->
                 <skill id="1191" level="330" /> <!-- Resist Fire -->
-                <skill id="1352" level="1" /> <!-- Elemental Protection -->
+                <skill id="1352" level="215" /> <!-- Elemental Protection -->
                 <skill id="1392" level="130" /> <!-- Holy Resistance -->
                 <skill id="1393" level="130" /> <!-- Unholy Resistance -->
 
                 <!-- Buffs Eva's -->
-                <skill id="1303" level="2" /> <!-- Wild Magic -->
-                <skill id="1304" level="3" /> <!-- Advanced Block -->
-                <skill id="1087" level="3" /> <!-- Agility -->
-                <skill id="1353" level="1" /> <!-- Divine Protection -->
-                <skill id="1354" level="1" /> <!-- Arcane Protection -->
-                <skill id="1397" level="3" /> <!-- Clarity -->
-                <skill id="1460" level="1" /> <!-- Mana Gain -->
+                <skill id="1303" level="230" /> <!-- Wild Magic -->
+                <skill id="1304" level="230" /> <!-- Advanced Block -->
+                <skill id="1087" level="230" /> <!-- Agility -->
+                <skill id="1353" level="215" /> <!-- Divine Protection -->
+                <skill id="1354" level="215" /> <!-- Arcane Protection -->
+                <skill id="1397" level="230" /> <!-- Clarity -->
+                <skill id="1460" level="215" /> <!-- Mana Gain -->
                 <skill id="1503" level="1" /> <!-- Improved Shield Defense -->
                 <skill id="1504" level="1" /> <!-- Improved Moviment -->
-                <skill id="1257" level="3" /> <!-- Decrease Weight -->
-                <skill id="1259" level="4" /> <!-- Resist Shock -->
+                <skill id="1257" level="230" /> <!-- Decrease Weight -->
+                <skill id="1259" level="330" /> <!-- Resist Shock -->
 
                 <!-- Buffs Shillen -->
                 <skill id="1500" level="1" /> <!-- Improved Magic -->
                 <skill id="1502" level="1" /> <!-- Improved Critical Attack -->
-                <skill id="1059" level="3" /> <!-- Empower -->
+                <skill id="1059" level="230" /> <!-- Empower -->
 
                 <!-- Buffs Doom Cryer -->
-                <skill id="1284" level="3" /> <!-- Chant of Revenge -->
+                <skill id="1284" level="230" /> <!-- Chant of Revenge -->
                 <skill id="1549" level="1" /> <!-- Chant of Elements -->
                 <skill id="1562" level="2" /> <!-- Chant of Berserker -->
-                <skill id="1308" level="3" /> <!-- Chant of Predator -->
-                <skill id="1309" level="3" /> <!-- Chant of Eagle -->
-                <skill id="1310" level="4" /> <!-- Chant of Vampire -->
-                <skill id="1362" level="1" /> <!-- Chant of Spirit -->
-                <skill id="1390" level="3" /> <!-- War Chant -->
-                <skill id="1391" level="3" /> <!-- Earth Chant -->
-                <skill id="1461" level="1" /> <!-- Chant of Protection -->
-                <skill id="1251" level="2" /> <!-- Chant of Fury -->
-                <skill id="1252" level="3" /> <!-- Chant of Evasion -->
-                <skill id="1253" level="3" /> <!-- Chant of Rage -->
+                <skill id="1308" level="230" /> <!-- Chant of Predator -->
+                <skill id="1309" level="230" /> <!-- Chant of Eagle -->
+                <skill id="1310" level="215" /> <!-- Chant of Vampire -->
+                <skill id="1362" level="215" /> <!-- Chant of Spirit -->
+                <skill id="1390" level="130" /> <!-- War Chant -->
+                <skill id="1391" level="130" /> <!-- Earth Chant -->
+                <skill id="1461" level="215" /> <!-- Chant of Protection -->
+                <skill id="1251" level="230" /> <!-- Chant of Fury -->
+                <skill id="1252" level="230" /> <!-- Chant of Evasion -->
+                <skill id="1253" level="230" /> <!-- Chant of Rage -->
                 <skill id="1517" level="1" /> <!-- Chant of Combat -->
-                <skill id="1006" level="3" /> <!-- Chant of Fire -->
+                <skill id="1006" level="230" /> <!-- Chant of Fire -->
                 <skill id="1518" level="1" /> <!-- Chant of Critical Attack -->
-                <skill id="1007" level="3" /> <!-- Chant of Battle -->
+                <skill id="1007" level="230" /> <!-- Chant of Battle -->
                 <skill id="1519" level="1" /> <!-- Chant of Blood Awakening -->
-                <skill id="1009" level="3" /> <!-- Chant of Shielding -->
+                <skill id="1009" level="215" /> <!-- Chant of Shielding -->
                 <skill id="1535" level="1" /> <!-- Chant of Movement -->
 
                 <!-- Buffs Overlord -->
-                <skill id="1282" level="2" /> <!-- Pa'agrian Haste -->
+                <skill id="1282" level="230" /> <!-- Pa'agrian Haste -->
                 <skill id="1563" level="2" /> <!-- Fury of Pa'agrio -->
-                <skill id="1364" level="1" /> <!-- Eye of Pa'agrio -->
-                <skill id="1365" level="1" /> <!-- Soul of Pa'agrio -->
-                <skill id="1415" level="1" /> <!-- Pa'agrio's Emblem -->
-                <skill id="1416" level="1" /> <!-- Pa'agrio's Fist -->
-                <skill id="1250" level="3" /> <!-- Shield of Pa'agrio -->
-                <skill id="1249" level="3" /> <!-- The Vision of Pa'agrio -->
-                <skill id="1003" level="3" /> <!-- Pa'agrian Gift -->
-                <skill id="1004" level="3" /> <!-- The Wisdom of Pa'agrio -->
-                <skill id="1260" level="3" /> <!-- The Tact of Pa'agrio -->
-                <skill id="1005" level="3" /> <!-- Blessings of Pa'agrio -->
-                <skill id="1006" level="2" /> <!-- The Rage of Pa'agrio -->
-                <skill id="1008" level="3" /> <!-- The Glory of Pa'agrio -->
+                <skill id="1364" level="215" /> <!-- Eye of Pa'agrio -->
+                <skill id="1365" level="215" /> <!-- Soul of Pa'agrio -->
+                <skill id="1415" level="215" /> <!-- Pa'agrio's Emblem -->
+                <skill id="1416" level="115" /> <!-- Pa'agrio's Fist -->
+                <skill id="1250" level="230" /> <!-- Shield of Pa'agrio -->
+                <skill id="1249" level="230" /> <!-- The Vision of Pa'agrio -->
+                <skill id="1003" level="230" /> <!-- Pa'agrian Gift -->
+                <skill id="1004" level="230" /> <!-- The Wisdom of Pa'agrio -->
+                <skill id="1260" level="230" /> <!-- The Tact of Pa'agrio -->
+                <skill id="1005" level="230" /> <!-- Blessings of Pa'agrio -->
+                <skill id="1006" level="230" /> <!-- The Rage of Pa'agrio -->
+                <skill id="1008" level="230" /> <!-- The Glory of Pa'agrio -->
 
                 <!-- Maestro Buffs -->
                 <skill id="825" level="1" /> <!-- Sharp Edge -->
@@ -112,35 +112,35 @@
                 <skill id="830" level="1" /> <!-- Embroider -->
 
                 <!-- Song Buffs -->
-                <skill id="264" level="1" /> <!-- Song of Earth -->
-                <skill id="265" level="1" /> <!-- Song of Life -->
-                <skill id="266" level="1" /> <!-- Song of Water -->
-                <skill id="267" level="1" /> <!-- Song of Warding -->
-                <skill id="268" level="1" /> <!-- Song of Wind -->
-                <skill id="269" level="1" /> <!-- Song of Hunter -->
-                <skill id="270" level="1" /> <!-- Song of Invocation -->
-                <skill id="529" level="1" /> <!-- Song of Elemental -->
-                <skill id="304" level="1" /> <!-- Song of Vitality -->
-                <skill id="305" level="1" /> <!-- Song of Vengeance -->
-                <skill id="306" level="1" /> <!-- Song of Flame Guard -->
-                <skill id="307" level="1" /> <!-- Song of Storm Guard -->
-                <skill id="349" level="1" /> <!-- Song of Renewal -->
-                <skill id="363" level="1" /> <!-- Song of Meditation -->
-                <skill id="364" level="1" /> <!-- Song of Champion -->
+                <skill id="264" level="230" /> <!-- Song of Earth -->
+                <skill id="265" level="230" /> <!-- Song of Life -->
+                <skill id="266" level="230" /> <!-- Song of Water -->
+                <skill id="267" level="230" /> <!-- Song of Warding -->
+                <skill id="268" level="230" /> <!-- Song of Wind -->
+                <skill id="269" level="230" /> <!-- Song of Hunter -->
+                <skill id="270" level="230" /> <!-- Song of Invocation -->
+                <skill id="529" level="215" /> <!-- Song of Elemental -->
+                <skill id="304" level="230" /> <!-- Song of Vitality -->
+                <skill id="305" level="230" /> <!-- Song of Vengeance -->
+                <skill id="306" level="230" /> <!-- Song of Flame Guard -->
+                <skill id="307" level="230" /> <!-- Song of Storm Guard -->
+                <skill id="349" level="215" /> <!-- Song of Renewal -->
+                <skill id="363" level="215" /> <!-- Song of Meditation -->
+                <skill id="364" level="215" /> <!-- Song of Champion -->
 
                 <!-- Dance Buffs -->
-                <skill id="271" level="1" /> <!-- Dance of the Warrior -->
-                <skill id="272" level="1" /> <!-- Dance of Inspiration -->
-                <skill id="273" level="1" /> <!-- Dance of the Mystic-->
-                <skill id="274" level="1" /> <!-- Dance of Fire -->
-                <skill id="275" level="1" /> <!-- Dance of Fury-->
-                <skill id="276" level="1" /> <!-- Dance of Concentration -->
-                <skill id="277" level="1" /> <!-- Dance of Light -->
-                <skill id="530" level="1" /> <!-- Dance of Alignment -->
-                <skill id="307" level="1" /> <!-- Dance of Aqua Guard -->
-                <skill id="309" level="1" /> <!-- Dance of Earth Guard -->
-                <skill id="310" level="1" /> <!-- Dance of the Vampire -->
-                <skill id="311" level="1" /> <!-- Dance of Protection -->
+                <skill id="271" level="230" /> <!-- Dance of the Warrior -->
+                <skill id="272" level="230" /> <!-- Dance of Inspiration -->
+                <skill id="273" level="230" /> <!-- Dance of the Mystic-->
+                <skill id="274" level="230" /> <!-- Dance of Fire -->
+                <skill id="275" level="230" /> <!-- Dance of Fury-->
+                <skill id="276" level="230" /> <!-- Dance of Concentration -->
+                <skill id="277" level="230" /> <!-- Dance of Light -->
+                <skill id="530" level="215" /> <!-- Dance of Alignment -->
+                <skill id="307" level="230" /> <!-- Dance of Aqua Guard -->
+                <skill id="309" level="230" /> <!-- Dance of Earth Guard -->
+                <skill id="310" level="230" /> <!-- Dance of the Vampire -->
+                <skill id="311" level="230" /> <!-- Dance of Protection -->
                 <skill id="915" level="1" /> <!-- Dance of Berserker -->
 
                 <!-- Summon Buffs -->
@@ -154,12 +154,12 @@
                 <skill id="228" level="3" /> <!-- Fast Spell Casting -->
 
                 <!-- Prophecies -->
-                <skill id="1356" level="1" /> <!-- Prophecy of Fire -->
-                <skill id="1355" level="1" /> <!-- Prophecy of Water -->
-                <skill id="1357" level="1" /> <!-- Prophecy of Wind -->
-                <skill id="1363" level="1" /> <!-- Chant of Victory -->
-                <skill id="1413" level="1" /> <!-- Magnus' Chant -->
-                <skill id="1414" level="1" /> <!-- Victory of Pa'agrio -->
+                <skill id="1356" level="315" /> <!-- Prophecy of Fire -->
+                <skill id="1355" level="315" /> <!-- Prophecy of Water -->
+                <skill id="1357" level="315" /> <!-- Prophecy of Wind -->
+                <skill id="1363" level="315" /> <!-- Chant of Victory -->
+                <skill id="1413" level="215" /> <!-- Magnus' Chant -->
+                <skill id="1414" level="315" /> <!-- Victory of Pa'agrio -->
             </skills>
         </Male>
         <Female>
@@ -174,26 +174,26 @@
                 <skill id="5437" level="2" /> <!-- Dissonance -->
 
                 <!-- Buffs Prophet -->
-                <skill id="1035" level="4" /> <!-- Mental Shield -->
+                <skill id="1035" level="230" /> <!-- Mental Shield -->
                 <skill id="1542" level="1" /> <!-- Counter Critical -->
-                <skill id="1036" level="2" /> <!-- Magic Barrier -->
-                <skill id="1040" level="3" /> <!-- Shield -->
-                <skill id="1043" level="1" /> <!-- Holy Weapon -->
-                <skill id="1044" level="3" /> <!-- Regeneration -->
-                <skill id="1045" level="6" /> <!-- Bless the Body -->
-                <skill id="1048" level="6" /> <!-- Bless the Soul -->
-                <skill id="1062" level="2" /> <!-- Berserker Spirit-->
-                <skill id="1068" level="3" /> <!-- Might -->
-                <skill id="1073" level="2" /> <!-- Kiss of Eva -->
-                <skill id="1077" level="3" /> <!-- Focus -->
-                <skill id="1078" level="6" /> <!-- Concentration -->
-                <skill id="1085" level="3" /> <!-- Acumen -->
-                <skill id="1086" level="2" /> <!-- Haste -->
-                <skill id="1388" level="3" /> <!-- Greater Might -->
-                <skill id="1389" level="3" /> <!-- Greater Shield -->
-                <skill id="1204" level="2" /> <!-- Wind Walk -->
-                <skill id="1240" level="3" /> <!-- Guidance -->
-                <skill id="1242" level="3" /> <!-- Death Whisper -->
+                <skill id="1036" level="230" /> <!-- Magic Barrier -->
+                <skill id="1040" level="230" /> <!-- Shield -->
+                <skill id="1043" level="230" /> <!-- Holy Weapon -->
+                <skill id="1044" level="230" /> <!-- Regeneration -->
+                <skill id="1045" level="230" /> <!-- Bless the Body -->
+                <skill id="1048" level="230" /> <!-- Bless the Soul -->
+                <skill id="1062" level="230" /> <!-- Berserker Spirit-->
+                <skill id="1068" level="230" /> <!-- Might -->
+                <skill id="1073" level="230" /> <!-- Kiss of Eva -->
+                <skill id="1077" level="230" /> <!-- Focus -->
+                <skill id="1078" level="230" /> <!-- Concentration -->
+                <skill id="1085" level="230" /> <!-- Acumen -->
+                <skill id="1086" level="230" /> <!-- Haste -->
+                <skill id="1388" level="130" /> <!-- Greater Might -->
+                <skill id="1389" level="130" /> <!-- Greater Shield -->
+                <skill id="1204" level="230" /> <!-- Wind Walk -->
+                <skill id="1240" level="230" /> <!-- Guidance -->
+                <skill id="1242" level="230" /> <!-- Death Whisper -->
                 <skill id="1243" level="3" /> <!-- Bless Shield -->
                 <skill id="1499" level="1" /> <!-- Improved Combat -->
                 <skill id="1501" level="1" /> <!-- Improved Condition -->
@@ -204,65 +204,65 @@
                 <skill id="1182" level="330" /> <!-- Resist Aqua -->
                 <skill id="1189" level="330" /> <!-- Resist Wind -->
                 <skill id="1191" level="330" /> <!-- Resist Fire -->
-                <skill id="1352" level="1" /> <!-- Elemental Protection -->
+                <skill id="1352" level="215" /> <!-- Elemental Protection -->
                 <skill id="1392" level="130" /> <!-- Holy Resistance -->
                 <skill id="1393" level="130" /> <!-- Unholy Resistance -->
 
                 <!-- Buffs Eva's -->
-                <skill id="1303" level="2" /> <!-- Wild Magic -->
-                <skill id="1304" level="3" /> <!-- Advanced Block -->
-                <skill id="1087" level="3" /> <!-- Agility -->
-                <skill id="1353" level="1" /> <!-- Divine Protection -->
-                <skill id="1354" level="1" /> <!-- Arcane Protection -->
-                <skill id="1397" level="3" /> <!-- Clarity -->
-                <skill id="1460" level="1" /> <!-- Mana Gain -->
+                <skill id="1303" level="230" /> <!-- Wild Magic -->
+                <skill id="1304" level="230" /> <!-- Advanced Block -->
+                <skill id="1087" level="230" /> <!-- Agility -->
+                <skill id="1353" level="215" /> <!-- Divine Protection -->
+                <skill id="1354" level="215" /> <!-- Arcane Protection -->
+                <skill id="1397" level="230" /> <!-- Clarity -->
+                <skill id="1460" level="215" /> <!-- Mana Gain -->
                 <skill id="1503" level="1" /> <!-- Improved Shield Defense -->
                 <skill id="1504" level="1" /> <!-- Improved Moviment -->
-                <skill id="1257" level="3" /> <!-- Decrease Weight -->
-                <skill id="1259" level="4" /> <!-- Resist Shock -->
+                <skill id="1257" level="230" /> <!-- Decrease Weight -->
+                <skill id="1259" level="330" /> <!-- Resist Shock -->
 
                 <!-- Buffs Shillen -->
                 <skill id="1500" level="1" /> <!-- Improved Magic -->
                 <skill id="1502" level="1" /> <!-- Improved Critical Attack -->
-                <skill id="1059" level="3" /> <!-- Empower -->
+                <skill id="1059" level="230" /> <!-- Empower -->
 
                 <!-- Buffs Doom Cryer -->
-                <skill id="1284" level="3" /> <!-- Chant of Revenge -->
+                <skill id="1284" level="230" /> <!-- Chant of Revenge -->
                 <skill id="1549" level="1" /> <!-- Chant of Elements -->
                 <skill id="1562" level="2" /> <!-- Chant of Berserker -->
-                <skill id="1308" level="3" /> <!-- Chant of Predator -->
-                <skill id="1309" level="3" /> <!-- Chant of Eagle -->
-                <skill id="1310" level="4" /> <!-- Chant of Vampire -->
-                <skill id="1362" level="1" /> <!-- Chant of Spirit -->
-                <skill id="1390" level="3" /> <!-- War Chant -->
-                <skill id="1391" level="3" /> <!-- Earth Chant -->
-                <skill id="1461" level="1" /> <!-- Chant of Protection -->
-                <skill id="1251" level="2" /> <!-- Chant of Fury -->
-                <skill id="1252" level="3" /> <!-- Chant of Evasion -->
-                <skill id="1253" level="3" /> <!-- Chant of Rage -->
+                <skill id="1308" level="230" /> <!-- Chant of Predator -->
+                <skill id="1309" level="230" /> <!-- Chant of Eagle -->
+                <skill id="1310" level="215" /> <!-- Chant of Vampire -->
+                <skill id="1362" level="215" /> <!-- Chant of Spirit -->
+                <skill id="1390" level="130" /> <!-- War Chant -->
+                <skill id="1391" level="130" /> <!-- Earth Chant -->
+                <skill id="1461" level="215" /> <!-- Chant of Protection -->
+                <skill id="1251" level="230" /> <!-- Chant of Fury -->
+                <skill id="1252" level="230" /> <!-- Chant of Evasion -->
+                <skill id="1253" level="230" /> <!-- Chant of Rage -->
                 <skill id="1517" level="1" /> <!-- Chant of Combat -->
-                <skill id="1006" level="3" /> <!-- Chant of Fire -->
+                <skill id="1006" level="230" /> <!-- Chant of Fire -->
                 <skill id="1518" level="1" /> <!-- Chant of Critical Attack -->
-                <skill id="1007" level="3" /> <!-- Chant of Battle -->
+                <skill id="1007" level="230" /> <!-- Chant of Battle -->
                 <skill id="1519" level="1" /> <!-- Chant of Blood Awakening -->
-                <skill id="1009" level="3" /> <!-- Chant of Shielding -->
+                <skill id="1009" level="215" /> <!-- Chant of Shielding -->
                 <skill id="1535" level="1" /> <!-- Chant of Movement -->
 
                 <!-- Buffs Overlord -->
-                <skill id="1282" level="2" /> <!-- Pa'agrian Haste -->
+                <skill id="1282" level="230" /> <!-- Pa'agrian Haste -->
                 <skill id="1563" level="2" /> <!-- Fury of Pa'agrio -->
-                <skill id="1364" level="1" /> <!-- Eye of Pa'agrio -->
-                <skill id="1365" level="1" /> <!-- Soul of Pa'agrio -->
-                <skill id="1415" level="1" /> <!-- Pa'agrio's Emblem -->
-                <skill id="1416" level="1" /> <!-- Pa'agrio's Fist -->
-                <skill id="1250" level="3" /> <!-- Shield of Pa'agrio -->
-                <skill id="1249" level="3" /> <!-- The Vision of Pa'agrio -->
-                <skill id="1003" level="3" /> <!-- Pa'agrian Gift -->
-                <skill id="1004" level="3" /> <!-- The Wisdom of Pa'agrio -->
-                <skill id="1260" level="3" /> <!-- The Tact of Pa'agrio -->
-                <skill id="1005" level="3" /> <!-- Blessings of Pa'agrio -->
-                <skill id="1006" level="2" /> <!-- The Rage of Pa'agrio -->
-                <skill id="1008" level="3" /> <!-- The Glory of Pa'agrio -->
+                <skill id="1364" level="215" /> <!-- Eye of Pa'agrio -->
+                <skill id="1365" level="215" /> <!-- Soul of Pa'agrio -->
+                <skill id="1415" level="215" /> <!-- Pa'agrio's Emblem -->
+                <skill id="1416" level="115" /> <!-- Pa'agrio's Fist -->
+                <skill id="1250" level="230" /> <!-- Shield of Pa'agrio -->
+                <skill id="1249" level="230" /> <!-- The Vision of Pa'agrio -->
+                <skill id="1003" level="230" /> <!-- Pa'agrian Gift -->
+                <skill id="1004" level="230" /> <!-- The Wisdom of Pa'agrio -->
+                <skill id="1260" level="230" /> <!-- The Tact of Pa'agrio -->
+                <skill id="1005" level="230" /> <!-- Blessings of Pa'agrio -->
+                <skill id="1006" level="230" /> <!-- The Rage of Pa'agrio -->
+                <skill id="1008" level="230" /> <!-- The Glory of Pa'agrio -->
 
                 <!-- Maestro Buffs -->
                 <skill id="825" level="1" /> <!-- Sharp Edge -->
@@ -273,35 +273,35 @@
                 <skill id="830" level="1" /> <!-- Embroider -->
 
                 <!-- Song Buffs -->
-                <skill id="264" level="1" /> <!-- Song of Earth -->
-                <skill id="265" level="1" /> <!-- Song of Life -->
-                <skill id="266" level="1" /> <!-- Song of Water -->
-                <skill id="267" level="1" /> <!-- Song of Warding -->
-                <skill id="268" level="1" /> <!-- Song of Wind -->
-                <skill id="269" level="1" /> <!-- Song of Hunter -->
-                <skill id="270" level="1" /> <!-- Song of Invocation -->
-                <skill id="529" level="1" /> <!-- Song of Elemental -->
-                <skill id="304" level="1" /> <!-- Song of Vitality -->
-                <skill id="305" level="1" /> <!-- Song of Vengeance -->
-                <skill id="306" level="1" /> <!-- Song of Flame Guard -->
-                <skill id="307" level="1" /> <!-- Song of Storm Guard -->
-                <skill id="349" level="1" /> <!-- Song of Renewal -->
-                <skill id="363" level="1" /> <!-- Song of Meditation -->
-                <skill id="364" level="1" /> <!-- Song of Champion -->
+                <skill id="264" level="230" /> <!-- Song of Earth -->
+                <skill id="265" level="230" /> <!-- Song of Life -->
+                <skill id="266" level="230" /> <!-- Song of Water -->
+                <skill id="267" level="230" /> <!-- Song of Warding -->
+                <skill id="268" level="230" /> <!-- Song of Wind -->
+                <skill id="269" level="230" /> <!-- Song of Hunter -->
+                <skill id="270" level="230" /> <!-- Song of Invocation -->
+                <skill id="529" level="215" /> <!-- Song of Elemental -->
+                <skill id="304" level="230" /> <!-- Song of Vitality -->
+                <skill id="305" level="230" /> <!-- Song of Vengeance -->
+                <skill id="306" level="230" /> <!-- Song of Flame Guard -->
+                <skill id="307" level="230" /> <!-- Song of Storm Guard -->
+                <skill id="349" level="215" /> <!-- Song of Renewal -->
+                <skill id="363" level="215" /> <!-- Song of Meditation -->
+                <skill id="364" level="215" /> <!-- Song of Champion -->
 
                 <!-- Dance Buffs -->
-                <skill id="271" level="1" /> <!-- Dance of the Warrior -->
-                <skill id="272" level="1" /> <!-- Dance of Inspiration -->
-                <skill id="273" level="1" /> <!-- Dance of the Mystic-->
-                <skill id="274" level="1" /> <!-- Dance of Fire -->
-                <skill id="275" level="1" /> <!-- Dance of Fury-->
-                <skill id="276" level="1" /> <!-- Dance of Concentration -->
-                <skill id="277" level="1" /> <!-- Dance of Light -->
-                <skill id="530" level="1" /> <!-- Dance of Alignment -->
-                <skill id="307" level="1" /> <!-- Dance of Aqua Guard -->
-                <skill id="309" level="1" /> <!-- Dance of Earth Guard -->
-                <skill id="310" level="1" /> <!-- Dance of the Vampire -->
-                <skill id="311" level="1" /> <!-- Dance of Protection -->
+                <skill id="271" level="230" /> <!-- Dance of the Warrior -->
+                <skill id="272" level="230" /> <!-- Dance of Inspiration -->
+                <skill id="273" level="230" /> <!-- Dance of the Mystic-->
+                <skill id="274" level="230" /> <!-- Dance of Fire -->
+                <skill id="275" level="230" /> <!-- Dance of Fury-->
+                <skill id="276" level="230" /> <!-- Dance of Concentration -->
+                <skill id="277" level="230" /> <!-- Dance of Light -->
+                <skill id="530" level="215" /> <!-- Dance of Alignment -->
+                <skill id="307" level="230" /> <!-- Dance of Aqua Guard -->
+                <skill id="309" level="230" /> <!-- Dance of Earth Guard -->
+                <skill id="310" level="230" /> <!-- Dance of the Vampire -->
+                <skill id="311" level="230" /> <!-- Dance of Protection -->
                 <skill id="915" level="1" /> <!-- Dance of Berserker -->
 
                 <!-- Summon Buffs -->
@@ -315,12 +315,12 @@
                 <skill id="228" level="3" /> <!-- Fast Spell Casting -->
 
                 <!-- Prophecies -->
-                <skill id="1356" level="1" /> <!-- Prophecy of Fire -->
-                <skill id="1355" level="1" /> <!-- Prophecy of Water -->
-                <skill id="1357" level="1" /> <!-- Prophecy of Wind -->
-                <skill id="1363" level="1" /> <!-- Chant of Victory -->
-                <skill id="1413" level="1" /> <!-- Magnus' Chant -->
-                <skill id="1414" level="1" /> <!-- Victory of Pa'agrio -->
+                <skill id="1356" level="315" /> <!-- Prophecy of Fire -->
+                <skill id="1355" level="315" /> <!-- Prophecy of Water -->
+                <skill id="1357" level="315" /> <!-- Prophecy of Wind -->
+                <skill id="1363" level="315" /> <!-- Chant of Victory -->
+                <skill id="1413" level="215" /> <!-- Magnus' Chant -->
+                <skill id="1414" level="315" /> <!-- Victory of Pa'agrio -->
             </skills>
         </Female>
     </transform>
