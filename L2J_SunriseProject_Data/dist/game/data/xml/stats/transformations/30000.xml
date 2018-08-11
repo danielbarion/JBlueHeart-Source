@@ -36,6 +36,11 @@
                 <skill id="1243" level="3" /> <!-- Bless Shield -->
                 <skill id="1499" level="1" /> <!-- Improved Combat -->
                 <skill id="1501" level="1" /> <!-- Improved Condition -->
+                <skill id="1238" level="330" /> <!-- Freezing Skin -->
+                <skill id="1232" level="330" /> <!-- Blazing Skin -->
+                <skill id="1444" level="130" /> <!-- Pride of Kamael -->
+                <skill id="982" level="3" /> <!-- Combat Aura -->
+                <skill id="1323" level="1" /> <!-- Noblesse Blessing -->
 
                 <!-- Buffs Prophet  - Resistances -->
                 <skill id="1033" level="330" /> <!-- Resist Poison -->
@@ -197,6 +202,11 @@
                 <skill id="1243" level="3" /> <!-- Bless Shield -->
                 <skill id="1499" level="1" /> <!-- Improved Combat -->
                 <skill id="1501" level="1" /> <!-- Improved Condition -->
+                <skill id="1238" level="330" /> <!-- Freezing Skin -->
+                <skill id="1232" level="330" /> <!-- Blazing Skin -->
+                <skill id="1444" level="130" /> <!-- Pride of Kamael -->
+                <skill id="982" level="3" /> <!-- Combat Aura -->
+                <skill id="1323" level="1" /> <!-- Noblesse Blessing -->
 
                 <!-- Buffs Prophet  - Resistances -->
                 <skill id="1033" level="330" /> <!-- Resist Poison -->
