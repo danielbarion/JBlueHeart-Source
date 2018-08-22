@@ -362,6 +362,26 @@ import gr.sr.zones.FlagZoneHandler;
  */
 public final class L2PcInstance extends L2Playable
 {
+
+	//AutoPotion
+	private Map<Integer, Future<?>> _autoPotTasks = new HashMap<>();
+
+	public boolean isAutoPot(int id)
+	{
+		return _autoPotTasks.keySet().contains(id);
+	}
+
+	public void setAutoPot(int id, Future<?> task, boolean add)
+	{
+		if (add)
+			_autoPotTasks.put(id, task);
+		else
+		{
+			_autoPotTasks.get(id).cancel(true);
+			_autoPotTasks.remove(id);
+		}
+	}
+
 	// Character Skill SQL String Definitions:
 	private static final String RESTORE_SKILLS_FOR_CHAR = "SELECT skill_id,skill_level FROM character_skills WHERE charId=? AND class_index=?";
 	private static final String ADD_NEW_SKILL = "INSERT INTO character_skills (charId,skill_id,skill_level,class_index) VALUES (?,?,?,?)";
@@ -4021,6 +4041,22 @@ public final class L2PcInstance extends L2Playable
 			sendPacket(sm);
 		}
 		
+		if (isAutoPot(728))
+		{
+			sendPacket(new ExAutoSoulShot(728, 0));
+			setAutoPot(728, null, false);
+		}
+		if (isAutoPot(1539))
+		{
+			sendPacket(new ExAutoSoulShot(1539, 0));
+			setAutoPot(1539, null, false);
+		}
+		if (isAutoPot(5592))
+		{
+			sendPacket(new ExAutoSoulShot(5592, 0));
+			setAutoPot(5592, null, false);
+		}
+
 		return true;
 	}
 	
