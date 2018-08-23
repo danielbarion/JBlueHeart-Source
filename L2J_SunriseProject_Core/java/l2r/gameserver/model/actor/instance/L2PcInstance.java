@@ -363,24 +363,7 @@ import gr.sr.zones.FlagZoneHandler;
 public final class L2PcInstance extends L2Playable
 {
 
-	//AutoPotion
-	private Map<Integer, Future<?>> _autoPotTasks = new HashMap<>();
 
-	public boolean isAutoPot(int id)
-	{
-		return _autoPotTasks.keySet().contains(id);
-	}
-
-	public void setAutoPot(int id, Future<?> task, boolean add)
-	{
-		if (add)
-			_autoPotTasks.put(id, task);
-		else
-		{
-			_autoPotTasks.get(id).cancel(true);
-			_autoPotTasks.remove(id);
-		}
-	}
 
 	// Character Skill SQL String Definitions:
 	private static final String RESTORE_SKILLS_FOR_CHAR = "SELECT skill_id,skill_level FROM character_skills WHERE charId=? AND class_index=?";
@@ -597,7 +580,26 @@ public final class L2PcInstance extends L2Playable
 	
 	/** Premium Items */
 	private final Map<Integer, L2PremiumItem> _premiumItems = new ConcurrentHashMap<>();
-	
+
+	/** Auto Potion */
+	private Map<Integer, Future<?>> _autoPotTasks = new HashMap<>();
+
+	public boolean isAutoPot(int id)
+	{
+		return _autoPotTasks.keySet().contains(id);
+	}
+
+	public void setAutoPot(int id, Future<?> task, boolean add)
+	{
+		if (add)
+			_autoPotTasks.put(id, task);
+		else
+		{
+			_autoPotTasks.get(id).cancel(true);
+			_autoPotTasks.remove(id);
+		}
+	}
+
 	/** True if the L2PcInstance is sitting */
 	private boolean _waitTypeSitting;
 	

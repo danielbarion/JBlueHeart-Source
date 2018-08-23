@@ -724,6 +724,7 @@ public final class Config
 	public static int L2JMOD_WEDDING_DIVORCE_COSTS;
 	public static boolean L2JMOD_HELLBOUND_STATUS;
 	public static boolean EXP_SYSTEM_ENABLED;
+	public static boolean AUTO_POTION_ENABLED;
 	public static boolean BANKING_SYSTEM_ENABLED;
 	public static int BANKING_SYSTEM_GOLDBARS;
 	public static int BANKING_SYSTEM_ADENA;
@@ -2268,6 +2269,8 @@ public final class Config
 
 			// TODO: Change the default value to true
 			EXP_SYSTEM_ENABLED = L2JModSettings.getBoolean("ExpSystemEnabled", true);
+			// Auto Potion Switch
+			AUTO_POTION_ENABLED = L2JModSettings.getBoolean("AutoPotionEnabled", true);
 
 			BANKING_SYSTEM_ENABLED = L2JModSettings.getBoolean("BankingEnabled", false);
 			BANKING_SYSTEM_GOLDBARS = L2JModSettings.getInt("BankingGoldbarCount", 1);
