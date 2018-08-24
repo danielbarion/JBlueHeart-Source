@@ -1,0 +1,68 @@
+<html>
+<head>
+<body scroll="no"><br1>
+<table><tr>
+<td><button value="Auction List" width=160 height=24 action="bypass %bbsCommand%;server;-1" fore=L2UI_CT1.Tab_DF_Tab_Unselected back=L2UI_CT1.Tab_DF_Tab_Unselected_Over></td>
+<td><button value="Your Auctions" width=160 height=24 action="" fore=L2UI_CT1.Tab_DF_Tab_Selected back=L2UI_CT1.Tab_DF_Tab_Unselected_Over></td>
+</tr></table><br1>
+<table> <tr>
+<td width=2></td>
+<td width=190 align=center>Place an item for Auction</td>
+<td width=3></td>
+<td width=550 align=center>Current Auctions</td></tr>
+<tr><td height=4></td><td></td><td></td><td></td></tr>
+<tr><td></td><td height=400>
+<table width=190 height=145 valign=middle bgcolor=171612><tr>
+<td width=3></td>
+<td width=190>Auctionable Items</td>
+<td width=16></td></tr>
+<tr><td height=5></td><td></td><td></td></tr><tr><td></td>
+<td height=115><table width=190 height=115 bgcolor=171516 cellspacing=-7>%inventario%</table></td>
+<td height=115>%inventarioFlechas%</td></tr></table><br>
+<table width=212 height=175 valign=middle bgcolor=171612><tr>
+<td width=2></td>
+<td width=208>Items to be Auctioned</td>
+<td width=1></td></tr>
+<tr><td height=3></td><td></td><td></td></tr><tr><td></td>
+<td height=40><table width=208 height=45 bgcolor=171516>%itemSelected%</table></td>
+<td></td></tr><tr><td></td><td height=15>
+<table width=208 height=15<tr>
+<td width=63 align="left">Quantity</td>
+<td width=22 align="right"></td>
+<td width=120 align="right">%quantity%</td></tr></table></td>
+<td></td></tr><tr><td></td>
+<td height=15><table width=208 height=15><tr>
+<td width=63 align="left">Sale Price</td>
+<td width=22 align="right"><img src="icon.Adena" width=16 height=16></td>
+<td width=120 align="right">%salePrice%</td></tr></table></td><td></td></tr><tr>
+<td></td><td height=15><table width=208 height=15><tr>
+<td width=63 align="left">Duration</td>
+<td width=22 align="right"></td>
+<td width=120 align="right">%duration%</td></tr></table></td><td></td></tr><tr>
+<td height=1></td><td></td><td></td></tr><tr><td></td>
+<td height=15><table width=208 height=15><tr><td width=63 align="left">Total Price</td>
+<td width=22 align="right"><img src="icon.Adena" width=16 height=16></td>
+<td width=120 align="right"><button value="%totalPrice%" width=120 height=20 action="" fore=L2UI_CT1.Windows_DF_TooltipBG back=L2UI_CT1.Windows_DF_TooltipBG></td></tr></table></td>
+<td></td></tr></table><br><table width=212 height=35 valign=middle bgcolor=171612><tr>
+<td width=2></td><td width=208 height=15><table width=208 height=15><tr>
+<td width=63 align="left">Sale Fee</td>
+<td width=22 align="right"><img src="icon.Adena" width=16 height=16></td>
+<td width=120 align="right"><button value="%saleFee%" width=120 height=20 action="" fore=L2UI_CT1.Windows_DF_TooltipBG back=L2UI_CT1.Windows_DF_TooltipBG></td></tr></table></td>
+<td width=1></td></tr></table><br><table width=212 height=35 valign=middle bgcolor=171612><tr>
+<td width=2></td><td width=208 height=15><table width=208 height=15><tr>
+<td width=63 align="left">Adena</td>
+<td width=22 align="right"><img src="icon.Adena" width=16 height=16></td>
+<td width=120 align="right"><button value="%adenaCount%" width=120 height=20 action="" fore=L2UI_CT1.Windows_DF_TooltipBG back=L2UI_CT1.Windows_DF_TooltipBG></td></tr></table></td>
+<td width=1></td></tr></table></td><td></td>
+<td><table width=550 height=32 valign=middle bgcolor=171612><tr>
+<td width=550>Item List %itemCount%</td></tr></table><table height=24 cellspacing=-5><tr>
+<td width=230><button value="Item" width=230 height=24 action="" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td>
+<td width=60><button value="Rank" width=60 height=24 action="" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td>
+<td width=80><button value="Quantity" width=80 height=24 action="" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td>
+<td width=100><button value="Sale Price" width=100 height=24 action="" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td>
+<td width=80><button value="Time Rem." width=80 height=24 action="" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td></tr></table>%tablas%</td></tr><tr>
+<td height=10></td><td></td><td></td><td></td></tr><tr><td></td>
+<td height=38 align=center><button value="%auctionButtonName%" width=100 height=30 action="%auctionButtonAction%" back=L2UI_ct1.button_df fore=L2UI_ct1.button_df></td><td></td>
+<td align=center><button value="%cancelButtonName%" width=100 height=30 action="%cancelButtonAction%" back=L2UI_ct1.button_df fore=L2UI_ct1.button_df></td></tr></table>
+</body></head>
+</html>

@@ -76,18 +76,12 @@ public class RaidList extends AbstractSunriseBoards
 	
 	private void addRaidToList(int pos, String npcname, int rlevel, int mindelay, int maxdelay, boolean rstatus)
 	{
-		_list.append("<table border=0 cellspacing=0 cellpadding=0  bgcolor=111111 width=680 height=" + SmartCommunityConfigs.RAID_LIST_ROW_HEIGHT + ">");
 		_list.append("<tr>");
-		_list.append("<td FIXWIDTH=5></td>");
-		_list.append("<td FIXWIDTH=20>" + pos + "</td>");
-		_list.append("<td FIXWIDTH=270>" + npcname + "</td>");
-		_list.append("<td FIXWIDTH=50>" + rlevel + "</td>");
-		_list.append("<td FIXWIDTH=120 align=center>" + mindelay + " - " + maxdelay + "</td>");
-		_list.append("<td FIXWIDTH=50 align=center>" + ((rstatus) ? "<font color=99FF00>Alive</font>" : "<font color=CC0000>Dead</font>") + "</td>");
-		_list.append("<td FIXWIDTH=5></td>");
+		_list.append("<td FIXWIDTH=25 align=center>" + rlevel + "</td>");
+		_list.append("<td FIXWIDTH=100>" + npcname + "</td>");
+		_list.append("<td FIXWIDTH=60>" + mindelay + " - " + maxdelay + "</td>");
+		_list.append("<td FIXWIDTH=25>" + ((rstatus) ? "<font color=99FF00>Alive</font>" : "<font color=CC0000>Dead</font>") + "</td>");
 		_list.append("</tr>");
-		_list.append("</table>");
-		_list.append("<img src=\"L2UI.Squaregray\" width=\"680\" height=\"1\">");
 	}
 	
 	@Override
