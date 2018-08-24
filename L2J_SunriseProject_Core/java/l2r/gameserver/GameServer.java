@@ -36,6 +36,7 @@ import l2r.FloodProtectorsConfig;
 import l2r.L2DatabaseFactory;
 import l2r.Server;
 import l2r.UPnPService;
+import l2r.features.auctionEngine.managers.AuctionHouseManager;
 import l2r.gameserver.cache.HtmCache;
 import l2r.gameserver.data.EventDroplist;
 import l2r.gameserver.data.SpawnTable;
@@ -412,6 +413,11 @@ public class GameServer
 		{
 			DressMeLoader.load();
 		}
+
+		// Auction House Manager
+		AuctionHouseManager.getInstance();
+
+
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 		
 		_log.info("IdFactory: Free ObjectID's remaining: " + IdFactory.getInstance().size());

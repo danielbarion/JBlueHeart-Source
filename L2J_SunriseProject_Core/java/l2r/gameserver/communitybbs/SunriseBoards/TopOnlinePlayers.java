@@ -31,14 +31,12 @@ public class TopOnlinePlayers extends AbstractSunriseBoards
 	
 	private void addChar(String name, String cname, String onTime)
 	{
-		_list.append("<table width=680 bgcolor=111111  height=16 border=0 cellspacing=0 cellpadding=0>");
 		_list.append("<tr>");
-		_list.append("<td FIXWIDTH=40>" + _counter + "</td");
-		_list.append("<td fixwidth=160>" + name + "</td");
-		_list.append("<td fixwidth=160>" + cname + "</td>");
-		_list.append("<td align=center fixwidth=160>" + onTime + "</td>");
+		_list.append("<td valign=\"top\" align=\"center\">" + _counter + "</td");
+		_list.append("<td valign=\"top\" align=\"center\">" + name + "</td");
+		_list.append("<td valign=\"top\" align=\"center\">" + cname + "</td>");
+		_list.append("<td valign=\"top\" align=\"center\">" + onTime + "</td>");
 		_list.append("</tr>");
-		_list.append("</tr></table><img src=\"L2UI.Squaregray\" width=\"680\" height=\"1\">");
 	}
 	
 	public String getPlayerRunTime(int secs)

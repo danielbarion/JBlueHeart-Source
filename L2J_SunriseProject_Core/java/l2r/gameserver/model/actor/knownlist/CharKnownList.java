@@ -253,6 +253,11 @@ public class CharKnownList extends ObjectKnownList
 		return result;
 	}
 	
+	public final L2Object getKnownObject(int objectId)
+	{
+		return getKnownObjects().get(objectId);
+	}
+	
 	public final Map<Integer, L2PcInstance> getKnownPlayers()
 	{
 		if (_knownPlayers == null)

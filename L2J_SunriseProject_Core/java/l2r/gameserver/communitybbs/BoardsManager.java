@@ -22,11 +22,14 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import l2r.Config;
+import l2r.gameserver.communitybbs.Managers.AuctionBBSManager;
 import l2r.gameserver.communitybbs.Managers.ClanBBSManager;
 import l2r.gameserver.communitybbs.Managers.DonateBBSManager;
 import l2r.gameserver.communitybbs.Managers.FavoriteBBSManager;
+import l2r.gameserver.communitybbs.Managers.FriendsBBSManager;
 import l2r.gameserver.communitybbs.Managers.MailBBSManager;
 import l2r.gameserver.communitybbs.Managers.PostBBSManager;
+import l2r.gameserver.communitybbs.Managers.RegionBBSManager;
 import l2r.gameserver.communitybbs.Managers.ServicesBBSManager;
 import l2r.gameserver.communitybbs.Managers.TopBBSManager;
 import l2r.gameserver.communitybbs.Managers.TopicBBSManager;
@@ -50,6 +53,11 @@ public class BoardsManager
 		if (activeChar == null)
 		{
 			return;
+		}
+		
+		if (command.startsWith(AuctionBBSManager.getInstance().BBS_COMMAND))
+		{
+			AuctionBBSManager.getInstance().cbByPass(command, activeChar);
 		}
 		
 		if (SunriseEvents.cbBypass(activeChar, command))
@@ -99,17 +107,17 @@ public class BoardsManager
 		{
 			TopBBSManager.getInstance().cbByPass(command, activeChar);
 		}
-		else if (command.startsWith("_maillist"))
+		else if (command.startsWith("_maillist_0_1_0_"))
 		{
 			MailBBSManager.getInstance().cbByPass(command, activeChar);
 		}
 		else if (command.startsWith("_friendlist_0_") || command.startsWith("_bbs_friends") || command.startsWith("_bbsfriends"))
 		{
-		
+			FriendsBBSManager.getInstance().cbByPass(command, activeChar);
 		}
-		else if (command.startsWith("_bbsloc"))
+		else if (command.startsWith("_bbsloc") || command.startsWith("_bbsreg"))
 		{
-			// RegionBBSManager.getInstance().cbByPass(command, activeChar);
+			RegionBBSManager.getInstance().cbByPass(command, activeChar);
 		}
 		else if (command.startsWith("_bbsgetfav") || command.startsWith("bbs_add_fav") || command.startsWith("_bbsdelfav_"))
 		{

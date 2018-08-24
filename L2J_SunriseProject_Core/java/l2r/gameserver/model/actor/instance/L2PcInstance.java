@@ -281,6 +281,7 @@ import l2r.gameserver.network.serverpackets.ExStorageMaxCount;
 import l2r.gameserver.network.serverpackets.ExUseSharedGroupItem;
 import l2r.gameserver.network.serverpackets.ExVoteSystemInfo;
 import l2r.gameserver.network.serverpackets.FlyToLocation.FlyType;
+import l2r.gameserver.network.serverpackets.FriendPacket;
 import l2r.gameserver.network.serverpackets.FriendStatusPacket;
 import l2r.gameserver.network.serverpackets.GameGuardQuery;
 import l2r.gameserver.network.serverpackets.GetOnVehicle;
@@ -565,7 +566,28 @@ public final class L2PcInstance extends L2Playable
 	private double _enchantChance = AntibotConfigs.ENCHANT_CHANCE_PERCENT_TO_START;
 	public ScheduledFuture<?> _jailTimer;
 	public ScheduledFuture<?> _enchantChanceTimer;
-	
+
+	/** Auto Potion **/
+	private Map<Integer, Future<?>> _autoPotTasks = new HashMap<>();
+
+	public boolean isAutoPot(int id)
+	{
+		return _autoPotTasks.keySet().contains(id);
+	}
+
+	public void setAutoPot(int id, Future<?> task, boolean add)
+	{
+		if (add)
+			_autoPotTasks.put(id, task);
+		else
+		{
+			_autoPotTasks.get(id).cancel(true);
+			_autoPotTasks.remove(id);
+		}
+	}
+
+
+
 	/** Donate System */
 	private String donateCode;
 	private boolean donateCodeRight = true;
@@ -4019,6 +4041,22 @@ public final class L2PcInstance extends L2Playable
 			SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_DROPPED_S1);
 			sm.addItemName(item);
 			sendPacket(sm);
+		}
+		
+		if (isAutoPot(728))
+		{
+			sendPacket(new ExAutoSoulShot(728, 0));
+			setAutoPot(728, null, false);
+		}
+		if (isAutoPot(1539))
+		{
+			sendPacket(new ExAutoSoulShot(1539, 0));
+			setAutoPot(1539, null, false);
+		}
+		if (isAutoPot(5592))
+		{
+			sendPacket(new ExAutoSoulShot(5592, 0));
+			setAutoPot(5592, null, false);
 		}
 		
 		return true;
@@ -9997,6 +10035,44 @@ public final class L2PcInstance extends L2Playable
 		sendPacket(new ExShowScreenMessage2(text, timeonscreenins * 1000, ScreenMessageAlign.TOP_CENTER, text.length() > 30 ? false : true));
 	}
 	
+	/**
+	 * @param name
+	 */
+	public void removeFriend(String name)
+	{
+		SystemMessage sm;
+		int id = CharNameTable.getInstance().getIdByName(name);
+		
+		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement statement = con.prepareStatement("DELETE FROM character_friends WHERE (charId=? AND friendId=?) OR (charId=? AND friendId=?)"))
+		{
+			statement.setInt(1, getObjectId());
+			statement.setInt(2, id);
+			statement.setInt(3, id);
+			statement.setInt(4, getObjectId());
+			statement.execute();
+			
+			// Player deleted from your friend list
+			sm = SystemMessage.getSystemMessage(SystemMessageId.S1_HAS_BEEN_DELETED_FROM_YOUR_FRIENDS_LIST);
+			sm.addString(name);
+			sendPacket(sm);
+			
+			getFriendList().remove(Integer.valueOf(id));
+			sendPacket(new FriendPacket(false, id));
+			
+			L2PcInstance player = L2World.getInstance().getPlayer(name);
+			if (player != null)
+			{
+				player.getFriendList().remove(Integer.valueOf(getObjectId()));
+				player.sendPacket(new FriendPacket(false, getObjectId()));
+			}
+		}
+		catch (Exception e)
+		{
+			_log.warn("could not del friend objectid: ", e);
+		}
+	}
+	
 	public void enterObserverMode(Location loc)
 	{
 		setLastLocation();
@@ -13919,6 +13995,26 @@ public final class L2PcInstance extends L2Playable
 		return _friendList;
 	}
 	
+	public int getFriendsCount()
+	{
+		return _friendList.size();
+	}
+	
+	public int getOnlineFriendsCount()
+	{
+		int onlineCount = 0;
+		for (int id : _friendList)
+		{
+			L2PcInstance friend = L2World.getInstance().getPlayer(id);
+			if ((friend != null) && friend.isOnline())
+			{
+				onlineCount++;
+			}
+		}
+		
+		return onlineCount;
+	}
+	
 	public void restoreFriendList()
 	{
 		_friendList.clear();
@@ -15724,6 +15820,19 @@ public final class L2PcInstance extends L2Playable
 	public NevitSystem getNevitSystem()
 	{
 		return _nevitSystem;
+	}
+	
+	public void broadcastRelationChanged()
+	{
+		if (getSummon() != null)
+		{
+			sendPacket(new RelationChanged(getSummon(), getRelation(this), this));
+		}
+		
+		for (L2PcInstance player : getKnownList().getKnownPlayers().values())
+		{
+			RelationChanged.sendRelationChanged(this, player);
+		}
 	}
 	
 	private PcAdmin _pcAdmin = null;

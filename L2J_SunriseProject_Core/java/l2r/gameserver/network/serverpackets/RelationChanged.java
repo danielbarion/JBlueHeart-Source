@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import l2r.gameserver.model.actor.L2Playable;
+import l2r.gameserver.model.actor.instance.L2PcInstance;
 
 /**
  * @author Luca Baldi
@@ -63,6 +64,33 @@ public final class RelationChanged extends L2GameServerPacket
 		_singled._karma = activeChar.getKarma();
 		_singled._pvpFlag = activeChar.getPvpFlag();
 		_invisible = activeChar.isInvisible();
+	}
+	
+	public RelationChanged(L2Playable activeChar, int relation, L2PcInstance attacker)
+	{
+		_singled = new Relation();
+		_singled._objId = activeChar.getObjectId();
+		_singled._relation = relation;
+		_singled._autoAttackable = activeChar.isAutoAttackable(attacker) ? 1 : 0;
+		_singled._karma = activeChar.getKarma();
+		_singled._pvpFlag = activeChar.getPvpFlag();
+		_invisible = activeChar.isInvisible();
+	}
+	
+	public static void sendRelationChanged(L2PcInstance target, L2PcInstance attacker)
+	{
+		if ((target == null) || (attacker == null))
+		{
+			return;
+		}
+		
+		int currentRelation = target.getRelation(attacker);
+		
+		attacker.sendPacket(new RelationChanged(target, currentRelation, attacker));
+		if (target.getSummon() != null)
+		{
+			attacker.sendPacket(new RelationChanged(target.getSummon(), currentRelation, attacker));
+		}
 	}
 	
 	public RelationChanged()

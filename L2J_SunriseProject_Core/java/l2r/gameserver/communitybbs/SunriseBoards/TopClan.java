@@ -35,14 +35,13 @@ public class TopClan extends AbstractSunriseBoards
 	
 	private void addClanToList(String clan, String leadername, int clanlevel, int reputation)
 	{
-		_list.append("<table width=680 height=16 bgcolor=111111 border=0 cellspacing=0 cellpadding=0>");
 		_list.append("<tr>");
-		_list.append("<td FIXWIDTH=40>" + _counter + "</td");
-		_list.append("<td fixwidth=90>" + clan + "</td");
-		_list.append("<td fixwidth=85>" + leadername + "</td>");
-		_list.append("<td fixwidth=45>" + clanlevel + "</td>");
-		_list.append("<td  align=center FIXWIDTH=70>" + reputation + "</td>");
-		_list.append("</tr></table><img src=\"L2UI.Squaregray\" width=\"680\" height=\"1\">");
+		_list.append("<td valign=\"top\" align=\"center\">" + _counter + "</td");
+		_list.append("<td valign=\"top\" align=\"center\">" + clan + "</td");
+		_list.append("<td valign=\"top\" align=\"center\">" + leadername + "</td>");
+		_list.append("<td valign=\"top\" align=\"center\">" + clanlevel + "</td>");
+		_list.append("<td valign=\"top\" align=\"center\">" + reputation + "</td>");
+		_list.append("</tr>");
 	}
 	
 	@Override

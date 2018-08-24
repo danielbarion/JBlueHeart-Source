@@ -213,14 +213,6 @@ public class TopBBSManager extends BaseBBSManager
 					content = content.replace("%online%", Integer.toString(L2World.getInstance().getAllPlayersCount() + SmartCommunityConfigs.EXTRA_PLAYERS_COUNT));
 					content = content.replace("%servercapacity%", Integer.toString(Config.MAXIMUM_ONLINE_USERS));
 					content = content.replace("%serverruntime%", getServerRunTime());
-					if (SmartCommunityConfigs.ALLOW_REAL_ONLINE_STATS)
-					{
-						content = content.replace("%serveronline%", getRealOnline());
-					}
-					else
-					{
-						content = content.replace("%serveronline%", "");
-					}
 					break;
 				case "instances":
 					// Queen Ant

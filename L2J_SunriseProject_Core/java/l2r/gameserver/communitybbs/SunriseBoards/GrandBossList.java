@@ -59,14 +59,11 @@ public class GrandBossList extends AbstractSunriseBoards
 	
 	private void addGrandBossToList(int pos, String npcname, boolean rstatus)
 	{
-		_list.append("<table width=680 bgcolor=111111 height=16 border=0 cellspacing=0 cellpadding=0>");
 		_list.append("<tr>");
-		_list.append("<td FIXWIDTH=30>" + pos + "</td>");
-		_list.append("<td FIXWIDTH=30>" + npcname + "</td>");
-		_list.append("<td FIXWIDTH=30 align=center>" + ((rstatus) ? "<font color=99FF00>Alive</font>" : "<font color=CC0000>Dead</font>") + "</td>");
+		_list.append("<td valign=\"top\" align=\"center\">" + pos + "</td>");
+		_list.append("<td valign=\"top\" align=\"center\">" + npcname + "</td>");
+		_list.append("<td valign=\"top\" align=\"center\">" + ((rstatus) ? "<font color=99FF00>Alive</font>" : "<font color=CC0000>Dead</font>") + "</td>");
 		_list.append("</tr>");
-		_list.append("</table>");
-		_list.append("<img src=\"L2UI.Squaregray\" width=\"680\" height=\"1\">");
 	}
 	
 	@Override

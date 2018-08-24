@@ -141,6 +141,9 @@ public final class Config
 	// sunrise
 	public static final String CHAMPION_MOBS_CONFIG = "./config/sunrise/ChampionMobs.ini";
 	
+	// elemental
+	public static final String ELEMENTAL_FILE = "./config/extra/elemental/auction.ini";
+	
 	// --------------------------------------------------
 	// L2J Variable Definitions
 	// --------------------------------------------------
@@ -1246,6 +1249,12 @@ public final class Config
 	public static boolean CHS_ENABLE_FAME;
 	public static int CHS_FAME_AMOUNT;
 	public static int CHS_FAME_FREQUENCY;
+	
+	// --------------------------------------------------
+	// Elemental Settings
+	// --------------------------------------------------
+	public static boolean AUCTION_HOUSE_ONLY_PEACE_ZONE;
+	public static double AUCTION_HOUSE_SALE_FEE;
 	
 	/**
 	 * This class initializes all global variables for configuration.<br>
@@ -2820,6 +2829,12 @@ public final class Config
 			final PropertiesParser itemMallSettigns = new PropertiesParser(ITEM_MALL_CONFIG_FILE);
 			
 			GAME_POINT_ITEM_ID = itemMallSettigns.getInt("GamePointItemId", -1);
+			
+			// Elemental Configs
+			final PropertiesParser ElementalSettings = new PropertiesParser(ELEMENTAL_FILE);
+			
+			AUCTION_HOUSE_ONLY_PEACE_ZONE = ElementalSettings.getBoolean("AuctionHouseOnlyPeaceZone", true);
+			AUCTION_HOUSE_SALE_FEE = ElementalSettings.getDouble("AuctionHouseSaleFee", 0.5) / 100;
 		}
 		else if (Server.serverMode == Server.MODE_LOGINSERVER)
 		{

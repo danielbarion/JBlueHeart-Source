@@ -1,0 +1,35 @@
+<html>
+<head>
+<body scroll="no"><br1>
+<table><tr>
+<td><button value="Auction List" width=160 height=24 action="" fore=L2UI_CT1.Tab_DF_Tab_Selected back=L2UI_CT1.Tab_DF_Tab_Unselected_Over></td>
+<td><button value="Your Auctions" width=160 height=24 action="bypass %bbsCommand%;my" fore=L2UI_CT1.Tab_DF_Tab_Unselected back=L2UI_CT1.Tab_DF_Tab_Unselected_Over></td></tr></table><br1>
+<table bgcolor=171612><tr><td width=5></td><td width=40>Grade</td>
+<td width=2></td>
+<td valign=bottom><combobox width=80 height=15 var=rank list="All;NG;D;C;B;A;S;S80;S84" sel="%selectedGrade%"></td>
+<td width=10></td>
+<td><button value="Apply" width=80 height=25 action="%applyButtonAction%" back=L2UI_ct1.button_df fore=L2UI_ct1.button_df></td>
+<td width=50></td>
+<td width=80>Search Word</td>
+<td><edit var="search" length=30 width=220 height=15></td>
+<td><button value="Search" width=80 height=25 action="%searchButtonAction%" back=L2UI_ct1.button_df fore=L2UI_ct1.button_df></td>
+<td><button value="Initialize" width=80 height=25 action="bypass %bbsCommand%;server;-1" back=L2UI_ct1.button_df fore=L2UI_ct1.button_df></td></tr></table><br1>
+<table><tr><td width=5></td><td width=160>Type</td>
+<td width=5></td>
+<td width=550>Item List %itemCount%</td></tr><tr><td></td>
+<td height=382><table width=160 height=362 bgcolor=171612>%categorias%</table></td><td></td>
+<td><table width=550 height=24 cellspacing=-5><tr>
+<td><button value="Item" width=280 height=24 action="%itemOrderAction%" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td>
+<td><button value="Grade" width=60 height=24 action="%rankOrderAction%" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td>
+<td><button value="Quantity" width=100 height=24 action="%countOrderAction%" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td>
+<td><button value="Sale Price" width=140 height=24 action="%priceOrderAction%" fore=L2UI_CT1.Button_DF_Calculator back=L2UI_CT1.Button_DF_Calculator></td></tr></table>%tablas%</td></tr><tr>
+<td height=10></td><td></td><td></td><td></td></tr><tr><td height=35></td><td><table width=150 valign=middle bgcolor=171612><tr><td width=50 fixheight=5></td><td width=22></td><td width=100></td></tr><tr><td fixheight=20>Adena</td>
+<td align="right"><img src=icon.Adena width=16 height=16></td>
+<td align="right"><button value=%adenaCount% width=100 height=20 action="" fore=L2UI_CT1.Windows_DF_TooltipBG back=L2UI_CT1.Windows_DF_TooltipBG></td></tr><tr>
+<td fixheight=5></td><td></td><td></td></tr></table></td><td></td><td><table width=550 height=35><tr>
+<td fixwidth=267 align="right"><button value="Refresh" width=100 height=30 action="%refreshButtonAction%" back=L2UI_ct1.button_df fore=L2UI_ct1.button_df></td>
+<td fixwidth=5 align="center"></td>
+<td fixwidth=267><button value="%purchaseButtonName%" width=100 height=30 action="%purchaseButtonAction%" back=L2UI_ct1.button_df fore=L2UI_ct1.button_df></td></tr></table></td></tr></table>
+</body>
+</head>
+</html>

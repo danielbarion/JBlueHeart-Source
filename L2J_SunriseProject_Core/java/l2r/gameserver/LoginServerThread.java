@@ -85,9 +85,7 @@ public class LoginServerThread extends Thread
 	protected static final Logger _log = LoggerFactory.getLogger(LoginServerThread.class);
 	protected static final java.util.logging.Logger _logAccounting = java.util.logging.Logger.getLogger("accounting");
 	
-	/**
-	 * @see l2r.loginserver.L2LoginServer#PROTOCOL_REV
-	 */
+	/** @see l2r.loginserver.L2LoginServer#PROTOCOL_REV */
 	private static final int REVISION = 0x0106;
 	private final String _hostname;
 	private final int _port;
@@ -142,15 +140,6 @@ public class LoginServerThread extends Thread
 		_hosts = Config.GAME_SERVER_HOSTS;
 		_waitingClients = new CopyOnWriteArrayList<>();
 		_maxPlayer = Config.MAXIMUM_ONLINE_USERS;
-	}
-	
-	/**
-	 * Gets the single instance of LoginServerThread.
-	 * @return single instance of LoginServerThread
-	 */
-	public static LoginServerThread getInstance()
-	{
-		return SingletonHolder._instance;
 	}
 	
 	@Override
@@ -354,7 +343,7 @@ public class LoginServerThread extends Thread
 			}
 			catch (UnknownHostException e)
 			{
-				_log.warn("", e);
+				_log.warn("Unknown host!", e);
 			}
 			catch (SocketException e)
 			{
@@ -814,6 +803,15 @@ public class LoginServerThread extends Thread
 			gameClient = client;
 			session = key;
 		}
+	}
+	
+	/**
+	 * Gets the single instance of LoginServerThread.
+	 * @return single instance of LoginServerThread
+	 */
+	public static LoginServerThread getInstance()
+	{
+		return SingletonHolder._instance;
 	}
 	
 	private static class SingletonHolder
