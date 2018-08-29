@@ -1,18 +1,18 @@
 /*
  * Copyright (C) 2004-2017 L2J DataPack
- * 
+ *
  * This file is part of L2J DataPack.
- * 
+ *
  * L2J DataPack is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * L2J DataPack is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
  * General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
@@ -39,7 +39,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 	// NPCs
 	private static final int CLIFF = 30182;
 	private static final int WAREHOUSE_CHIEF_BAXT = 30685;
-	
+
 	// Monsters
 	private static final int DUST_WIND = 20242;
 	private static final int INNERSEN = 20950;
@@ -87,7 +87,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 	private static final int VARNISH_OF_PURITY = 1887;
 	private static final int BLESSED_GLOVES = 2463;
 	private static final int CRAFTED_LEATHER = 1894;
-	
+
 	public Q00384_WarehouseKeepersPastime()
 	{
 		super(384, Q00384_WarehouseKeepersPastime.class.getSimpleName(), "Warehouse Keeper's Pastime");
@@ -96,7 +96,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		addKillId(WAREHOUSE_CHIEF_BAXT, DUST_WIND, INNERSEN, CLIFF, CONGERER, CARINKAIN, CONNABI, HUNTER_GARGOYLE, NIGHTMARE_GUIDE, DRAGON_BEARER_WARRIOR, DRAGON_BEARER_CHIEF, DUST_WIND_HOLD, WEIRD_DRAKE, THUNDER_WYRM_HOLD, CADEINE, CONGERER_LORD, DRAGON_BEARER_ARCHER, NIGHTMARE_LORD, SANHIDRO, GIANT_MONSTEREYE, BARTAL, HUNTER_GARGOYLE_HOLD, ROT_GOLEM, GRAVE_GUARD, TULBEN, NIGHTMARE_KEEPER, LUMINUN, THUNDER_WYRM);
 		registerQuestItems(Q_IRONGATE_MEDAL);
 	}
-	
+
 	@Override
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
@@ -133,7 +133,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		return htmltext;
 	}
-	
+
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
@@ -144,8 +144,8 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 			{
 				return event;
 			}
-			
-			final int ask = Integer.parseInt(event);
+
+
 			switch (npc.getId())
 			{
 				case CLIFF:
@@ -159,6 +159,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 						qs.playSound(QuestSound.ITEMSOUND_QUEST_MIDDLE);
 						return "30182-05.htm";
 					}
+					final int ask = Integer.parseInt(event);
 					switch (ask)
 					{
 						case 3:
@@ -241,6 +242,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 					break;
 				}
 				case WAREHOUSE_CHIEF_BAXT:
+					final int ask = Integer.parseInt(event);
 					switch (ask)
 					{
 						case 3:
@@ -310,7 +312,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		return super.onAdvEvent(event, npc, player);
 	}
-	
+
 	private String takeHtml(L2PcInstance player, QuestState qs, int num, int npcId)
 	{
 		String html = null;
@@ -319,7 +321,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		{
 			selectBingoNumber(qs, num);
 			i3 = getBingoSelectCount(qs);
-			
+
 			if (i3 == 2)
 			{
 				html = getHtm(player.getHtmlPrefix(), npcId + "-14.html");
@@ -357,7 +359,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		return fillBoard(player, qs, html);
 	}
-	
+
 	private String fillBoard(L2PcInstance player, QuestState qs, String html)
 	{
 		for (int i0 = 0; i0 < 9; i0 = i0 + 1)
@@ -374,7 +376,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		return html;
 	}
-	
+
 	private String colorBoard(L2PcInstance player, QuestState qs, String html)
 	{
 		for (int i0 = 0; i0 < 9; i0 = i0 + 1)
@@ -385,7 +387,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		return html;
 	}
-	
+
 	private String beforeReward(L2PcInstance player, QuestState qs, int num, int npcId)
 	{
 		if (!isSelectedBingoNumber(qs, num))
@@ -411,7 +413,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		return fillBoard(player, qs, getHtm(player.getHtmlPrefix(), npcId + "-25.html"));
 	}
-	
+
 	private void reward(L2PcInstance player, QuestState qs, int i3)
 	{
 		if (i3 == 3)
@@ -447,12 +449,12 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 				{
 					qs.giveItems(SCRL_OF_ENCH_WP_C, 1);
 				}
-				
+
 			}
 			else if (qs.getMemoState() == 20)
 			{
 				int random = getRandom(100);
-				
+
 				if (random < 50)
 				{
 					qs.giveItems(AQUASTONE_RING, 1);
@@ -476,7 +478,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 			if (qs.getMemoState() == 10)
 			{
 				int random = getRandom(100);
-				
+
 				if (random < 50)
 				{
 					qs.giveItems(MOLD_HARDENER, 1);
@@ -497,7 +499,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 			else if (qs.getMemoState() == 20)
 			{
 				int random = getRandom(100);
-				
+
 				if (random < 50)
 				{
 					qs.giveItems(SCRL_OF_ENCH_WP_C, 1);
@@ -518,7 +520,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 			}
 		}
 	}
-	
+
 	/**
 	 * @param qs
 	 */
@@ -531,7 +533,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		qs.set("numbers", Arrays.asList(arr).toString().replaceAll("[^\\d ]", ""));
 		qs.set("selected", "? ? ? ? ? ? ? ? ?");
 	}
-	
+
 	/**
 	 * @param qs
 	 * @return
@@ -577,7 +579,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		return found;
 	}
-	
+
 	/**
 	 * @param qs
 	 * @param num
@@ -610,7 +612,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		}
 		qs.set("selected", result);
 	}
-	
+
 	/**
 	 * @param qs
 	 * @param num
@@ -620,7 +622,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 	{
 		return qs.get("selected").contains(num + "");
 	}
-	
+
 	/**
 	 * @param qs
 	 * @param num
@@ -630,7 +632,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 	{
 		return Integer.parseInt(qs.get("numbers").split(" ")[num]);
 	}
-	
+
 	/**
 	 * @param qs
 	 * @return
@@ -640,7 +642,7 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 		String current = qs.get("selected");
 		return current.replaceAll("\\D", "").length();
 	}
-	
+
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
@@ -806,27 +808,27 @@ public final class Q00384_WarehouseKeepersPastime extends Quest
 					}
 					break;
 			}
-			
+
 		}
 		return super.onKill(npc, killer, isSummon);
 	}
-	
+
 	private QuestState getRandomPlayerFromParty(L2PcInstance player, L2Npc npc)
 	{
 		QuestState qs = getQuestState(player, false);
 		final List<QuestState> candidates = new ArrayList<>();
-		
+
 		if ((qs != null) && qs.isStarted())
 		{
 			candidates.add(qs);
 			candidates.add(qs);
 		}
-		
+
 		if (player.isInParty())
 		{
 			player.getParty().getMembers().stream().forEach(pm ->
 			{
-				
+
 				QuestState qss = getQuestState(pm, false);
 				if ((qss != null) && qss.isStarted() && Util.checkIfInRange(1500, npc, pm, true))
 				{
