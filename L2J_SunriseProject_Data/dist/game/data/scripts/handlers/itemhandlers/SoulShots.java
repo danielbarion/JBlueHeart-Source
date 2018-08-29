@@ -98,37 +98,6 @@ public class SoulShots implements IItemHandler
 
 					break;
 				}
-				case 1539: // greater healing potion
-				{
-					if (activeChar.isAutoPot(1539))
-					{
-						activeChar.sendPacket(new ExAutoSoulShot(1539, 0));
-						activeChar.sendMessage("Deactivated auto healing potions.");
-						activeChar.setAutoPot(1539, null, false);
-					}
-					else
-					{
-						if (activeChar.getInventory().getItemByItemId(1539) != null)
-						{
-							if (activeChar.getInventory().getItemByItemId(1539).getCount() > 1)
-							{
-								activeChar.sendPacket(new ExAutoSoulShot(1539, 1));
-								activeChar.sendMessage("Activated auto healing potions.");
-								activeChar.setAutoPot(1539, ThreadPoolManager.getInstance().scheduleGeneralAtFixedRate(new AutoPot(1539, activeChar), 1000, HEALING_POT_CD*1000), true);
-							}
-							else
-							{
-								MagicSkillUse msu = new MagicSkillUse(activeChar, activeChar, 2037, 1, 0, 100);
-								activeChar.broadcastPacket(msu);
-
-								ItemSkills is = new ItemSkills();
-								is.useItem(activeChar, activeChar.getInventory().getItemByItemId(1539), true);
-							}
-						}
-					}
-
-					break;
-				}
 				case 5592: // greater cp potion
 				{
 					if (activeChar.isAutoPot(5592))
@@ -261,19 +230,6 @@ public class SoulShots implements IItemHandler
 
 						ItemSkills is = new ItemSkills();
 						is.useItem(activeChar, activeChar.getInventory().getItemByItemId(728), true);
-					}
-
-					break;
-				}
-				case 1539:
-				{
-					if (activeChar.getCurrentHp() < 0.95*activeChar.getMaxHp())
-					{
-						MagicSkillUse msu = new MagicSkillUse(activeChar, activeChar, 2037, 1, 0, 100);
-						activeChar.broadcastPacket(msu);
-
-						ItemSkills is = new ItemSkills();
-						is.useItem(activeChar, activeChar.getInventory().getItemByItemId(1539), true);
 					}
 
 					break;
