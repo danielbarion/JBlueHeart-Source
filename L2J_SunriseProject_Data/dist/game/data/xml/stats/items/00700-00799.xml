@@ -384,6 +384,17 @@
 			<player flyMounted="false" />
 		</cond>
 	</item>
+
+	<!--
+
+	If AutoPotion is active, the
+	<set name = "handler" val = "SoulShots" /> should look like this.
+
+	If you want to disable it, it should look like this:
+	<set name = "handler" val = "ManaPotion" />
+
+	-->
+
 	<item id="728" type="EtcItem" name="Mana Potion">
 		<set name="icon" val="icon.etc_reagent_blue_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
