@@ -868,6 +868,16 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2166-1" />
 	</item>
+
+	<!--
+
+	If AutoPotion is active, the
+	<set name = "handler" val = "SoulShots" /> should look like this.
+
+	If you want to disable it, it should look like this:
+	<set name = "handler" val = "ItemSkills" />
+
+	-->
 	<item id="5592" type="EtcItem" name="Greater CP Potion">
 		<set name="icon" val="icon.etc_cp_potion_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
