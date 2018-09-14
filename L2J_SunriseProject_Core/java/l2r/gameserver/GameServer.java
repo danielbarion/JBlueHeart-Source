@@ -476,7 +476,7 @@ public class GameServer
 			_log.info("Copyrights: .............: BlueHeart-Team 2018");
 			_log.info("BlueHeart Owner: ........: vert");
 			_log.info("BlueHeart Developer: ....: vert | TurtleLess");
-			_log.info("BlueHeart Version: ......: 1.1");
+			_log.info("BlueHeart Version: ......: 1.2");
 			_log.info("......................\uD83D\uDC99......................");
 			printMemUsage();
 			_log.info("=====================================================");

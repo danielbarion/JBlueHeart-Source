@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Event ID="All Coin Event" Active="1 Feb 2018-1 Feb 2020" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/faenor.xsd">
+	<Droplist>
+		<AllDrop Items="26000" Count="1,3" Chance="75%" />
+	</Droplist>
+	<EventEnd>
+		<Take From="AllPlayers">
+			<Item ItemID="-1"></Item>
+		</Take>
+	</EventEnd>
+	<Message Type="OnJoin" Msg="All Coin Event: When in All Coin Event period, you can collect the donator coin from kill mobs with 35% chance!! (Lord Adena.. All monster's have a chance to drop.)" />
+</Event>

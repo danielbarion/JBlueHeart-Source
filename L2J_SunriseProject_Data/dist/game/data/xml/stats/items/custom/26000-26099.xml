@@ -247,4 +247,35 @@
             <set stat="maxMp" val="30000" />
         </for>
     </item>
+
+	<item id="26015" type="EtcItem" name="Scarecrow Jack Transformation Stick {Buff} - Pack	7-day limited period">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+        <set name="capsuled_items" val="26014,1,1,100;" />
+	</item>
+
+	<item id="26016" type="EtcItem" name="Scarecrow Jack Transformation Stick {Buff} - Pack	30-day limited period">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="26014,1,1,100;" />
+	</item>
+
 </list>
