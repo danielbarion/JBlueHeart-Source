@@ -119,7 +119,6 @@ Made with love.
 
 # Todo
 ```
-- Organizar as skills do aio ao serem carregadas
 - Testar o sql da soure para checar a Lady e a Kiara (job shop)
 ```
 
@@ -134,5 +133,11 @@ Made with love.
 getActiveChar().getNevitSystem().addPoints(360); // Active after 20 levels
 ```
 
-# Developer
-`vert - [Daniel Barion]`
+# Owner
+`vert`
+
+# Developers
+```
+vert
+TurtLess
+```
