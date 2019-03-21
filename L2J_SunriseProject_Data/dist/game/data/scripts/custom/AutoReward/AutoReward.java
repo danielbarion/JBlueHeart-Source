@@ -12,7 +12,7 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package custom.AutoDelivery;
+package custom.AutoReward;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -29,10 +29,10 @@ import java.util.logging.Logger;
  * @author PaiPlayer based on AutoReward from Debian @ L2jServer Forums
  *
  */
-public class AutoDelivery
+public class AutoReward
 {
     
-    protected static final Logger _log = Logger.getLogger(AutoDelivery.class.getName());
+    protected static final Logger _log = Logger.getLogger(AutoReward.class.getName());
             
     static public void main(String[] args)
         {
@@ -42,10 +42,10 @@ public class AutoDelivery
                        @Override
                         public void run()
                         {
-                                AutoDelivery();                                                              
+                                AutoReward();                                                              
                         }
 
-                        private void AutoDelivery()
+                        private void AutoReward()
                         {                     
                                 try (Connection con = L2DatabaseFactory.getInstance().getConnection()){
                                         // GETTING THE ITEMS DELAYED
