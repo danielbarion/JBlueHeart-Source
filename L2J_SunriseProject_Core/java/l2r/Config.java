@@ -474,6 +474,8 @@ public final class Config
 	public static boolean LOG_CHAT;
 	public static boolean LOG_AUTO_ANNOUNCEMENTS;
 	public static boolean LOG_ITEMS;
+	public static boolean LOG_ITEMS_DATABASE;
+	public static boolean LOG_ITEMS_DEBUG;
 	public static boolean LOG_ITEMS_SMALL_LOG;
 	public static boolean LOG_ITEM_ENCHANTS;
 	public static boolean LOG_SKILL_ENCHANTS;
@@ -1886,6 +1888,8 @@ public final class Config
 			LOG_CHAT = General.getBoolean("LogChat", false);
 			LOG_AUTO_ANNOUNCEMENTS = General.getBoolean("LogAutoAnnouncements", false);
 			LOG_ITEMS = General.getBoolean("LogItems", false);
+            LOG_ITEMS_DATABASE = General.getBoolean("LogItemsToDatabase", false);
+            LOG_ITEMS_DEBUG = General.getBoolean("LogItemsDebug", false);
 			LOG_ITEMS_SMALL_LOG = General.getBoolean("LogItemsSmallLog", false);
 			LOG_ITEM_ENCHANTS = General.getBoolean("LogItemEnchants", false);
 			LOG_SKILL_ENCHANTS = General.getBoolean("LogSkillEnchants", false);
