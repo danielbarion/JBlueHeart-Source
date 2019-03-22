@@ -22,6 +22,7 @@ import static l2r.gameserver.model.itemcontainer.Inventory.ADENA_ID;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -250,9 +251,18 @@ public class ItemData
 		
 		if (Config.LOG_ITEMS && !process.equals("Reset"))
 		{
-			if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (item.isEquipable() || (item.getId() == ADENA_ID))))
+			if(Config.LOG_ITEMS_DATABASE) {
+				try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+					 PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item + "','" + count + "')")) {
+					ps.executeUpdate();
+				} catch (SQLException e) {
+					LOGGER.error("SQL Error: INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item + "','" + count + "')", e);
+				}
+			} else if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (item.isEquipable() || (item.getId() == ADENA_ID))))
 			{
 				LogRecord record = new LogRecord(Level.INFO, "CREATE:" + process);
+
+				
 				record.setLoggerName("item");
 				record.setParameters(new Object[]
 				{
@@ -261,6 +271,10 @@ public class ItemData
 					reference
 				});
 				LOGGER_ITEMS.log(record);
+			}
+			
+			if(Config.LOG_ITEMS_DEBUG) {
+				LOGGER.warn("ItemLogDebug createItem: " + process + " | " + actor + " | " + item + " | " + count + "" );
 			}
 		}
 		
@@ -323,7 +337,14 @@ public class ItemData
 			
 			if (Config.LOG_ITEMS)
 			{
-				if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (item.isEquipable() || (item.getId() == ADENA_ID))))
+				if(Config.LOG_ITEMS_DATABASE) {
+					try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+						 PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item.getId() + "','-" + old + "')")) {
+						ps.executeUpdate();
+					} catch (SQLException e) {
+						LOGGER.error("SQL Error: INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item.getId() + "','-" + old + "')", e);
+					}
+				} else if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (item.isEquipable() || (item.getId() == ADENA_ID))))
 				{
 					LogRecord record = new LogRecord(Level.INFO, "DELETE:" + process);
 					record.setLoggerName("item");
@@ -335,6 +356,10 @@ public class ItemData
 						reference
 					});
 					LOGGER_ITEMS.log(record);
+				}
+
+				if(Config.LOG_ITEMS_DEBUG) {
+					LOGGER.warn("ItemLogDebug destroyItem: " + process + " | " + actor + " | " + item + " | -" + old + "" );
 				}
 			}
 			
