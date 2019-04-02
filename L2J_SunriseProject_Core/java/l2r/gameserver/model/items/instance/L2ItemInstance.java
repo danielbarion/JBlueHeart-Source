@@ -327,10 +327,10 @@ public final class L2ItemInstance extends L2Object
 			if(Config.LOG_ITEMS_DATABASE) {
 
 				try (Connection con = L2DatabaseFactory.getInstance().getConnection();
-					 PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + owner_id + "','" + creator + "','" + this + "','" + this.getCount() + "')")) {
+					 PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + owner_id + "','" + creator + "','" + this.getId() + "','" + this.getCount() + "')")) {
 					ps.executeUpdate();
 				} catch (SQLException e) {
-					_log.error("SQL Error: INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + owner_id + "','"+ creator +"','" + this + "','" + this.getCount() + "')", e);
+					_log.error("SQL Error: INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + owner_id + "','"+ creator +"','" + this.getId() + "','" + this.getCount() + "')", e);
 				}
 			} else if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (getItem().isEquipable() || (getItem().getId() == ADENA_ID))))
 			{

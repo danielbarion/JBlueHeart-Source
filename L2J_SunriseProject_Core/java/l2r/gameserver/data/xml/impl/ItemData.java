@@ -253,10 +253,10 @@ public class ItemData
 		{
 			if(Config.LOG_ITEMS_DATABASE) {
 				try (Connection con = L2DatabaseFactory.getInstance().getConnection();
-					 PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item + "','" + count + "')")) {
+					 PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item.getId() + "','" + count + "')")) {
 					ps.executeUpdate();
 				} catch (SQLException e) {
-					LOGGER.error("SQL Error: INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item + "','" + count + "')", e);
+					LOGGER.error("SQL Error: INSERT INTO item_log (process,activechar,item,count) VALUES ('" + process + "','" + actor + "','" + item.getId() + "','" + count + "')", e);
 				}
 			} else if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (item.isEquipable() || (item.getId() == ADENA_ID))))
 			{
