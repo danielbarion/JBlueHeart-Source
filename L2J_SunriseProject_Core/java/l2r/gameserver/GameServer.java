@@ -414,9 +414,10 @@ public class GameServer
 			DressMeLoader.load();
 		}
 
-		// Auction House Manager
-		AuctionHouseManager.getInstance();
-
+		if(Config.ALT_ITEM_AUCTION_ENABLED){
+			// Auction House Manager
+			AuctionHouseManager.getInstance();
+		}
 
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 		
@@ -426,11 +427,13 @@ public class GameServer
 		
 		if ((Config.OFFLINE_TRADE_ENABLE || Config.OFFLINE_CRAFT_ENABLE) && Config.RESTORE_OFFLINERS)
 		{
+			_log.info("Restoring Offline Traders");
 			OfflineTradersTable.getInstance().restoreOfflineTraders();
 		}
 		
 		if (Config.DEADLOCK_DETECTOR)
 		{
+			_log.info("Starting Deadlock Detector");
 			_deadDetectThread = new DeadLockDetector();
 			_deadDetectThread.setDaemon(true);
 			_deadDetectThread.start();
