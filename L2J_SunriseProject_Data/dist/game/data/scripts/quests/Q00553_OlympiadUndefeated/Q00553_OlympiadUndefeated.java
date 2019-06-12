@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -21,8 +21,8 @@ package quests.Q00553_OlympiadUndefeated;
 import l2r.gameserver.enums.QuestType;
 import l2r.gameserver.model.actor.L2Npc;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
-import l2r.gameserver.model.entity.olympiad.CompetitionType;
-import l2r.gameserver.model.entity.olympiad.Participant;
+import l2r.gameserver.model.olympiad.CompetitionType;
+import l2r.gameserver.model.olympiad.Participant;
 import l2r.gameserver.model.quest.Quest;
 import l2r.gameserver.model.quest.QuestState;
 import l2r.gameserver.model.quest.State;
@@ -68,37 +68,15 @@ public class Q00553_OlympiadUndefeated extends Quest
 		else if (event.equalsIgnoreCase("31688-04.html"))
 		{
 			final long count = st.getQuestItemsCount(WIN_CONF_2) + st.getQuestItemsCount(WIN_CONF_5);
+			
 			if (count > 0)
 			{
-				if ((st.getQuestItemsCount(WIN_CONF_2) > 0) && (st.getQuestItemsCount(WIN_CONF_5) > 0))
+				st.giveItems(OLY_CHEST, count);
+				if (count == 2)
 				{
-					st.giveItems(OLY_CHEST, 5);
-					st.giveItems(MEDAL_OF_GLORY, 5);
+					st.giveItems(MEDAL_OF_GLORY, 3);
 				}
-				else
-				{
-					st.giveItems(OLY_CHEST, 1);
-				}
-				
 				st.exitQuest(QuestType.DAILY, true);
-			}
-			else
-			{
-				htmltext = getNoQuestMsg(player);
-			}
-		}
-		else if (event.equalsIgnoreCase("31688-06.html"))
-		{
-			if ((st.getQuestItemsCount(WIN_CONF_2) > 0) && (st.getQuestItemsCount(WIN_CONF_5) > 0) && (st.getQuestItemsCount(WIN_CONF_10) > 0))
-			{
-				st.giveItems(OLY_CHEST, 6);
-				st.giveItems(MEDAL_OF_GLORY, 10);
-				st.exitQuest(QuestType.DAILY, true);
-			}
-			else if ((st.getQuestItemsCount(WIN_CONF_2) > 0) && (st.getQuestItemsCount(WIN_CONF_5) > 0))
-			{
-				st.giveItems(OLY_CHEST, 5);
-				st.giveItems(MEDAL_OF_GLORY, 5);
 			}
 			else
 			{
@@ -201,23 +179,16 @@ public class Q00553_OlympiadUndefeated extends Quest
 		else
 		{
 			final long count = st.getQuestItemsCount(WIN_CONF_2) + st.getQuestItemsCount(WIN_CONF_5) + st.getQuestItemsCount(WIN_CONF_10);
-			if ((count >= 3) && st.isCond(2))
+			if ((count == 3) && st.isCond(2))
 			{
-				st.giveItems(OLY_CHEST, 6);
-				st.giveItems(MEDAL_OF_GLORY, 10);
+				st.giveItems(OLY_CHEST, 4);
+				st.giveItems(MEDAL_OF_GLORY, 5);
 				st.exitQuest(QuestType.DAILY, true);
 				htmltext = "31688-04.html";
 			}
 			else
 			{
-				if (count > 2)
-				{
-					htmltext = "31688-w" + 2 + ".html";
-				}
-				else
-				{
-					htmltext = "31688-w" + count + ".html";
-				}
+				htmltext = "31688-w" + count + ".html";
 			}
 		}
 		return htmltext;
