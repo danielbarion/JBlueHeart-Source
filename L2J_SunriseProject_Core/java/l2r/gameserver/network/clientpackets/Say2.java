@@ -197,6 +197,47 @@ public final class Say2 extends L2GameClientPacket
 			return;
 		}
 		
+		if (Config.ENABLE_LEVEL_CHATS) // Disable this checks if you want.
+			{
+				if (activeChar.getClassIndex() == 0) // We check it first to doens't do a lot of checks in all characters using trade,shout,etc.
+					{
+						if ((activeChar.getLevel() < (Config.LEVEL_ALL_CHAT)) && (_type == ALL)) // 0
+							{
+								activeChar.sendMessage(Config.ALL_MSG);
+								return;
+							}
+						if ((activeChar.getLevel() < (Config.LEVEL_PM_CHAT)) && (_type == TELL)) // 2
+							{
+								activeChar.sendMessage(Config.PM_MSG);
+								return;
+							}
+						if ((activeChar.getLevel() < (Config.LEVEL_SHOUT_CHAT)) && (_type == SHOUT)) // 1
+							{
+								activeChar.sendMessage(Config.SHOUT_MSG);
+								return;
+							}
+						if ((activeChar.getLevel() < (Config.LEVEL_TRADE_CHAT)) && (_type == TRADE)) // 8
+							{
+								activeChar.sendMessage(Config.TRADE_MSG);
+								return;
+							}
+						if (activeChar.isHero() && (activeChar.getLevel() < (Config.LEVEL_HERO_CHAT)) && (_type == HERO_VOICE)) // 17
+							{
+								activeChar.sendMessage(Config.HERO_MSG);
+								return;
+							}
+						if (Config.DEBUG)
+								{
+									_log.info("Say2: player:" + activeChar.getName() + "Doesn't have subclass but is higher level than configs need");
+								}
+					}
+					if (Config.DEBUG)
+					{
+						_log.info("Say2: LEVEL_CHATS is enable.");
+					}
+			}
+
+
 		if (activeChar.isCursedWeaponEquipped() && ((_type == TRADE) || (_type == SHOUT)))
 		{
 			activeChar.sendPacket(SystemMessageId.SHOUT_AND_TRADE_CHAT_CANNOT_BE_USED_WHILE_POSSESSING_CURSED_WEAPON);
