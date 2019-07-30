@@ -102,6 +102,7 @@ import handlers.admincommandhandlers.AdminHellbound;
 import handlers.admincommandhandlers.AdminHtml;
 import handlers.admincommandhandlers.AdminInstance;
 import handlers.admincommandhandlers.AdminInstanceZone;
+import handlers.admincommandhandlers.AdminInventory;
 import handlers.admincommandhandlers.AdminInvul;
 import handlers.admincommandhandlers.AdminKick;
 import handlers.admincommandhandlers.AdminKill;
@@ -398,6 +399,7 @@ public class MasterHandler
 			AdminHWIDBan.class,
 			AdminInstance.class,
 			AdminInstanceZone.class,
+			AdminInventory.class,
 			AdminInvul.class,
 			AdminKick.class,
 			AdminKill.class,
