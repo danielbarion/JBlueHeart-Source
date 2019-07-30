@@ -1253,6 +1253,22 @@ public final class Config
 	public static int CHS_FAME_FREQUENCY;
 	
 	// --------------------------------------------------
+	// Customs
+	// --------------------------------------------------
+ 	public static boolean ENABLE_LEVEL_CHATS;
+ 	public static int LEVEL_ALL_CHAT;
+ 	public static int LEVEL_PM_CHAT;
+	public static int LEVEL_SHOUT_CHAT;
+	public static int LEVEL_TRADE_CHAT;
+	public static int LEVEL_HERO_CHAT;
+	public static String ALL_MSG;
+	public static String PM_MSG;
+	public static String SHOUT_MSG;
+	public static String TRADE_MSG;
+	public static String HERO_MSG;
+
+
+	// --------------------------------------------------
 	// Elemental Settings
 	// --------------------------------------------------
 	public static boolean AUCTION_HOUSE_ONLY_PEACE_ZONE;
@@ -2387,6 +2403,18 @@ public final class Config
 			}
 			L2JMOD_ALLOW_CHANGE_PASSWORD = L2JModSettings.getBoolean("AllowChangePassword", false);
 			
+			ENABLE_LEVEL_CHATS = L2JModSettings.getBoolean("EnableLevelChats", false);
+			LEVEL_ALL_CHAT = L2JModSettings.getInt("LevelAllChat", 0);
+			LEVEL_PM_CHAT = L2JModSettings.getInt("LevelPmChat", 0);
+			LEVEL_SHOUT_CHAT = L2JModSettings.getInt("LevelShoutChat", 0);
+			LEVEL_TRADE_CHAT = L2JModSettings.getInt("LevelTradeChat", 0);
+			LEVEL_HERO_CHAT = L2JModSettings.getInt("LevelHeroChat", 0);
+			ALL_MSG = L2JModSettings.getString("AllMsg", "You can't talk before level 1");
+			PM_MSG = L2JModSettings.getString("PmMsg", "You can't talk before level 1");
+			SHOUT_MSG = L2JModSettings.getString("ShoutMsg", "You can't talk before level 1");
+			TRADE_MSG = L2JModSettings.getString("TradeMsg", "You can't talk before level 1");
+			HERO_MSG = L2JModSettings.getString("HeroMsg", "You can't talk before level 1");
+
 			// Load PvP L2Properties file (if exists)
 			final PropertiesParser PVPSettings = new PropertiesParser(PVP_CONFIG_FILE);
 			
