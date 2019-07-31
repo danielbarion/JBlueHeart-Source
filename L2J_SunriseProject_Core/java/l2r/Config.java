@@ -717,6 +717,43 @@ public final class Config
 	// --------------------------------------------------
 	// L2JMods Settings
 	// --------------------------------------------------
+	public static String DISABLE_RAPIER_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_RAPIER_CLASSES = new ArrayList<>();
+	// ----------------------------------------------------------------------------------------------------------
+	public static String DISABLE_ANCIENTSWORD_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_ANCIENTSWORD_CLASSES = new ArrayList<>();
+	// ----------------------------------------------------------------------------------------------------------
+	public static String DISABLE_CROSSBOW_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_CROSSBOW_CLASSES = new ArrayList<>();
+	// ----------------------------------------------------------------------------------------------------------
+	public static String DISABLE_BLUNT_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_BLUNT_CLASSES = new ArrayList<>();
+	// ----------------------------------------------------------------------------------------------------------
+	public static String DISABLE_DUALDAGGER_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_DUALDAGGER_CLASSES = new ArrayList<>();
+	// ----------------------------------------------------------------------------------------------------------
+	public static String DISABLE_BOW_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_BOW_CLASSES = new ArrayList<>();
+	
+	public static String DISABLE_DUAL_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_DUAL_CLASSES = new ArrayList<>();
+	
+	public static String DISABLE_DAGGER_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_DAGGER_CLASSES = new ArrayList<>();
+	// ----------------------------------------------------------------------------------------------------------
+	public static String DISABLE_ROBE_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_ROBE_CLASSES = new ArrayList<>();
+	
+	public static String DISABLE_LIGHT_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_LIGHT_CLASSES = new ArrayList<>();
+	
+	public static String DISABLE_HEAVY_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_HEAVY_CLASSES = new ArrayList<>();
+	
+	public static String DISABLE_SHIELD_CLASSES_STRING;
+	public static ArrayList<Integer> DISABLE_SHIELD_CLASSES = new ArrayList<>();
+	
+	// ----------------------------------------------------------------------------------------------------------
 	public static boolean L2JMOD_ALLOW_WEDDING;
 	public static boolean L2JMOD_DRESS_ME_ENABLED;
 	public static int L2JMOD_WEDDING_PRICE;
@@ -2402,6 +2439,128 @@ public final class Config
 				}
 			}
 			L2JMOD_ALLOW_CHANGE_PASSWORD = L2JModSettings.getBoolean("AllowChangePassword", false);
+			
+			// -----------------------------------------------------------------------------------------------------------
+			DISABLE_RAPIER_CLASSES_STRING = L2JModSettings.getString("DisableRapierForClasses", "");
+			DISABLE_RAPIER_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_RAPIER_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_RAPIER_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			// -----------------------------------------------------------------------------------------------------------
+			DISABLE_ANCIENTSWORD_CLASSES_STRING = L2JModSettings.getString("DisableAncientswordForClasses", "");
+			DISABLE_ANCIENTSWORD_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_ANCIENTSWORD_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_ANCIENTSWORD_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			// -----------------------------------------------------------------------------------------------------------
+			DISABLE_CROSSBOW_CLASSES_STRING = L2JModSettings.getString("DisableCrossbowForClasses", "");
+			DISABLE_CROSSBOW_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_CROSSBOW_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_CROSSBOW_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			// -----------------------------------------------------------------------------------------------------------
+			DISABLE_BLUNT_CLASSES_STRING = L2JModSettings.getString("DisableBluntForClasses", "");
+			DISABLE_BLUNT_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_BLUNT_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_BLUNT_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			// -----------------------------------------------------------------------------------------------------------
+			DISABLE_DUALDAGGER_CLASSES_STRING = L2JModSettings.getString("DisableDualDaggerForClasses", "");
+			DISABLE_DUALDAGGER_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_DUALDAGGER_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_DUALDAGGER_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			// -----------------------------------------------------------------------------------------------------------
+			DISABLE_BOW_CLASSES_STRING = L2JModSettings.getString("DisableBowForClasses", "");
+			DISABLE_BOW_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_BOW_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_BOW_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			
+			DISABLE_DUAL_CLASSES_STRING = L2JModSettings.getString("DisableDualForClasses", "");
+			DISABLE_DUAL_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_DUAL_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_DUAL_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			
+			DISABLE_DAGGER_CLASSES_STRING = L2JModSettings.getString("DisableDaggerForClasses", "");
+			DISABLE_DAGGER_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_DAGGER_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_DAGGER_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			// -----------------------------------------------------------------------------------------------------------
+			DISABLE_ROBE_CLASSES_STRING = L2JModSettings.getString("DisableRobeForClasses", "");
+			DISABLE_ROBE_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_ROBE_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_ROBE_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			
+			DISABLE_LIGHT_CLASSES_STRING = L2JModSettings.getString("DisableLightForClasses", "");
+			DISABLE_LIGHT_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_LIGHT_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_LIGHT_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			
+			DISABLE_HEAVY_CLASSES_STRING = L2JModSettings.getString("DisableHeavyForClasses", "");
+			DISABLE_HEAVY_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_HEAVY_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_HEAVY_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			
+			DISABLE_SHIELD_CLASSES_STRING = L2JModSettings.getString("DisableShieldForClasses", "");
+			DISABLE_SHIELD_CLASSES = new ArrayList<>();
+			for (String class_id : DISABLE_SHIELD_CLASSES_STRING.split(";"))
+			{
+				if (!class_id.equals(""))
+				{
+					DISABLE_SHIELD_CLASSES.add(Integer.parseInt(class_id));
+				}
+			}
+			// -----------------------------------------------------------------------------------------------------------
 			
 			ENABLE_LEVEL_CHATS = L2JModSettings.getBoolean("EnableLevelChats", false);
 			LEVEL_ALL_CHAT = L2JModSettings.getInt("LevelAllChat", 0);
