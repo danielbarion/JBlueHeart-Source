@@ -34,6 +34,7 @@ import l2r.gameserver.instancemanager.FortSiegeManager;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.holders.SkillHolder;
 import l2r.gameserver.model.itemcontainer.Inventory;
+import l2r.gameserver.model.items.L2Armor;
 import l2r.gameserver.model.items.L2EtcItem;
 import l2r.gameserver.model.items.L2Item;
 import l2r.gameserver.model.items.L2Weapon;
@@ -335,6 +336,154 @@ public final class UseItem extends L2GameClientPacket
 					}
 				}
 			}
+			
+			// Weapon Restriction ===========================================================================================
+			// Restrict RAPIER Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.RAPIER))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_RAPIER_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip RAPIER!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			// Weapon Restriction ===========================================================================================
+			// Restrict ANCIENTSWORD Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.ANCIENTSWORD))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_ANCIENTSWORD_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip ANCIENTSWORD!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			// Weapon Restriction ===========================================================================================
+			// Restrict CROSSBOW Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.CROSSBOW))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_CROSSBOW_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip CROSSBOW!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			// Weapon Restriction ===========================================================================================
+			// Restrict BLUNT Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.BLUNT))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_BLUNT_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip BLUNT!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			// Weapon Restriction ===========================================================================================
+			// Restrict DUALDAGGER Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.DUALDAGGER))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_DUALDAGGER_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip DUALDAGGER!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			// Weapon Restriction ===========================================================================================
+			// Restrict BOW Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.BOW))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_BOW_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip BOW!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			
+			// Restrict DUAL Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.DUAL))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_DUAL_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip DUALES!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			
+			// Restrict DAGGER Weapon
+			if ((item.getItem() instanceof L2Weapon) && (((L2Weapon) item.getItem()).getItemType() == WeaponType.DAGGER))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_DAGGER_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip DAGA!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			// ==============================================================================================================
+			
+			// Armor Restriction ============================================================================================
+			// Restrict MAGIC(ROBE) Armor
+			if ((item.getItem() instanceof L2Armor) && (((L2Armor) item.getItem()).getItemType() == ArmorType.MAGIC))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_ROBE_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip ROBE!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			
+			// Restrict LIGHT Armor
+			if ((item.getItem() instanceof L2Armor) && (((L2Armor) item.getItem()).getItemType() == ArmorType.LIGHT))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_LIGHT_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip LIGHT!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			
+			// Restrict HEAVY Armor
+			if ((item.getItem() instanceof L2Armor) && (((L2Armor) item.getItem()).getItemType() == ArmorType.HEAVY))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_HEAVY_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip HEAVY!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			
+			// Restrict SHIELD Armor
+			if ((item.getItem() instanceof L2Armor) && (((L2Armor) item.getItem()).getItemType() == ArmorType.SHIELD))
+			{
+				// Restriction not valid on Olympiad matches
+				if (Config.DISABLE_SHIELD_CLASSES.contains(activeChar.getClassId().getId()) && !activeChar.isInOlympiadMode())
+				{
+					activeChar.sendMessage("You do not meet the requiered conditions to equip SHIELD!");
+					activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+					return;
+				}
+			}
+			// ==============================================================================================================
 			
 			if (activeChar.isCastingNow() || activeChar.isCastingSimultaneouslyNow())
 			{
