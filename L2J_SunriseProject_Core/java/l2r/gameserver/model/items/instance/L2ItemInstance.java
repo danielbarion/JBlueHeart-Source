@@ -324,8 +324,15 @@ public final class L2ItemInstance extends L2Object
 		
 		if (Config.LOG_ITEMS)
 		{
-			if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (getItem().isEquipable() || (getItem().getId() == ADENA_ID))))
-			{
+			if(Config.LOG_ITEMS_DATABASE) {
+
+				try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+					PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + owner_id + "','" + creator + "','" + this + "','" + this.getCount() + "')")) {
+					ps.executeUpdate();
+				} catch (SQLException e) {
+					_log.error("SQL Error: INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + owner_id + "','"+ creator +"','" + this + "','" + this.getCount() + "')", e);
+				}
+			} else if (!Config.LOG_ITEMS_SMALL_LOG || (Config.LOG_ITEMS_SMALL_LOG && (getItem().isEquipable() || (getItem().getId() == ADENA_ID)))) {
 				LogRecord record = new LogRecord(Level.INFO, "SETOWNER:" + process);
 				record.setLoggerName("item");
 				record.setParameters(new Object[]
@@ -335,6 +342,9 @@ public final class L2ItemInstance extends L2Object
 					reference
 				});
 				_logItems.log(record);
+			}
+			if(Config.LOG_ITEMS_DEBUG) {
+				_log.warn("ItemLogDebug setOwnerId: " + process + " | " + owner_id + " | " + creator + " | " + reference );
 			}
 		}
 		
@@ -503,6 +513,17 @@ public final class L2ItemInstance extends L2Object
 					reference
 				});
 				_logItems.log(record);
+			}
+			if(Config.LOG_ITEMS_DATABASE) {
+				try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+					PreparedStatement ps = con.prepareStatement("INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + creator + "','" + reference + "','" + _item.getId() + "','" + count + "')")) {
+					ps.executeUpdate();
+				} catch (SQLException e) {
+					_log.error("SQL Error: INSERT INTO item_log (process,activechar,target,item,count) VALUES ('" + process + "','" + creator + "','" + reference + "','" + _item.getId() + "','" + count + "')", e);
+				}
+			}
+			if(Config.LOG_ITEMS_DEBUG) {
+				_log.warn("ItemLogDebug changeCount: " + process + " | PrevCount(" + old + ") | " + creator + " | " + reference+ " | " + count );
 			}
 		}
 		

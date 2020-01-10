@@ -6,6 +6,11 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import l2r.L2DatabaseFactory;
+import java.sql.SQLException;
+
 import l2r.Config;
 import l2r.gameserver.model.L2Object;
 import l2r.gameserver.model.actor.L2Character;
@@ -195,14 +200,13 @@ public class Log
 		String date = (new SimpleDateFormat("yy.MM.dd H:mm:ss")).format(new Date());
 		String curr = (new SimpleDateFormat("yyyy-MM-dd-")).format(new Date());
 		new File("log/game").mkdirs();
-		
-		final File file = new File("log/game/" + (curr != null ? curr : "") + (cat != null ? cat : "unk") + ".txt");
+
+		final File file = new File("log/game/log_" + (curr != null ? curr : "") + (cat != null ? cat : "unk") + ".txt");
 		try (FileWriter save = new FileWriter(file, true))
 		{
 			save.write("[" + date + "] " + text + Config.EOL);
-		}
-		catch (IOException e)
-		{
+			_log.warn("[" + date + "] " + text + Config.EOL);
+		} catch (IOException e) {
 			_log.warn("Error saving logfile: ", e);
 		}
 	}
