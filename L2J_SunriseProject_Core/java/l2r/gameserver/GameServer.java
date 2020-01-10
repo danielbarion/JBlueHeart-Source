@@ -147,7 +147,6 @@ import gr.sr.configsEngine.ConfigsController;
 import gr.sr.dressmeEngine.DressMeLoader;
 import gr.sr.interf.SunriseEvents;
 import gr.sr.main.PlayerValues;
-import gr.sr.main.SunriseInfo;
 import gr.sr.main.SunriseServerMods;
 
 import com.l2jserver.mmocore.SelectorThread;
@@ -467,10 +466,10 @@ public class GameServer
 			_log.info("Core Revision: ..........: 842 rev");
 			_log.info("Data Revision: ..........: 760 rev");
 			_log.info("......................\uD83D\uDC99......................");
-			_log.info("Copyrights: .............: BlueHeart-Team 2018");
+			_log.info("Copyrights: .............: BlueHeart-Team 2019");
 			_log.info("BlueHeart Owner: ........: vert");
 			_log.info("BlueHeart Developer: ....: vert | TurtleLess");
-			_log.info("BlueHeart Version: ......: 1.1");
+			_log.info("BlueHeart Version: ......: 1.4");
 			_log.info("......................\uD83D\uDC99......................");
 			printMemUsage();
 			_log.info("=====================================================");
